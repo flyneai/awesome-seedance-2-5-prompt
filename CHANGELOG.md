@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-21 — complete download context and input preparation
+
+- Link recipe IDs in the input-based Chinese selection table without changing ratio columns.
+- Generate companion instructions for all 120 TXT recipes, preserving original pre-prompt requirements and settings with source links.
+- Clarify that end-frame control requires explicit platform support.
+- Supply four numbered quadrant crops for recipe 100 with upload roles and an explicit note that the final image shows a laid-down lamp, not verified folding mechanics.
+
 ## 2026-09-21 — reader-review corrections
 
 - Restore plain-text aspect ratios in the Chinese use-case matrix; add a regression check against accidental recipe links in ratio columns.

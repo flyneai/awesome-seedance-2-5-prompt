@@ -11,10 +11,17 @@ from unittest.mock import patch
 
 import build_showcase
 import check_content
-from library_catalog import ROOT, recipes, validate_languages
+from library_catalog import ROOT, recipes, validate_languages, download_outputs
 
 
 class ContentRegressionTests(unittest.TestCase):
+    def test_companion_notes_preserve_settings_and_rebase_links(self):
+        files = download_outputs()
+        self.assertIn('**Duration:** 20 seconds', files['prompts/downloads/061.en.md'])
+        self.assertIn('../../assets/modular-lamp/README.md', files['prompts/downloads/100.en.md'])
+        self.assertIn('https://github.com/flyneai/', files['prompts/downloads/061.en.md'])
+        self.assertNotIn('Recipe settings', files['prompts/downloads/061.en.txt'])
+
     def test_ratio_values_are_not_recipe_links(self):
         text = '| 用途 | 推荐画幅 |\n|---|---|\n| 短片 | [9](../prompts/a.md):[16](../prompts/b.md) |'
         self.assertEqual(len(check_content.linked_ratios(text)), 1)

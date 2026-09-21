@@ -139,7 +139,7 @@ A Seedance 2.5 prompt is a directing brief for a generated video. Strong prompts
 
 ### Should I use Text-to-Video or Image-to-Video?
 
-Use [Text-to-Video](https://flyne.ai/model/seedance-2-5/) when you are exploring from a concept or script. Use [Image-to-Video](https://flyne.ai/model/seedance-2-5/) when a product, person, illustration, composition, first frame, or end frame must remain recognizable.
+Use [Text-to-Video](https://flyne.ai/model/seedance-2-5/) when you are exploring from a concept or script. Use [Image-to-Video](https://flyne.ai/model/seedance-2-5/) when a product, person, illustration, composition, or starting image must remain recognizable. Supplying a required end frame needs a dedicated end-frame input supported by the selected platform; ordinary image-to-video does not by itself confirm that control.
 
 ### How do I keep a person or product consistent?
 

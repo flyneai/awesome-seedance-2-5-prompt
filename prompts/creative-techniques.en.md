@@ -336,6 +336,8 @@ Audio: quiet café room tone, four footsteps, tray contact, door latch. No extra
 
 ## 100. Reference-Board Product Campaign Storyboard
 
+[Download four numbered reference images and read their limitations](../assets/modular-lamp/README.md). The supplied final image shows a laid-down lamp, not a verified folding mechanism; adapt the folding action as described in the asset guide.
+
 **Mode:** Four-image storyboard-to-video · **Format:** 16:9 master with 9:16 safe zone · **Duration:** 24 seconds
 
 ```text

@@ -68,3 +68,7 @@ Read left to right, top to bottom: (1) empty table and backdrop; (2) a pale pape
 
 Polished tactile paper-craft editorial illustration with realistic paper fibers and ceramic texture. Square 3×3 grid, nine equal panels, thin cream gutters, locked frontal camera, centered composition. Cool moonlight with one warm amber practical light. Indigo, moon white, botanical green, amber, and kraft brown. No text, numbers, letters, logos, signatures, watermarks, recognizable brands, copyrighted characters, duplicated panels, random objects, skewed grid, or changing camera. Keep the table, backdrop, scale, object identity, and progressive build consistent.
 ```
+
+## Modular-lamp quadrant downloads
+
+[Four numbered crops](modular-lamp/README.md) split the original 1254×1254 board at x=627 and y=627. Each crop is 627×627; no image generation or redesign was used. The fourth panel is described by visible content as a laid-down final state; it does not verify the folding action requested by the original prompt.

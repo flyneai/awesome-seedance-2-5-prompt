@@ -37,16 +37,17 @@
 
 | 你拥有的素材 | 推荐模式 | 适合场景 | 写法 |
 |---|---|---|---|
-| 只有文字想法 | 文生视频 | 02、03、11、13、15、34、41、45 | 把角色、环境、动作和镜头全部写清 |
-| 一张产品图 | 图生视频 | 04、05、06、28、29、30 | 先锁定几何、标签、材质和液面 |
-| 一张人物图 | 人像图生视频 | 07、19、31、32 | 先锁定脸、发型、衣服、体型和表情范围 |
-| 多张角色与场景图 | 参考生视频 | 01、12、23、31、58 | 每张素材只指定一个职责 |
-| 一段动作视频 | 动作参考 | 14、15、36、49 | 只参考步态、路径或节奏，不复制人物 |
-| 白模或预演视频 | 白模控制 | 23、47、59 | 固定空间、走位、遮挡和相机路径 |
-| UI 截图 | UI 图生视频 | 37、38、39 | 保留文字、状态和交互顺序 |
-| 首帧与尾帧 | 首尾帧 | 21 | 描述中间过渡和终帧到达条件 |
-| 已有视频需要修改 | 视频编辑 | 24 | 只修改一个维度并重复所有不变量 |
-| 音频或节奏参考 | 音画联合 | 16、17、18、60 | 明确只参考节奏、声音或声场 |
+| 只有文字想法 | 文生视频 | [02](../prompts/prompt-library.md#02-末班列车后的重逢)、[03](../prompts/prompt-library.md#03-沙海气象站的信号)、[11](../prompts/prompt-library.md#11-黏土机器人修理月亮灯)、[13](../prompts/prompt-library.md#13-室内攀岩最后一步)、[15](../prompts/prompt-library.md#15-地铁出口的即兴街舞接力)、[34](../prompts/extended-scenarios.md#34-种子图书馆升起星图)、[41](../prompts/extended-scenarios.md#41-办公椅偷偷参加晨会)、[45](../prompts/extended-scenarios.md#45-从露珠进入微观世界) | 把角色、环境、动作和镜头全部写清 |
+| 一张产品图 | 图生视频 | [04](../prompts/prompt-library.md#04-无品牌气泡茶揭晓)、[05](../prompts/prompt-library.md#05-透明精华液的光学实验)、[06](../prompts/prompt-library.md#06-模块化运动手环功能演示)、[28](../prompts/extended-scenarios.md#28-折叠旅行水壶三步演示)、[29](../prompts/extended-scenarios.md#29-人体工学坐垫材质剖面)、[30](../prompts/extended-scenarios.md#30-360-度商品旋转稳定性测试) | 先锁定几何、标签、材质和液面 |
+| 一张人物图 | 人像图生视频 | [07](../prompts/prompt-library.md#07-城市通勤背包实测)、[19](../prompts/prompt-library.md#19-人像微表情听见熟悉的声音)、[31](../prompts/extended-scenarios.md#31-防雨风衣的城市风场测试)、[32](../prompts/extended-scenarios.md#32-三种围巾系法的连续换装) | 先锁定脸、发型、衣服、体型和表情范围 |
+| 多张角色与场景图 | 参考生视频 | [01](../prompts/prompt-library.md#01-暴雨海岸救援演练)、[12](../prompts/prompt-library.md#12-古老壁画中的风重新吹起)、[23](../prompts/prompt-library.md#23-白模空间预演酒店大堂一镜到底)、[31](../prompts/extended-scenarios.md#31-防雨风衣的城市风场测试)、[58](../prompts/extended-scenarios.md#58-山谷木屋诚实入住导览) | 每张素材只指定一个职责 |
+| 一段动作视频 | 动作参考 | [14](../prompts/prompt-library.md#14-红土球场的长回合)、[15](../prompts/prompt-library.md#15-地铁出口的即兴街舞接力)、[36](../prompts/extended-scenarios.md#36-布料生物穿过工作室)、[49](../prompts/extended-scenarios.md#49-载货电助力自行车雨天测试) | 只参考步态、路径或节奏，不复制人物 |
+| 白模或预演视频 | 白模控制 | [23](../prompts/prompt-library.md#23-白模空间预演酒店大堂一镜到底)、[47](../prompts/extended-scenarios.md#47-无障碍咖啡馆动线验证)、[59](../prompts/extended-scenarios.md#59-小型展位从空场到开门) | 固定空间、走位、遮挡和相机路径 |
+| UI 截图 | UI 图生视频 | [37](../prompts/extended-scenarios.md#37-专注计时器真实操作演示)、[38](../prompts/extended-scenarios.md#38-无障碍路线规划应用)、[39](../prompts/extended-scenarios.md#39-温室策略游戏库存整理) | 保留文字、状态和交互顺序 |
+| 首帧与尾帧 | 首尾帧 | [21](../prompts/prompt-library.md#21-首尾帧空白画布到实体橱窗) | 描述中间过渡和终帧到达条件 |
+| 已有视频需要修改 | 视频编辑 | [24](../prompts/prompt-library.md#24-参考运镜与局部编辑只更换窗外天气) | 只修改一个维度并重复所有不变量 |
+| 音频或节奏参考 | 音画联合 | [16](../prompts/prompt-library.md#16-屋顶爵士三重奏)、[17](../prompts/prompt-library.md#17-清晨面包坊-asmr)、[18](../prompts/prompt-library.md#18-雨夜社区电台的一封来信)、[60](../prompts/extended-scenarios.md#60-无声耳机舞会入场体验) | 明确只参考节奏、声音或声场 |
+
 
 ## 按渠道选择画幅
 

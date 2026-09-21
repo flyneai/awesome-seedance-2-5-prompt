@@ -22,7 +22,7 @@ Edit `docs/starter-prompts.json` to update the three bilingual beginner exercise
 
 ## Library downloads and structural checks
 
-The five numbered library files remain the source for all 120 recipe downloads under `prompts/downloads/`. Run the same generator after editing a recipe. The checker requires IDs 01–120 exactly once and in order across their assigned files, a complete prompt block for each recipe, and six shared scenes in each of the 14 language files. These structural checks do not certify translation accuracy or render quality.
+The five numbered library files remain the source for all 120 recipe downloads under `prompts/downloads/`. Run the same generator after editing a recipe. Each TXT has a companion Markdown note containing the recipe’s pre-prompt instructions, settings and an online source link; share both files when context matters. The checker requires IDs 01–120 exactly once and in order across their assigned files, a complete prompt block for each recipe, and six shared scenes in each of the 14 language files. These structural checks do not certify translation accuracy or render quality.
 
 The checker also flags files under the generated download directories that no longer appear in the source records. Review and remove those obsolete files explicitly; generation never silently deletes them. Per-case test labels and homepage test counts follow `render_test_status`, with a report link for tested entries. Reports still need human review.
 
