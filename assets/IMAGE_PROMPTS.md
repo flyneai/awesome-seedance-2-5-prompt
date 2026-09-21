@@ -2,6 +2,14 @@
 
 The Flyne AI cover was created for this edition using the built-in image generation tool on 2026-09-21. It is promotional illustration, not a Seedance output. The five scene-reference images and their prompts below are retained from the pinned FLAQ upstream under MIT; see [provenance](../docs/PROVENANCE.md).
 
+## `flyne-seedance-banner.png` / `flyne-seedance-banner.jpg`
+
+Created with the built-in image generation tool on 2026-09-21. The JPEG is a display encoding of the PNG master, with no compositional change. The former cover remains below as an earlier version.
+
+```text
+Use case: ads-marketing. Create one very wide compact GitHub README banner, 3:1 landscape composition for Flyne AI Seedance 2.5. This is an original promotional illustration, not a software screenshot. Dark charcoal background, subtle violet and cool cyan lighting. Left half typography exactly "Flyne AI" and underneath "Seedance 2.5", small line "PRODUCTS · PEOPLE · STORIES". Right half shows three cinematic panels: a glass cosmetic bottle on stone, a natural portrait of an adult creator in soft window light, a tiny origami fox in a lantern garden. Elegant clean editorial composition, restrained detail, strong small-screen legibility, generous breathing space. No other words, no pricing, no performance claims, no UI, no third party logos. Output as a wide banner.
+```
+
 ## `flyne-seedance-hero.png`
 
 ```text

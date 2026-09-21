@@ -1,0 +1,26 @@
+name: Media link checks
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - docs/x-showcase-sources.json
+      - scripts/check_content.py
+      - .github/workflows/media-check.yml
+permissions:
+  contents: read
+jobs:
+  media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/check_content.py --check-media --media-report reports/media-links.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: media-link-report
+          path: reports/media-links.json
+          if-no-files-found: warn

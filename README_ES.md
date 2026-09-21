@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts en 15 idiomas](prompts/i18n/README.md)
 
+> Las 120 recetas principales están en chino e inglés. Los 15 idiomas ofrecen seis escenas de práctica compartidas; no son traducciones completas de las 120 recetas.
+
 ![Imagen original para la guía de prompts de Seedance 2.5](assets/flyne-seedance-hero.png)
 
 Biblioteca original con **120 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 60 flujos profesionales en inglés para producción, edición, ecommerce, cine de género, vídeo social, animación original, experimentos visuales, educación y accesibilidad.

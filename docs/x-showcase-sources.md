@@ -1,6 +1,6 @@
 # X video showcase: sources and verification
 
-[Watch all 18 cases](../README.md#seedance-25-videos-from-x--watch-inspect-remix) · [Structured records](x-showcase-sources.json) · [Upstream attribution](PROVENANCE.md)
+[Watch all 18 cases](community-videos.md) · [Structured records](x-showcase-sources.json) · [Upstream attribution](PROVENANCE.md)
 
 The collection contains **18 public X posts**. X01–X12 were inherited from the pinned FLAQ collection; their original post-body checks are dated 2026-09-20. X13–X18 were added on 2026-09-21 after reading the public post text and video metadata. All 18 video and thumbnail URLs were checked again on 2026-09-21; all returned HTTP 200 with the expected video or image content type using curl. Exact results are recorded per entry, alongside the inherited checks. Python urllib initially returned 403 for these hosts; those failed attempts are also noted.
 
@@ -26,6 +26,8 @@ Source attribution is the poster's claim, not independent model authentication. 
 Click the thumbnail or **Watch video** for the original-hosted MP4. GitHub Markdown does not reliably embed arbitrary external video players. Open the X source for the author's full prompt; X may require login. The copyable block is a newly written editorial adaptation that did not produce the linked video.
 
 The 18 cases are separate from the 120 numbered recipes. Durations are creative briefs. X14 requests portrait 8K, while the upload is landscape 720p; X18 also requests portrait but uploads landscape. The records preserve these differences without guessing whether cropping, padding or re-encoding occurred.
+
+The full gallery and six Chinese adaptations are generated from the shared source records. See [maintenance instructions](maintenance.md).
 
 ## Maintenance
 

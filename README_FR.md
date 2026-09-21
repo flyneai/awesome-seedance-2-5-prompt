@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Les 15 langues](prompts/i18n/README.md)
 
+> Les 120 recettes principales sont en chinois et en anglais. Les 15 langues proposent six scènes communes ; il ne s’agit pas de traductions intégrales des 120 recettes.
+
 Ce dépôt réunit **120 recettes vidéo originales pour Seedance 2.5** et prend en charge **15 langues** : 60 scènes générales et 60 workflows en anglais, dont des films de genre, vidéos sociales, animations originales et expériences visuelles.
 
 Partagez un prompt original et testé via le [formulaire de contribution](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml), avec les réglages, les entrées et le résultat réel. Les propositions retenues peuvent être publiées avec attribution après vérification.

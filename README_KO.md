@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [15개 언어 전체](prompts/i18n/README.md)
 
+> 120개 주요 레시피는 중국어와 영어로 제공됩니다. 15개 언어에서는 공통 연습 장면 6개를 제공하며, 전체 120개 레시피의 번역은 아닙니다.
+
 이 저장소는 **120개의 독창적인 Seedance 2.5 영상 프롬프트**와 **15개 언어 지원**을 제공합니다. 일반 장면 60개와 편집, 튜토리얼, 다중 참조, 장편, 장르 영상, 소셜 영상, 오리지널 애니메이션, 시각 실험용 영어 워크플로 60개로 구성됩니다.
 
 직접 테스트한 독창적인 Prompt는 설정, 입력 자료, 실제 결과와 함께 [기여 양식](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)으로 공유할 수 있습니다. 승인된 내용은 검토 후 기여자 표시와 함께 수록될 수 있습니다.
