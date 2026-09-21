@@ -30,7 +30,7 @@ Click the thumbnail or **Watch video** for the original-hosted MP4. GitHub Markd
 
 The community cases are separate from the 120 numbered recipes. Durations are creative briefs. X14 requests portrait 8K, while the upload is landscape 720p; X18 also requests portrait but uploads landscape. The records preserve these differences without guessing whether cropping, padding or re-encoding occurred.
 
-The full gallery and seven Chinese adaptations are generated from the shared source records. See [maintenance instructions](maintenance.md).
+The full gallery and 19 Chinese adaptations are generated from the shared source records. See [maintenance instructions](maintenance.md).
 
 ## Maintenance
 

@@ -1,0 +1,5 @@
+Images 1–4 are the approved scheduling, accessibility, consent, and confirmation screens of an original telehealth service prototype. Preserve every supplied field, choice, error message, date, and accessibility setting. Present a service walkthrough only; do not show diagnosis, treatment, medication, patient records, clinical claims, or emergency use.
+
+00:00–00:05: an adult user opens the scheduling screen on a tablet and selects one supplied appointment slot. 00:05–00:10: the user increases text size and enables the supplied caption preference; the layout reflows exactly as shown. 00:10–00:16: the consent screen appears; the camera remains over-shoulder while the user reviews before selecting the approved checkbox. 00:16–00:22: transition to the supplied confirmation state, then pull back to show the user relaxed in a quiet, private room.
+
+Audio: screen-reader cue only where supplied, soft taps, neutral room tone. No medical advice, symptoms, doctor impersonation, fabricated data, inaccessible microtext, hovering hands, third-party logo, extra copy, or watermark.

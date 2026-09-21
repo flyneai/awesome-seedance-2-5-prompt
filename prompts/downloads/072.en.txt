@@ -1,0 +1,5 @@
+Image 1 locks an original small courier character: square backpack, blue scarf, round helmet, and compact proportions. Images 2–3 lock the floating-garden world, color palette, bridge geometry, and collectible seed shapes. Video 1 controls only the side-scrolling camera speed; do not copy its character, level art, interface, or music.
+
+00:00–00:05: open on a wide floating garden at sunrise as the character enters from the left. 00:05–00:11: track sideways while the character crosses one rope bridge; the backpack has believable weight and the scarf follows one wind direction. 00:11–00:17: the character collects exactly three seeds in a clear arc, triggering three small original light pulses. 00:17–00:21: a garden platform unfolds mechanically to reveal a safe route upward. 00:21–00:24: the character pauses at the new path as the camera eases out to a level-reveal frame.
+
+Audio: original footstep set, rope tension, three distinct collection tones, wind, and original melodic texture. No resemblance to an existing game or mascot, extra collectibles, broken bridge contact, UI, score, dialogue, logo, copyrighted music, or watermark.

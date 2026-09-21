@@ -1,0 +1,5 @@
+Edit Video 1 only inside the supplied package-body mask. Change the unbranded carton from pale gray to the approved muted teal while preserving its blank surface. Keep folds, edges, texture, highlights, shadows, perspective, motion blur, hand occlusion, and reflections physically consistent throughout the clip.
+
+Everything outside the mask must remain pixel-consistent in content: adult hands, table, background, camera path, timing, exposure, audio, and object count. Do not add a label, design, claim, pattern, barcode, seal, or typography.
+
+No color spill onto fingers or table, flicker, unstable mask edge, changed package geometry, new reflections, reframing, audio change, logo, text, or watermark.

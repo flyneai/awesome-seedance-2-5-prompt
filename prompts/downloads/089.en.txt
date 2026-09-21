@@ -1,0 +1,5 @@
+Generate a controlled set of 12 fictional simulation clips for testing object-tracking software. The same six-axis robot, two-finger gripper, blue cube, gray table, camera position, action timing, and uncluttered simulation style remain fixed. Vary exactly one approved factor per clip: three light directions, two cube starting positions, and two background gray levels, covering all combinations.
+
+Every clip: 00:00–00:02 robot stationary and cube visible; 00:02–00:05 gripper approaches and closes around the cube; 00:05–00:08 cube lifts 10 centimeters and holds. Motion must be repeatable with no contact penetration. Output a manifest linking each clip to its factor combination.
+
+No real factory, person, trademark, unsafe setup, unlisted variation, random camera, extra object, missing frame, annotation baked into video, or watermark. This is synthetic test media, not a safety validation claim.

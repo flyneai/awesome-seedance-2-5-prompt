@@ -20,6 +20,8 @@
 
 [详细操作说明](docs/flyne-ai-guide.md)
 
+[用现成参考图开始练习](docs/reference-practice.md) · [下载 120 条主库提示词](prompts/downloads/README.md)
+
 <!-- BEGIN STARTER PROMPTS -->
 ## 直接复制：三个新手练习
 
@@ -95,12 +97,26 @@
 ## 社区视频与提示词
 
 <!-- BEGIN ZH CASES -->
-共 **19 个 X 视频案例**，其中 **7 个新增案例**已提供中文说明和中文练习提示词。
+已记录实测的改写练习：**0/19**。
 
-[查看全部视频（英文说明）](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)
+共 **19 个 X 视频案例**，其中 **19 个案例**已提供中文说明和中文练习提示词。
 
-| 新增案例 | 中文说明与练习提示词 |
+[查看全部视频（英文说明）](docs/community-videos.md) · [阅读中文案例提示词](docs/community-videos.zh.md)
+
+| 案例 | 中文说明与练习提示词 |
 |---|---|
+| 厨房料理喜剧 | [查看](docs/community-videos.zh.md#x01-galley-food-comedy) |
+| 同一件衣服的多种搭配 | [查看](docs/community-videos.zh.md#x02-one-garment-fashion) |
+| 雨天自拍与小猫 | [查看](docs/community-videos.zh.md#x03-rainy-pet-selfie) |
+| 涂鸦改变街景 | [查看](docs/community-videos.zh.md#x04-live-action-doodle) |
+| 复古摄像机日常 | [查看](docs/community-videos.zh.md#x05-minidv-everyday) |
+| 双人便利店日记 | [查看](docs/community-videos.zh.md#x06-two-person-vlog) |
+| 舞台表演反转 | [查看](docs/community-videos.zh.md#x07-talent-show-reversal) |
+| 压花手工教程 | [查看](docs/community-videos.zh.md#x08-pressed-flower-tutorial) |
+| 能量动作场景 | [查看](docs/community-videos.zh.md#x09-energy-action-geography) |
+| 一日旅行日记 | [查看](docs/community-videos.zh.md#x10-day-trip-story-arc) |
+| 道具交接微故事 | [查看](docs/community-videos.zh.md#x11-visible-object-handover) |
+| 热带街区环境声 | [查看](docs/community-videos.zh.md#x12-tropical-location-sound) |
 | 五人舞蹈与队形变化 | [查看](docs/community-videos.zh.md#x13-dance-formation) |
 | 狐狸与雪鸮的雪地冒险 | [查看](docs/community-videos.zh.md#x14-fox-sled) |
 | 从备料到装盘的天妇罗 | [查看](docs/community-videos.zh.md#x15-tempura-process) |
@@ -110,7 +126,7 @@
 | 用动作衔接场景的音乐品牌短片 | [查看](docs/community-videos.zh.md#x19-music-brand-film) |
 <!-- END ZH CASES -->
 
-**请区分两种提示词：** 作者原提示词在 X 原帖；仓库里的可复制版本是改写练习，未实测生成，不能当成原视频的生成参数。X 可能要求登录，模型名称来自发布者自述。
+**请区分两种提示词：** 作者原提示词在 X 原帖；仓库里的可复制版本是改写练习，不能当成原视频的生成参数；实测状态见各案例。X 可能要求登录，模型名称来自发布者自述。
 
 [完整来源记录](docs/x-showcase-sources.md)
 
@@ -130,4 +146,4 @@
 
 [贡献说明](CONTRIBUTING.md) · [维护方法](docs/maintenance.md) · [实测清单](docs/render-testing.md) · [更新记录](CHANGELOG.md)
 
-目前尚无已验证的 Flyne AI 实测案例。仓库文字与原创素材按 [MIT 许可](LICENSE) 提供；外链视频、缩略图和引用仍归原权利人所有，不属于本仓库的 MIT 授权范围。
+实测案例须在案例页附上输入、设置与输出记录。仓库文字与原创素材按 [MIT 许可](LICENSE) 提供；外链视频、缩略图和引用仍归原权利人所有，不属于本仓库的 MIT 授权范围。

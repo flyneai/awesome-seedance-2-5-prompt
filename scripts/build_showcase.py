@@ -41,10 +41,16 @@ def starter_prompts(language):
         text += f'\n<a id="{e["id"]}"></a>\n\n<details>\n<summary>{title} · {inputs}</summary>\n\n**{format_note}** · [{label}]({other}#{e["id"]})\n\n```text\n{e[language]}\n```\n\n</details>\n'
     return text.rstrip()
 
+def practice_status(entry, chinese=False):
+    if entry['render_test_status'] == 'tested':
+        report = '../' + entry['render_test_report']
+        return (f'已记录实测 · [查看报告]({report})' if chinese else f'Render test recorded · [Read report]({report})')
+    return '未实测' if chinese else 'Not render-tested'
+
 def outputs():
     entries = json.loads((ROOT/'docs/x-showcase-sources.json').read_text())['entries']
-    page = '# Seedance 2.5 community video gallery\n\n[Home](../README.md) · [来源说明 / Source notes](x-showcase-sources.md) · [新增案例中文说明](community-videos.zh.md)\n\n'
-    page += f'{len(entries)} source-linked examples. **Author prompts are on X; the copyable blocks below are untested editorial adaptations, not the prompts that produced these videos.** Model attribution is the posting account\'s claim. Uploaded dimensions are not generation settings.\n\n'
+    page = '# Seedance 2.5 community video gallery\n\n[Home](../README.md) · [来源说明 / Source notes](x-showcase-sources.md) · [中文案例说明](community-videos.zh.md)\n\n'
+    page += f'{len(entries)} source-linked examples. **Author prompts are on X; the copyable blocks below are editorial adaptations, not the prompts that produced these videos. See each adaptation’s test status.** Model attribution is the posting account\'s claim. Uploaded dimensions are not generation settings.\n\n'
     page += category_index(entries) + '\n[Download individual practice prompts](../prompts/community/README.md). These are separate from the 120 numbered recipes.\n\n'
     page += '| Case | Category | Author prompt |\n|---|---|---|\n'
     for e in entries:
@@ -69,7 +75,9 @@ Source text checked: {e['source_checked_on']}. Media headers checked: {check['ch
 '''
         if e['source_excerpt']:page+=f"\n**Short source excerpt:** {e['source_excerpt']}\n"
         page+=f'''\n<details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** {practice_status(e)}
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -83,7 +91,7 @@ This variant did not produce the linked video. Adapt the duration to your provid
 '''
     page+='\nVideos and thumbnails stay on the original host and are excluded from MIT. If a media link fails, use the author\'s source post. See [source notes](x-showcase-sources.md) for attribution corrections and removal requests.\n'
     translated=[e for e in entries if e['adaptation_zh']]
-    chinese='# 新增 X 视频案例：中文说明与练习提示词\n\n[中文首页](../README_ZH.md) · [全部案例](community-videos.md) · [来源记录](x-showcase-sources.md)\n\n以下中文提示词翻译自本仓库的英文改写版，不是作者原提示词，也未实测生成。视频仍为作者发布的版本，完整原提示词请查看 X 原帖。\n'
+    chinese='# X 视频案例：中文说明与练习提示词\n\n[中文首页](../README_ZH.md) · [全部案例](community-videos.md) · [来源记录](x-showcase-sources.md)\n\n以下中文提示词翻译自本仓库的英文改写版，不是作者原提示词；实测状态见各案例。视频仍为作者发布的版本，完整原提示词请查看 X 原帖。\n'
     chinese += '\n' + category_index(translated, chinese=True)
     for e in translated:
         chinese+=f'''\n<a id="{e['id']}"></a>
@@ -101,7 +109,9 @@ This variant did not produce the linked video. Adapt the duration to your provid
 **画幅与时长：** {e['format_note_zh']}
 
 <details>
-<summary>复制中文练习提示词（未实测）</summary>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** {practice_status(e, chinese=True)}
 
 [打开纯文本提示词](../prompts/community/{e['id']}.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
 
@@ -111,7 +121,8 @@ This variant did not produce the linked video. Adapt the duration to your provid
 
 </details>
 '''
-    featured=f'Browse [all {len(entries)} cases](docs/community-videos.md). These three are starting points for different creative tasks.\n\n| Example | Preview | Study |\n|---|---|---|\n'
+    tested=sum(e['render_test_status']=='tested' for e in entries)
+    featured=f'Render-tested practice adaptations: **{tested}/{len(entries)}**.\n\nBrowse [all {len(entries)} cases](docs/community-videos.md). These three are starting points for different creative tasks.\n\n| Example | Preview | Study |\n|---|---|---|\n'
     for e in entries:
         if e['featured']:
             featured+=f"| [{e['title']}](docs/community-videos.md#{e['id']}) | [![{e['title']}]({e['thumbnail_url']})]({e['video_url']}) | {e['category']} |\n"
@@ -123,13 +134,13 @@ This variant did not produce the linked video. Adapt the duration to your provid
     readme=replace_block(readme,'CASE BADGE',f'[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md) [![X video examples](https://img.shields.io/badge/X_video_examples-{len(entries)}-black.svg)](docs/community-videos.md) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)')
     readme=replace_block(readme,'FEATURED CASES',featured)
     readme=replace_block(readme,'STARTER PROMPTS',starter_prompts('en'))
-    zh_summary=f'共 **{len(entries)} 个 X 视频案例**，其中 **{len(translated)} 个新增案例**已提供中文说明和中文练习提示词。\n\n[查看全部视频（英文说明）](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)\n\n| 新增案例 | 中文说明与练习提示词 |\n|---|---|\n'
+    zh_summary=f'已记录实测的改写练习：**{tested}/{len(entries)}**。\n\n共 **{len(entries)} 个 X 视频案例**，其中 **{len(translated)} 个案例**已提供中文说明和中文练习提示词。\n\n[查看全部视频（英文说明）](docs/community-videos.md) · [阅读中文案例提示词](docs/community-videos.zh.md)\n\n| 案例 | 中文说明与练习提示词 |\n|---|---|\n'
     for e in translated:
         zh_summary+=f"| {e['title_zh']} | [查看](docs/community-videos.zh.md#{e['id']}) |\n"
     zh_readme=replace_block((ROOT/'README_ZH.md').read_text(),'ZH CASES',zh_summary.rstrip())
     zh_readme=replace_block(zh_readme,'STARTER PROMPTS',starter_prompts('zh'))
     files = {'docs/community-videos.md':page,'docs/community-videos.zh.md':chinese,'README.md':readme,'README_ZH.md':zh_readme}
-    downloads = '# Community practice prompts / 社区案例练习提示词\n\n[Video gallery / 视频案例](../../docs/community-videos.md) · [120 recipes / 主提示词库](../README.md)\n\nThese files contain only our editorial practice text, not the source video prompts. None has been render-tested. Open a file, then use **Raw** or **Download raw file** to copy or save it. Attribution and source links stay in the gallery.\n\n这些文件只含本仓库改写的练习提示词，不是生成原视频的提示词，均未实测。打开文件后，可用 **Raw** 或 **Download raw file** 复制或保存。作者和原帖链接见视频案例页。\n\n| Case / 案例 | English | 中文 |\n|---|---|---|\n'
+    downloads = '# Community practice prompts / 社区案例练习提示词\n\n[Video gallery / 视频案例](../../docs/community-videos.md) · [120 recipes / 主提示词库](../README.md)\n\nThese files contain only our editorial practice text, not the source video prompts. Check each gallery entry for its render-test status. Open a file, then use **Raw** or **Download raw file** to copy or save it. Attribution and source links stay in the gallery.\n\n这些文件只含本仓库改写的练习提示词，不是生成原视频的提示词，实测状态见各案例。打开文件后，可用 **Raw** 或 **Download raw file** 复制或保存。作者和原帖链接见视频案例页。\n\n| Case / 案例 | English | 中文 |\n|---|---|---|\n'
     for e in entries:
         stem = e['id']
         files[f'prompts/community/{stem}.en.txt'] = e['adaptation'].strip() + '\n'
@@ -139,6 +150,8 @@ This variant did not produce the linked video. Adapt the duration to your provid
             zh_link = f'[TXT]({stem}.zh.txt)'
         downloads += f"| [{stem.split('-')[0].upper()} · {e['title']}](../../docs/community-videos.md#{stem}) | [TXT]({stem}.en.txt) | {zh_link} |\n"
     files['prompts/community/README.md'] = downloads
+    from library_catalog import download_outputs
+    files.update(download_outputs())
     return files
 
 def main():

@@ -1,0 +1,5 @@
+Create a restrained launch film for an original project-planning web app. Images 1–4 are the only approved dashboard, timeline, comment, and completion states. Preserve all supplied copy, task names, colors, spacing, avatars, and values exactly. Do not invent customers, reviews, integrations, charts, percentages, or performance claims.
+
+00:00–00:04: begin on a clean desk at dawn; a laptop wakes to the supplied dashboard state. 00:04–00:09: push gently toward the screen as the cursor opens the supplied timeline. 00:09–00:14: one approved comment appears and the cursor resolves the associated task; use the provided completion state with a subtle, non-celebratory transition. 00:14–00:20: pull back to reveal the same interface on laptop and phone, keeping UI perspective and text legible; finish with neutral negative space on the right for copy added in post.
+
+Audio: two soft clicks, one restrained notification, quiet room tone, and original minimal percussion. No fabricated UI, garbled text, duplicated cursor, impossible reflections, third-party logos, claims, subtitles, or watermark.

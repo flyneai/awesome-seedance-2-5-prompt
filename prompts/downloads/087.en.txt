@@ -1,0 +1,5 @@
+Images 1–3 lock an original collaborative robot, inspection camera, safety cell, conveyor direction, and one unbranded machined part. Preserve joint count, gripper, guard placement, emergency-stop location, and part geometry. Depict an authorized demonstration with no worker inside the active cell.
+
+00:00–00:05: wide locked shot establishes the stopped cell and clear safety boundary. 00:05–00:11: conveyor moves one part to the fixture and stops before the robot begins. 00:11–00:17: robot rotates through three plausible joints, picks the part, and holds it under the fixed inspection camera. 00:17–00:21: green approved-state light appears only after inspection; robot places the part in the pass tray. 00:21–00:24: all movement stops on the original wide view.
+
+Audio: conveyor, servo movement, gripper click, one status tone. No person in cell, bypassed guard, unsafe speed, extra robot, part teleportation, certification claim, text, brand, or watermark.

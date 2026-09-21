@@ -1,0 +1,5 @@
+Image 1 locks the authorized adult museum guide's identity, age, hairstyle, charcoal jacket, and position in the approved gallery. Audio 1–5 contain approved English, Simplified Chinese, Japanese, Spanish, and Arabic scripts spoken by the same consenting guide. Create five separate versions, one language per output; use the matching supplied audio exactly and do not clone, translate, or invent speech.
+
+In every version, keep the same locked medium shot and restrained performance: guide faces the lens, gestures once toward the original abstract sculpture at 00:06, then returns both hands to a neutral position. Match lips and jaw to the supplied audio while preserving facial identity and natural blinking. For Arabic, do not mirror the gallery or gesture direction.
+
+Audio: selected supplied voice plus quiet gallery ambience. No mixed languages, added narration, age change, exaggerated gestures, animated artwork, generated subtitles, altered signage, logo, or watermark.

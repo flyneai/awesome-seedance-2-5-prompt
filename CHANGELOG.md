@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-21 — complete Chinese cases and library access
+
+- Translate X01–X12 editorial adaptations and notes; all 19 community cases now have English and Chinese practice downloads.
+- Pair two existing upstream reference images with bilingual short exercises tailored to their visible content, explicitly untested.
+- Generate 120 standalone library prompt downloads without increasing the recipe count; turn use-case matrix IDs into direct links.
+- Validate numbered recipe coverage, complete prompt blocks, six-scene language packs and obsolete generated files.
+- Generate per-case test status and homepage tested counts from source records, with report links for tested cases; current tested count remains zero.
+
 ## 2026-09-21 — beginner and language navigation
 
 - Add three short bilingual homepage exercises with explicit input requirements and untested status, generated from shared records.

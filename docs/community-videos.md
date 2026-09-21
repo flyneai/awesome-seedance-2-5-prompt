@@ -1,8 +1,8 @@
 # Seedance 2.5 community video gallery
 
-[Home](../README.md) · [来源说明 / Source notes](x-showcase-sources.md) · [新增案例中文说明](community-videos.zh.md)
+[Home](../README.md) · [来源说明 / Source notes](x-showcase-sources.md) · [中文案例说明](community-videos.zh.md)
 
-19 source-linked examples. **Author prompts are on X; the copyable blocks below are untested editorial adaptations, not the prompts that produced these videos.** Model attribution is the posting account's claim. Uploaded dimensions are not generation settings.
+19 source-linked examples. **Author prompts are on X; the copyable blocks below are editorial adaptations, not the prompts that produced these videos. See each adaptation’s test status.** Model attribution is the posting account's claim. Uploaded dimensions are not generation settings.
 
 | Browse by use | Cases |
 |---|---|
@@ -54,7 +54,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “No dialogue, no subtitles, no text.”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -92,7 +94,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “No additional dialogue or narration after the opening line.”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -129,7 +133,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “No cuts. No zoom. Exactly one kitten.”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -167,7 +173,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “No cuts. No scene transitions.”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -204,7 +212,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “Only spoken dialogue: “Annyeong.””
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -242,7 +252,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “Fixed 1.0x lens, no zoom.”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -280,7 +292,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “Warm introduction and gentle dialogue”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -318,7 +332,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “petals rustling, paper pages turning, book weight settling”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -357,7 +373,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “Emerald light reflects realistically across tables, windows and characters”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -394,7 +412,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “one continuous, coherent day”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -432,7 +452,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “Balloon stays with the girl after being handed over.”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -470,7 +492,9 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 **Short source excerpt:** “Pure natural foley textures”
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -505,7 +529,9 @@ Mix near sounds clearly: glass, chair scrape and cloth movement. Keep birds and 
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -534,7 +560,9 @@ Create a 15-second rehearsal film with five adult dancers in distinct unbranded 
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -563,7 +591,9 @@ Create a 15-second fictional wildlife adventure in a quiet snowy clearing. A red
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -592,7 +622,9 @@ Make a 20-second food-process film in one warm restaurant kitchen. Follow one mu
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -621,7 +653,9 @@ Create a 15-second night-travel vignette about two adult friends. Use one dark-b
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -650,7 +684,9 @@ Create a 20-second science-fantasy short using one authorized adult character re
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
@@ -679,7 +715,9 @@ Make a 15-second continuous phone video of one adult and one small dog beside a 
 Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
 
 <details>
-<summary>Copy editorial practice prompt — not render-tested</summary>
+<summary>Copy editorial practice prompt</summary>
+
+**Test status:** Not render-tested
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 

@@ -1,0 +1,5 @@
+Edit Video 1 only. Remove the two temporary advertising boards marked by the supplied masks. Reconstruct the pavement, curb, and brick wall behind them using adjacent texture and perspective from the same video.
+
+Preserve every person, bicycle, parked vehicle, storefront, shadow, reflection, camera move, frame timing, exposure, color, motion blur, and original audio exactly. Maintain correct occlusion when pedestrians pass in front of the reconstructed regions. Do not alter any permanent wayfinding or accessibility signage.
+
+No crop, stabilization, reframing, new objects, face changes, vehicle changes, pavement repetition, texture swimming, lighting shift, audio replacement, text generation, logo insertion, or watermark.

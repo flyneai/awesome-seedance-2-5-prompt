@@ -1,0 +1,5 @@
+Create a neutral educational explainer using the supplied original neighborhood energy diagram. Preserve the five labeled components: rooftop solar, homes, community battery, grid connection, and control system. Show energy flow conceptually without invented efficiency, savings, carbon, resilience, or outage claims.
+
+00:00–00:05: morning light reaches the rooftops; yellow arrows move from solar panels toward occupied homes. 00:05–00:11: excess-flow arrows continue to the community battery while a simple fill level rises modestly. 00:11–00:17: clouds reduce the solar arrows; blue arrows move from the battery back to the homes. 00:17–00:22: a thin bidirectional connection to the grid appears, with the control system coordinating paths. 00:22–00:25: finish on the full diagram and the supplied five labels, exact and legible.
+
+Audio: calm narration using only the approved script, light neighborhood ambience, subtle interface tones. No unverified numbers, guaranteed independence, emergency claim, wrong flow direction, extra infrastructure, garbled labels, company logo, or watermark.

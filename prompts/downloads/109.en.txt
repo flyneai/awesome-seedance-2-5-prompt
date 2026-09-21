@@ -1,0 +1,5 @@
+Create an uncrewed planetary-science procedure on a fictional rust-colored terrain. Preserve one six-wheel rover, two-joint sampling arm, circular sample tube, drill head, wheel tracks, distant ridge, and low sun direction. Motion should reflect reduced gravity and delayed mechanical operation without turning weightless.
+
+00:00–00:05: wide static frame as the rover approaches slowly and stops with all six wheels grounded. 00:05–00:11: macro on the drill contacting one flat rock; dust falls in short restrained arcs. 00:11–00:17: the arm transfers one core into the open tube without clipping. 00:17–00:22: cap rotates closed exactly once; a green status light appears only after closure. 00:22–00:26: camera rises to reveal the rover continuing toward the ridge, leaving coherent tracks.
+
+Audio: sparse original score and internal mechanism foley presented as a visualization, not literal exterior sound. No astronaut, real mission insignia, instant drilling, dust explosion, extra arm, floating rocks, fake data, text, logo, or watermark.

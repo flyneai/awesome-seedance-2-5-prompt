@@ -1,0 +1,5 @@
+Image 1 locks an unbranded compact test vehicle and Image 2 locks a closed proving-ground lane with measured marker cones. Create a neutral braking-distance demonstration performed by a professional adult test driver under controlled conditions. Preserve vehicle geometry, tire count, cone positions, road gradient, and camera calibration. Do not state performance numbers unless supplied and verified.
+
+00:00–00:05: wide tripod shot establishes the closed lane, safety crew behind a barrier, and wet surface. 00:05–00:11: side tracking shot follows the car at constant moderate speed until it crosses the single brake marker. 00:11–00:16: wheels decelerate without locking; water spray falls naturally and the car stops before the final cone. 00:16–00:22: overhead replay adds only two supplied lines—brake point and stopping point—then returns to the clean source view.
+
+Audio: wet tire noise, restrained deceleration, neutral narration. No public road, pedestrian, stunt, skid spin, crash, fabricated rating, brand comparison, altered cone distance, generated measurements, logo, or watermark.

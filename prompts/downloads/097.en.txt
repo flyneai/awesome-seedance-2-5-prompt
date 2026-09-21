@@ -1,0 +1,5 @@
+Extend Video 1 by exactly 10 seconds from its final frame. Preserve the adult mechanic's identity, green coveralls, bicycle model, tool placement, workshop geography, fluorescent flicker phase, camera height, lens character, color, grain, and original ambient sound.
+
+Continue the existing action causally: 00:00–00:04 mechanic completes the current clockwise pedal rotation and watches the chain settle. 00:04–00:07 they stop the crank with the left hand and place the existing wrench back in its marked tray. 00:07–00:10 they step half a pace back, inspect the bicycle, and the camera decelerates to a stable final frame. Add no cut or new task.
+
+No repeated frames, reversed motion, new tool, chain redesign, bicycle color change, camera jump, new person, dialogue, music, text, logo, or watermark.

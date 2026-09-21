@@ -23,6 +23,8 @@
 
 [Detailed Flyne AI workflow](docs/flyne-ai-guide.md)
 
+[Practice with included reference images](docs/reference-practice.md) · [Download the 120 library prompts](prompts/downloads/README.md)
+
 <!-- BEGIN STARTER PROMPTS -->
 ## Copy a starter prompt
 
@@ -100,6 +102,8 @@ Flyne AI is the browser creation route featured in this edition. The public prod
 ## Seedance 2.5 videos from X — watch, inspect, remix
 
 <!-- BEGIN FEATURED CASES -->
+Render-tested practice adaptations: **0/19**.
+
 Browse [all 19 cases](docs/community-videos.md). These three are starting points for different creative tasks.
 
 | Example | Preview | Study |
@@ -190,7 +194,7 @@ Browse [all 19 cases](docs/community-videos.md). These three are starting points
 </details>
 <!-- END FEATURED CASES -->
 
-**Two different things to copy:** the **author's source prompt** is linked on X; the **editorial practice prompt** in each case is our adaptation. It has not been render-tested and did not produce the linked video. X may require login. Model attribution is the posting account's claim.
+**Two different things to copy:** the **author's source prompt** is linked on X; the **editorial practice prompt** in each case is our adaptation. It did not produce the linked video; see the individual case for its test status. X may require login. Model attribution is the posting account's claim.
 
 [All cases and full source records](docs/x-showcase-sources.md) · [Chinese case notes and practice prompts](docs/community-videos.zh.md)
 
@@ -209,6 +213,6 @@ We also recommend the [FLAQ Seedance 2.5 Text-to-Video API](https://flaq.ai/mode
 
 [Submit an original tested prompt](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml) or [suggest an X case](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=community-video.yml). We especially welcome product, fashion, beauty and interior examples from a wider range of creators.
 
-See [contribution rules](CONTRIBUTING.md), the [maintenance workflow](docs/maintenance.md) and the [Flyne AI test checklist](docs/render-testing.md). There are currently no verified Flyne AI render tests in this collection.
+See [contribution rules](CONTRIBUTING.md), the [maintenance workflow](docs/maintenance.md) and the [Flyne AI test checklist](docs/render-testing.md). Tested adaptations must link to their input, settings and output records in the gallery.
 
 Repository text and original assets use the [MIT License](LICENSE), with [upstream attribution](docs/PROVENANCE.md). Linked community videos, thumbnails and source quotations retain their owners' rights and are excluded from MIT.

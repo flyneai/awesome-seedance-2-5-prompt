@@ -1,0 +1,5 @@
+Video 1 is a white-model previs that controls only the drone camera path and timing through a fictional closed warehouse aisle. Images 1–2 lock the final warehouse materials and a small caged inventory drone. Do not copy textures or objects from the previs. No people are present during the demonstration.
+
+Follow the previs path exactly: 00:00–00:05 rise vertically from the marked launch pad to 2.5-meter shelf height; 00:05–00:12 travel forward at constant low speed, centered in the aisle; 00:12–00:16 stop at one supplied blank inventory marker and rotate 30 degrees; 00:16–00:20 reverse slowly to the launch pad and land. Maintain clearance from shelves and show stable obstacle avoidance without claims.
+
+Audio: restrained propeller sound, warehouse room tone, one scan cue. No racing speed, workers, falling packages, readable real codes, invented interface, camera deviation, brand, or watermark.

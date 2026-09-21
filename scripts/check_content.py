@@ -44,6 +44,13 @@ def main():
     if args.media_report and not args.check_media:
         parser.error('--media-report requires --check-media')
     errors = []
+    from library_catalog import recipes, validate_languages
+    try:
+        recipes()
+        validate_languages()
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
     for path in ROOT.rglob('*.md'):
         if '.git' in path.parts:
             continue
@@ -94,7 +101,12 @@ def main():
                 errors.append(f"{e['id']}: {key} absent from gallery")
     if f'X_video_examples-{len(entries)}-' not in readme:
         errors.append('README badge count differs from source records')
-    for name, expected in outputs().items():
+    generated = outputs()
+    for folder in ('prompts/community', 'prompts/downloads'):
+        for path in (ROOT/folder).rglob('*'):
+            if path.is_file() and str(path.relative_to(ROOT)) not in generated:
+                errors.append(f'{path.relative_to(ROOT)}: unexpected generated file; review and remove stale downloads')
+    for name, expected in generated.items():
         if not (ROOT/name).is_file() or (ROOT/name).read_text() != expected:
             errors.append(f'{name}: generated content is stale; run scripts/build_showcase.py')
     if args.check_media:
@@ -114,7 +126,7 @@ def main():
     if errors:
         print('\n'.join(errors),file=sys.stderr)
         return 1
-    print(f'PASS: local links, anchors and {len(entries)} unique X cases.')
+    print(f'PASS: 120 recipe IDs and prompt blocks, 14 six-scene language files, local links, generated files and {len(entries)} unique X cases.')
     return 0
 
 if __name__ == '__main__':

@@ -1,0 +1,5 @@
+Edit Video 1 by changing only the clear midday weather outside the covered tram platform to a light, steady autumn rain. Preserve people, identities, clothing, tram design, timetable, platform geometry, camera motion, action timing, and all readable supplied text.
+
+Add physically consistent rain beyond and at the open edges of the roof, small wet reflections on exposed pavement, restrained droplets on the glass barrier, and cooler diffused daylight. Covered benches and people under the roof remain mostly dry. Existing footsteps and tram sounds stay unchanged; add low rain ambience without masking announcements.
+
+No storm, lightning, flooding, wardrobe change, umbrellas appearing from nowhere, altered timetable, extra tram, face drift, camera change, fake text, logo, or watermark.

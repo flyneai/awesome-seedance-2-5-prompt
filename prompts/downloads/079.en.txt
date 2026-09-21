@@ -1,0 +1,5 @@
+Create six separate videos from the six approved product images, one output per SKU. Each image is the sole identity and color anchor for its own unbranded modular desk organizer. Across outputs, preserve identical camera path, timing, set, lighting, object count, component geometry, and hand action; only the approved product color differs.
+
+00:00–00:03: locked three-quarter view, slow 15-degree orbit. 00:03–00:07: an adult hand slides out the shallow tray, places one plain pencil inside, and closes it. 00:07–00:10: raise the camera slightly and stop on the same catalog framing with upper-left negative space.
+
+Audio: drawer glide, pencil contact, one soft original tonal hit. No cross-contamination between colors, material change, extra stationery, altered hand, different camera speed, text, price, logo, or watermark. Use the same seed and settings where the platform supports them, then review all six outputs side by side.

@@ -1,0 +1,5 @@
+Images 1–4 are approved states for an original parcel-tracking prototype: accepted, in transit, out for delivery, and delivered. Image 5 locks the plain recycled-cardboard parcel, tape pattern, size, and blank label. Preserve all supplied timestamps and status copy; do not invent a carrier, location, signature, delivery promise, map, or personal data.
+
+00:00–00:04: phone close-up on the accepted state; one status dot pulses once. 00:04–00:09: scroll through the supplied in-transit and out-for-delivery states in order with restrained transitions. 00:09–00:13: cut to the same parcel being placed gently inside an authorized sheltered delivery area; the hand leaves frame. 00:13–00:16: return to the exact delivered state and stop with blank lower space for post-production copy.
+
+Audio: three soft UI ticks, cardboard contact, quiet exterior ambience. No fabricated map route, courier uniform, house number, personal information, parcel deformation, false notification, logo, additional copy, or watermark.

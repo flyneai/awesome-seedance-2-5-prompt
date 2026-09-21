@@ -1,0 +1,5 @@
+Use the supplied original bridge diagram as the fixed geometry: deck, towers, main cables, hangers, wind arrows, and dampers. Explain the general concept of wind-induced oscillation for secondary-school students without referring to a real bridge, accident, engineering approval, or numeric safety threshold.
+
+00:00–00:06: lateral wind arrows reach the deck; the deck begins a small exaggerated-for-teaching vertical motion. 00:06–00:13: switch to a cross-section showing alternating pressure above and below while the camera remains orthographic. 00:13–00:20: reveal the supplied damper locations and show the oscillation reducing gradually. 00:20–00:25: compare uncontrolled and damped schematic motion side by side. 00:25–00:28: stop on the full labeled system.
+
+Audio: calm original narration, light wind, restrained mechanical tone. Render only approved labels. No collapse, disaster imagery, false formula, unverified percentage, wrong cable attachment, decorative traffic, logo, or watermark.
