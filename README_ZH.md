@@ -10,6 +10,628 @@
 
 [**前往 Flyne AI →**](https://flyne.ai/model/seedance-2-5/) · [120 条提示词目录](prompts/README.md) · [视频案例（中文）](docs/community-videos.zh.md) · [提交提示词](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)
 
+[本页目录：视频案例](#社区视频与提示词) · [开始创作](#第一次使用) · [提示词公式](#seedance-25-提示词公式) · [带图完整示例](#精选原创提示词) · [场景库](#完整场景库) · [常见问题](#常见问题)
+
+## 社区视频与提示词
+
+<!-- BEGIN ZH CASES -->
+共 **19 个 X 视频案例**，全部提供中文说明与练习提示词。已记录实测的改写练习：**0/19**。
+
+以下中文提示词翻译自本仓库的英文改写版，不是作者原提示词；实测状态见各案例。视频仍为作者发布的版本，完整原提示词请查看 X 原帖。
+
+| 用途 | 案例 |
+|---|---|
+| 商品与品牌 | [X02 · 同一件衣服的多种搭配](#x02-one-garment-fashion) · [X19 · 用动作衔接场景的音乐品牌短片](#x19-music-brand-film) |
+| 人物与日常 | [X03 · 雨天自拍与小猫](#x03-rainy-pet-selfie) · [X05 · 复古摄像机日常](#x05-minidv-everyday) · [X06 · 双人便利店日记](#x06-two-person-vlog) · [X07 · 舞台表演反转](#x07-talent-show-reversal) · [X10 · 一日旅行日记](#x10-day-trip-story-arc) · [X12 · 热带街区环境声](#x12-tropical-location-sound) · [X13 · 五人舞蹈与队形变化](#x13-dance-formation) · [X16 · 双人夜间公路旅行](#x16-night-road-trip) · [X18 · 小狗闯入镜子自拍](#x18-dog-mirror) |
+| 教程与制作过程 | [X08 · 压花手工教程](#x08-pressed-flower-tutorial) · [X15 · 从备料到装盘的天妇罗](#x15-tempura-process) |
+| 故事与视觉特效 | [X01 · 厨房料理喜剧](#x01-galley-food-comedy) · [X04 · 涂鸦改变街景](#x04-live-action-doodle) · [X09 · 能量动作场景](#x09-energy-action-geography) · [X11 · 道具交接微故事](#x11-visible-object-handover) · [X14 · 狐狸与雪鸮的雪地冒险](#x14-fox-sled) · [X17 · 开往太空的列车](#x17-lunar-train) |
+
+<a id="x01-galley-food-comedy"></a>
+
+### X01 · 厨房料理喜剧
+
+[![厨房料理喜剧](https://pbs.twimg.com/amplify_video_thumb/2099186062715404288/img/D-iYamhA_iFRBooM.jpg)](https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Goodmanprotocol/status/2099186117769822462) · [英文说明](docs/community-videos.md#x01-galley-food-comedy)
+
+**值得学习：** 围绕角色互动安排料理声效，让声音服务于最后的喜剧结果。
+
+**需要的素材：** 文字描述；固定厨师和小鸟的角色设计。
+
+**画幅与时长：** 原场景为 30 秒；上传视频为 1920×1080。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x01-galley-food-comedy.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 30 秒的动画料理小品，场景是一间轻轻摇晃的木船厨房。每个镜头都保持同一位穿围裙的厨师和同一只好奇的绿色小鸟。暖色灯笼照亮食物的细腻表面。
+
+0–6 秒：小鸟凑近一块蔬菜，厨师把砧板滑开，挑起眉毛。
+6–13 秒：交替展示刀刃接触食材、油面波纹和冒泡的酱汁，每个声响都与可见动作同步。
+13–22 秒：小鸟把一个空碗推向厨师，然后眼巴巴地等待。
+22–30 秒：厨师盛好一小碟食物，两位角色一起在窗边安顿下来。
+
+采用表情生动的原创角色设计，保留安静的海上环境声，结尾只加一个音乐重音。没有对白或文字。
+```
+
+</details>
+
+<a id="x02-one-garment-fashion"></a>
+
+### X02 · 同一件衣服的多种搭配
+
+[![同一件衣服的多种搭配](https://pbs.twimg.com/amplify_video_thumb/2095216899445649408/img/690ykZJzst5uQLwH.jpg)](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Goodmanprotocol/status/2095216981624721691) · [英文说明](docs/community-videos.md#x02-one-garment-fashion)
+
+**值得学习：** 用一件始终可辨认的衣服串联多种穿搭，形成系列内容。
+
+**需要的素材：** 一张服装参考图，以及外观固定的成年模特。
+
+**画幅与时长：** 原场景为 30 秒，要求横屏 16:9；上传视频为 1920×1080。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x02-one-garment-fashion.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 30 秒的横屏时尚短片，由同一位成年模特展示同一件宽松淡黄色衬衫。场景为明亮公寓，窗光方向一致。保持衬衫的纽扣、缝线和颜色不变。
+
+0–4 秒：展示衣架上的衬衫，用一句简短开场白吸引注意。
+4–24 秒：依次展示五种搭配，每种四秒：敞开穿在背心外、腰间打结、下摆塞入长裤、叠穿在连衣裙外、搭配细腰带。用袖子动作或一致的肩膀位置衔接每次切镜。
+24–30 秒：保持最后一套穿搭，为后期添加穿搭对比条留出空间。
+
+布料垂坠和重量要可信。穿搭名称和字幕在生成后添加。
+```
+
+</details>
+
+<a id="x03-rainy-pet-selfie"></a>
+
+### X03 · 雨天自拍与小猫
+
+[![雨天自拍与小猫](https://pbs.twimg.com/amplify_video_thumb/2098256097547309056/img/QKhG3cYjfcBbxiuc.jpg)](https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2098256490238755226) · [英文说明](docs/community-videos.md#x03-rainy-pet-selfie)
+
+**值得学习：** 明确人物和动物数量，允许取景随宠物动作自然调整。
+
+**需要的素材：** 一张有使用授权的人像；同一只小猫。
+
+**画幅与时长：** 原场景为 30 秒，要求竖屏 9:16，但上传视频为横屏 1920×1080。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x03-rainy-pet-selfie.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 30 秒的手机自拍视频，场景在布满雨滴的窗边。一位成年人稳稳抱着一只虎斑小猫。提供的人像只用于固定人物外观。窗光柔和，色调中性。
+
+0–7 秒：人物低头看小猫，身后的雨持续落下。
+7–15 秒：袖口的布环引来一只猫爪，人物把布环移开，轻轻笑出声。
+15–23 秒：小猫挪向受到支撑的肩膀，人物调整抱姿，手机随之略微倾斜。
+23–30 秒：猫的胡须靠近镜头，对焦短暂变软，画面在笑声中结束。
+
+保留室内环境声和雨声。全程保持一个连续视角和同一只动物。
+```
+
+</details>
+
+<a id="x04-live-action-doodle"></a>
+
+### X04 · 涂鸦改变街景
+
+[![涂鸦改变街景](https://pbs.twimg.com/amplify_video_thumb/2095748601087688705/img/0d5gq8yGWQZdSVch.jpg)](https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2095748874942263601) · [英文说明](docs/community-videos.md#x04-live-action-doodle)
+
+**值得学习：** 每次视觉变化都要有可见的触发动作，同时保持物体在空间中的位置不变。
+
+**需要的素材：** 文字描述；始终相同的手和记号笔，以及统一的变形规则。
+
+**画幅与时长：** 原场景为 15 秒，要求竖屏 9:16，但上传视频为横屏 1280×720。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x04-live-action-doodle.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 15 秒的手持步行镜头，沿安静的城市人行道前进。画面中可见一只握着记号笔的手。每次指向物体时，先出现短暂的蓝色轮廓，再把目标物体变成平面插画。保持目标的位置、视觉大小和透视不变。
+
+0–5 秒：指向一辆停放的自行车，墨线沿车架蔓延，表面转为赛璐璐风格着色。
+5–10 秒：镜头转向一辆静止的小型摩托车，在手势之后重复同样的变化。
+10–15 秒：一条手绘彩带穿过人行道，在路缘处停止；周围建筑仍保持实拍质感。
+
+接触阴影与午后阳光一致。使用街道环境声和短促的笔触声。不生成文字。
+```
+
+</details>
+
+<a id="x05-minidv-everyday"></a>
+
+### X05 · 复古摄像机日常
+
+[![复古摄像机日常](https://pbs.twimg.com/amplify_video_thumb/2090287723961847808/img/z8kZQAvTTG7cWPHN.jpg)](https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29) · [作者原帖及原提示词](https://x.com/john_my07/status/2090287853532266748) · [英文说明](docs/community-videos.md#x05-minidv-everyday)
+
+**值得学习：** 用具体的对焦和取景瑕疵表现家用摄像机质感，同时保持日常道具稳定。
+
+**需要的素材：** 文字描述；一位外观固定的成年主角。
+
+**画幅与时长：** 原场景为 30 秒，要求 1080p；上传视频为 1920×1080。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x05-minidv-everyday.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+在安静的住宅小巷中制作一段虚构的 30 秒家庭录像。跟随一位成年人，全程穿同一套便服。采用家用摄像机质感：轻微感光噪点、柔和反差、稍有延迟的取景调整和偶尔的重新对焦。
+
+0–8 秒：主角在门口整理袖子，发现镜头后微笑。
+8–16 秒：跟随主角走到晾衣绳旁，一块布略微滑落后被固定好。
+16–23 秒：主角在露台坐下，拿起一个陶瓷杯再放下，杯子形状不变。
+23–30 秒：主角向拍摄者简短打招呼，然后走开。录像在迈步途中停止。
+
+只保留现场声和自然说话声。手、杯子和背景物体保持稳定。
+```
+
+</details>
+
+<a id="x06-two-person-vlog"></a>
+
+### X06 · 双人便利店日记
+
+[![双人便利店日记](https://pbs.twimg.com/amplify_video_thumb/2097967562604875776/img/uK9lzSMYEeRFhAvI.jpg)](https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2097968347430482177) · [英文说明](docs/community-videos.md#x06-two-person-vlog)
+
+**值得学习：** 写清谁在拿手机，以及饮料在每次交接前后由谁持有。
+
+**需要的素材：** 两张人物身份参考图；分别明确后置镜头拍摄者和前置自拍中的角色。
+
+**画幅与时长：** 原场景为 30 秒，要求 4:3、720p，但上传视频为 1920×1080。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x06-two-person-vlog.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 30 秒的傍晚便利店日记，由两位成年朋友出镜。图 1 固定购物者，图 2 固定负责拍摄的朋友。保持服装和同一瓶饮料不变。
+
+0–8 秒：后置镜头跟随购物者，看见一瓶冷饮并从冰柜中取出。
+8–15 秒：购物者把饮料展示给镜头，再拿到柜台；拍摄者在画外说话。
+15–23 秒：切到店外的前置双人自拍。一位朋友把饮料递给另一位尝一小口，交接过程清楚可见。
+23–30 秒：两人笑着一起离开，饮料始终留在当前持有者手中。
+
+采用轻微手机晃动、简短对话停顿和店内环境声。没有外部旁观者机位或音乐。
+```
+
+</details>
+
+<a id="x07-talent-show-reversal"></a>
+
+### X07 · 舞台表演反转
+
+[![舞台表演反转](https://pbs.twimg.com/amplify_video_thumb/2090399674129940480/img/zvDQqERbmMVkeaIT.jpg)](https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2090399966988550435) · [英文说明](docs/community-videos.md#x07-talent-show-reversal)
+
+**值得学习：** 用安静开场与定时出现的表演形成反差，通过观众反应镜头表现变化。
+
+**需要的素材：** 文字描述；固定表演者的角色设计。
+
+**画幅与时长：** 原提示词为 30 秒；上传视频为 854×480、约 30.08 秒。原帖将提示词创意归于 @techhalla。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x07-talent-show-reversal.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段虚构的 24 秒社区才艺表演短片。表演者是一位穿酒红色马甲和白色运动鞋的老年男子；年龄、面容和服装始终不变。采用原创舞台设计，不出现电视节目品牌。
+
+0–7 秒：全景展示他拿着折叠报纸登场。他把报纸放在凳子上，观众逐渐安静。
+7–9 秒：特写中，他用一只鞋轻敲两下，现场安静下来。
+9–19 秒：原创放克节奏响起。他保持直立姿态，展示灵巧步法；全身镜头与两名惊讶观众的反应交替出现。每个动作都要清楚、符合身体运动规律。
+19–24 秒：他轻轻鞠躬，拿回报纸。掌声自然响起。
+
+切镜与音乐重音对齐。不改变年龄，不出现不合理的关节姿势或消失的道具。
+```
+
+</details>
+
+<a id="x08-pressed-flower-tutorial"></a>
+
+### X08 · 压花手工教程
+
+[![压花手工教程](https://pbs.twimg.com/amplify_video_thumb/2084268630556983296/img/OXmdFhcGjZVL1k5f.jpg)](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2084269139556761919) · [英文说明](docs/community-videos.md#x08-pressed-flower-tutorial)
+
+**值得学习：** 把准备过程与早已干燥的成品分开，避免暗示鲜花能瞬间压干。
+
+**需要的素材：** 文字描述；固定的工作台和无品牌手工工具。
+
+**画幅与时长：** 原分镜合计 32 秒；上传视频为 1920×1080、约 31.33 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x08-pressed-flower-tutorial.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 20 秒的手工教程，场景是窗边的浅色木桌。一位成年制作者穿鼠尾草绿色围裙；各镜头中的工具、双手和光线保持一致。
+
+0–5 秒：俯拍三朵小花摆在吸水纸上，花瓣之间留有间隙。
+5–10 秒：特写跟随镊子理顺一处卷曲的边缘。盖上另一张纸，拧紧木制压花器。
+10–12 秒：明确切到另一个托盘，里面是前几天已准备好的干花；不展示鲜花瞬间变干。
+12–17 秒：把干花排列在空白贺卡上，保持每片花的位置稳定。
+17–20 秒：定格展示完成的贺卡，旁边放着闭合的压花器。
+
+记录纸张摩擦、镊子轻敲和螺丝转动声。没有音乐或画面文字；镜头移动克制，手指动作可信。
+```
+
+</details>
+
+<a id="x09-energy-action-geography"></a>
+
+### X09 · 能量动作场景
+
+[![能量动作场景](https://pbs.twimg.com/amplify_video_thumb/2096146403064254464/img/IsPJq2tLkew3sJuO.jpg)](https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2096147092188311749) · [英文说明](docs/community-videos.md#x09-energy-action-geography)
+
+**值得学习：** 把能量光当成真实光源，并保持人物、障碍物和落地区域的空间关系一致。
+
+**需要的素材：** 文字描述和虚构角色；练习版改为成年人的特技训练场景。
+
+**画幅与时长：** 原提示词为 30 秒；上传视频为 1280×720、约 30.17 秒。原文要求 4K 观感，这不能证明输出原生为 4K。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x09-energy-action-geography.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+在空旷的工业摄影棚内制作一段虚构的 18 秒特技训练场景。一位穿炭灰色运动服的成年表演者面对带软垫的滚动靶。先交代靶在画面右侧，后方有清楚可见的落地垫。
+
+0–5 秒：中景缓慢推进，暗琥珀色光在表演者掌心聚集。光照到衣袖和混凝土地面。
+5–12 秒：侧面全景跟随受控的侧步、短距离助跑和一次排练好的掌击。靶沿原有轨道向后滚动，接触全过程清楚可见。
+12–18 秒：较近镜头展示光逐渐消退，表演者放下双手并呼气。
+
+接触时加入短促低频音和自然室内混响。不出现血腥、身份变化、无缘由的镜头轴线反转或器材瞬移。
+```
+
+</details>
+
+<a id="x10-day-trip-story-arc"></a>
+
+### X10 · 一日旅行日记
+
+[![一日旅行日记](https://pbs.twimg.com/amplify_video_thumb/2087164966864556033/img/MY7hA0RJIHNj81nD.jpg)](https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Goodmanprotocol/status/2087165084397420849) · [英文说明](docs/community-videos.md#x10-day-trip-story-arc)
+
+**值得学习：** 用重复出现的服装和随身物品连接地点，采用正常剪辑，不把整趟旅行伪装成一镜到底。
+
+**需要的素材：** 原帖要求女性人物参考图；练习时使用虚构成年人或有使用授权的人像。
+
+**画幅与时长：** 原提示词为 30 秒；上传视频为 1280×720、约 30.08 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x10-day-trip-story-arc.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+使用一张有授权的成年人物参考图，制作一段 24 秒的轻松一日旅行日记。每个地点都保持相同面容、橄榄色外套和帆布单肩包。由朋友手持相机拍摄，地点之间正常剪辑，不做不可能的连续长镜头。
+
+0–6 秒：在电车站，旅行者查看纸质路线图，指向驶来的电车。
+6–12 秒：在小面包店外，把折好的地图放进包里，拆开一份糕点。
+12–18 秒：跟随旅行者走在河边小径上，微风吹动外套，骑行者在安全距离外经过。
+18–24 秒：在温暖暮光下坐到长椅上，再次打开同一张地图。
+
+允许轻微取景延迟和自然表情。保留交通声、脚步声和河畔环境声；不出现品牌或夸张的网红摆拍姿势。
+```
+
+</details>
+
+<a id="x11-visible-object-handover"></a>
+
+### X11 · 道具交接微故事
+
+[![道具交接微故事](https://pbs.twimg.com/amplify_video_thumb/2096424851888300032/img/GsfbwnQVERijOEJp.jpg)](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29) · [作者原帖及原提示词](https://x.com/AIwithkhan/status/2096424933366931946) · [英文说明](docs/community-videos.md#x11-visible-object-handover)
+
+**值得学习：** 明确交接前、交接中和交接后的持有者，比只要求“完美连贯”更具体。
+
+**需要的素材：** 文字描述；练习版使用两位虚构成年人和一件可辨认的道具。
+
+**画幅与时长：** 原提示词为 30 秒；上传视频为 1280×720、约 30.04 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x11-visible-object-handover.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 15 秒的社区小故事，包含两位虚构成年人。一位穿蓝色雨衣的骑行者把一只黄色手套掉在长椅旁，背着红色手提袋的路人注意到了它。
+
+0–4 秒：展示地上的手套，以及在自行车旁回头看的骑行者。在同一个全景中交代两人的位置。
+4–9 秒：路人弯腰，用右手捡起手套并走近。红色手提袋始终挂在左肩。
+9–12 秒：交接时两人的手都在画面内。骑行者先用左手握住手套，路人随后松手。
+12–15 秒：骑行者说“Thanks!”，把手套放进前车筐。
+
+采用一次轻柔的手持镜头移动，保留社区环境声，不加音乐。全程只有一只手套，颜色、位置和持有者连贯。
+```
+
+</details>
+
+<a id="x12-tropical-location-sound"></a>
+
+### X12 · 热带街区环境声
+
+[![热带街区环境声](https://pbs.twimg.com/amplify_video_thumb/2089204070997532672/img/UAx5Q6w1RA3C8pNG.jpg)](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29) · [作者原帖及原提示词](https://x.com/RishuaVR/status/2089204108175741157) · [英文说明](docs/community-videos.md#x12-tropical-location-sound)
+
+**值得学习：** 按距离和可见声源描述声音，比笼统要求“电影级音效”更实用。
+
+**需要的素材：** 文字描述；固定的虚构成年人和具有当地特征的环境。
+
+**画幅与时长：** 原提示词为 10 秒；上传视频为 1280×720、约 10.08 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x12-tropical-location-sound.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+在印度尼西亚住宅的一处背阴露台上，制作一段虚构的 12 秒家庭录像。一位穿宽松青绿色衬衫的成年人把一杯冰茶放到矮竹桌上。人物外观和服装保持稳定。
+
+0–4 秒：从坐着的朋友视角拍桌面。玻璃杯碰到桌面发出轻响，冰块稍后落定。
+4–8 秒：主角把椅子拉近，转头看向远处自行车铃的方向。树叶在墙上投下晃动的影子。
+8–12 秒：微风吹来，镜头缓缓移向盆栽，录像自然结束。
+
+近处的玻璃杯、椅子摩擦和衣料声清楚可辨；鸟鸣和车铃较轻，来自更远处。使用轻微曝光调整和家用摄像机的柔和细节，不加旁白、音乐或风格化转场。
+```
+
+</details>
+
+<a id="x13-dance-formation"></a>
+
+### X13 · 五人舞蹈与队形变化
+
+[![五人舞蹈与队形变化](https://pbs.twimg.com/amplify_video_thumb/2100281698877640705/img/dSDZ4bXtFKhgTkZr.jpg)](https://video.twimg.com/amplify_video/2100281698877640705/vid/avc1/1920x1080/XAZOtVZt2BacpB31.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2100281698877640705/vid/avc1/1920x1080/XAZOtVZt2BacpB31.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Goodmanprotocol/status/2100281777197834731) · [英文说明](docs/community-videos.md#x13-dance-formation)
+
+**值得学习：** 锁定五个人物的数量、站位和脚下重心，再增加复杂队形。
+
+**需要的素材：** 文字描述；五位外观固定的成年舞者。
+
+**画幅与时长：** 原视频约 30 秒，上传尺寸 1920×1080；以下练习版为 15 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x13-dance-formation.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+生成一段 15 秒的舞蹈排练短片。五位成年舞者穿着各不相同、没有品牌标志的服装，脸部和服装全程不变。在阳光照进的练习室里，先用全景交代队形，再跟拍一组同步侧步。中间的舞者向前走两步，其余四人保持站位，最后一拍回到原队形。镜头缓慢横移，搭配原创打击乐。双脚有真实落地接触，人物间距保持合理，不增加舞者。先检查肢体连续性，再尝试更快动作。
+```
+
+</details>
+
+<a id="x14-fox-sled"></a>
+
+### X14 · 狐狸与雪鸮的雪地冒险
+
+[![狐狸与雪鸮的雪地冒险](https://pbs.twimg.com/amplify_video_thumb/2100252893324730368/img/_mA77mUjwB4YBaFK.jpg)](https://video.twimg.com/amplify_video/2100252893324730368/vid/avc1/1280x720/3g8q9br36vbX52YD.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2100252893324730368/vid/avc1/1280x720/3g8q9br36vbX52YD.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2100254817818169630) · [英文说明](docs/community-videos.md#x14-fox-sled)
+
+**值得学习：** 让每个动作触发下一步事件，保持动物和雪橇数量不变。
+
+**需要的素材：** 文字描述；一只狐狸、一只雪鸮、一架雪橇。
+
+**画幅与时长：** 原帖要求 15 秒、9:16 和 8K；上传视频为 1280×720，不能据此认定是 8K 输出。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x14-fox-sled.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+生成一段 15 秒的虚构动物冒险短片。安静的雪地空地中，一只赤狐用鼻子拨开积雪，露出一架小木雪橇。一只雪鸮在旁边树枝上观看。先清楚展示雪橇，再让它移动。狐狸把前爪搭上雪橇，雪橇沿缓坡轻轻滑下，雪鸮在旁边飞行。结尾用全景展示雪橇停在松软积雪中，两只动物同时入镜。冬日光线清晰，毛发和羽毛自然，保留雪地摩擦声与拍翅声。始终只有一只狐狸、一只雪鸮和一架雪橇；无受伤、字幕或物体突然改变。
+```
+
+</details>
+
+<a id="x15-tempura-process"></a>
+
+### X15 · 从备料到装盘的天妇罗
+
+[![从备料到装盘的天妇罗](https://pbs.twimg.com/amplify_video_thumb/2099814675731124224/img/wBAecI4iHEEAoR3P.jpg)](https://video.twimg.com/amplify_video/2099814675731124224/vid/avc1/1920x1080/vLq0N4ffylmG6SmO.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2099814675731124224/vid/avc1/1920x1080/vLq0N4ffylmG6SmO.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Goodmanprotocol/status/2099814823219392548) · [英文说明](docs/community-videos.md#x15-tempura-process)
+
+**值得学习：** 按顺序展示食材变化，让声音对应可见的接触动作。
+
+**需要的素材：** 文字描述；同一间厨房，固定的厨具。
+
+**画幅与时长：** 原视频约 30 秒，上传尺寸 1920×1080；以下练习版为 20 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x15-tempura-process.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+制作一段 20 秒的料理过程短片，场景为暖光餐厅厨房。跟随同一批蘑菇，依次展示砧板上的干净切片、轻蘸面糊、放入热油、捞到沥油架、摆上陶瓷盘，每个阶段四秒。主要使用近景，保持手部、碗、锅和光线方向一致。先展示外皮变脆，再捞出。切菜、滴落、油炸和碰盘声与动作同步。食材数量和厨具形状保持稳定。这是视觉创作描述，不是烹饪安全教程；需要说明文字时，在后期添加。
+```
+
+</details>
+
+<a id="x16-night-road-trip"></a>
+
+### X16 · 双人夜间公路旅行
+
+[![双人夜间公路旅行](https://pbs.twimg.com/amplify_video_thumb/2099113814604300288/img/k5dRgv4ktDF4hqqd.jpg)](https://video.twimg.com/amplify_video/2099113814604300288/vid/avc1/1280x720/FlEVndJpArViyBQ1.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2099113814604300288/vid/avc1/1280x720/FlEVndJpArViyBQ1.mp4?tag=29) · [作者原帖及原提示词](https://x.com/noorwithwifi/status/2099114117017780321) · [英文说明](docs/community-videos.md#x16-night-road-trip)
+
+**值得学习：** 减少地点数量，保持两个人物与车辆的细节一致。
+
+**需要的素材：** 两位成年角色；可选有权使用的人物参考图。
+
+**画幅与时长：** 原视频约 15 秒，上传尺寸 1280×720。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x16-night-road-trip.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+创作一段 15 秒的双人夜间旅行片段。两位成年朋友乘坐同一辆深蓝色汽车，外套和发型保持不变。先从车内展示挡风玻璃上的雨夜倒影，驾驶者专心看路，乘客轻轻哼唱。切到已经停在海边观景点的汽车，两人下车，靠在栏杆旁相视轻笑，远处传来海浪声。结尾缓慢拉远，同框保留两人的轮廓与同一辆车。车内机位稳定，节奏平静。驾驶中不用手机，不出现重复人物或突然换装。
+```
+
+</details>
+
+<a id="x17-lunar-train"></a>
+
+### X17 · 开往太空的列车
+
+[![开往太空的列车](https://pbs.twimg.com/amplify_video_thumb/2098289904409362432/img/-LuU_JZblovIR9HB.jpg)](https://video.twimg.com/amplify_video/2098289904409362432/vid/avc1/1920x1080/xssyJInhEDrcUCQM.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2098289904409362432/vid/avc1/1920x1080/xssyJInhEDrcUCQM.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2098290630179057858) · [英文说明](docs/community-videos.md#x17-lunar-train)
+
+**值得学习：** 用同一人物、同一车厢和可见门口连接大幅度场景变化。
+
+**需要的素材：** 一张已获授权的成年人物参考图。
+
+**画幅与时长：** 原视频约 30 秒，上传尺寸 1920×1080；以下练习版为 20 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x17-lunar-train.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+使用一张已获授权的成年人物参考图，创作一段 20 秒的科幻奇幻短片，保持脸部、外套和发型不变。空荡车站里，旅人注意到一节亮着琥珀色灯光的车厢。先拍清楚人物跨过车门，再切入车内。窗外从隧道灯光逐渐变成安静星空。停留在人物反应近景，再展示同一车厢行驶在一颗发光的虚构行星上方。结尾回到车内，旅人轻触窗框。只有一列车，空间切换清楚，机械声克制，原创配乐渐强。无换装、肢体漂浮或文字。
+```
+
+</details>
+
+<a id="x18-dog-mirror"></a>
+
+### X18 · 小狗闯入镜子自拍
+
+[![小狗闯入镜子自拍](https://pbs.twimg.com/amplify_video_thumb/2097614865154404352/img/P3gtFvUuGcb4CejG.jpg)](https://video.twimg.com/amplify_video/2097614865154404352/vid/avc1/1280x720/l4WTN5f_qQu25nNZ.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2097614865154404352/vid/avc1/1280x720/l4WTN5f_qQu25nNZ.mp4?tag=29) · [作者原帖及原提示词](https://x.com/Strength04_X/status/2097616213371478242) · [英文说明](docs/community-videos.md#x18-dog-mirror)
+
+**值得学习：** 固定镜子位置和手机视角，逐一检查人物与动物的倒影。
+
+**需要的素材：** 一张已获授权的成年人物照片；一只小狗。
+
+**画幅与时长：** 原帖要求 30 秒竖屏，上传视频为 1280×720 横屏；以下练习版为 15 秒。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x18-dog-mirror.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+生成一段连续 15 秒的手机视频：一位成年人和一只小狗站在全身镜旁。人物外观使用已获授权的参考照片。手机始终清楚地握在一只手里，镜子位置固定。开头小狗坐在人物脚边，随后站起，用鼻子碰一碰宽松袖口，人物轻笑。人物稍稍放低手机，把小狗纳入取景，最后两者都出现在镜中。使用柔和窗光、爪子触地声和室内环境声。无剪切、额外动物、第二机位或独立运动的倒影。互动轻柔，手机保持在小狗碰不到的位置。
+```
+
+</details>
+
+<a id="x19-music-brand-film"></a>
+
+### X19 · 用动作衔接场景的音乐品牌短片
+
+[![用动作衔接场景的音乐品牌短片](https://pbs.twimg.com/amplify_video_thumb/2089173373549264896/img/k_KcBYzXRKN_jThs.jpg)](https://video.twimg.com/amplify_video/2089173373549264896/vid/avc1/640x1138/i68aLXqjy-MOpx5q.mp4?tag=29)
+
+[观看视频](https://video.twimg.com/amplify_video/2089173373549264896/vid/avc1/640x1138/i68aLXqjy-MOpx5q.mp4?tag=29) · [作者原帖及原提示词](https://x.com/AliceAICreator/status/2089173407971811749) · [英文说明](docs/community-videos.md#x19-music-brand-film)
+
+**值得学习：** 切换地点时保持人物位置和动作衔接。原提示词同时要求品牌标志和禁止文字，存在冲突；练习版将片尾标志留到剪辑时添加。
+
+**需要的素材：** 两张参考图：一张有使用授权的人物图，一张耳机或产品图。
+
+**画幅与时长：** 原提示词要求竖屏 9:16、每秒 24 帧、15 秒；上传视频为 640×1138、15.069 秒。上传文件信息不等于生成设置。
+
+<details>
+<summary>复制中文练习提示词</summary>
+
+**实测状态：** 未实测
+
+[打开纯文本提示词](prompts/community/x19-music-brand-film.zh.txt)，可使用 GitHub 的 **Raw** 或 **Download raw file** 保存。
+
+```text
+使用提供的人物和产品参考图，制作一段 15 秒的竖屏耳机短片。保持面容、服装、耳罩形状和头梁一致。全片只有一位主角和一副耳机。
+
+0–4 秒：在阳光照入的家庭工作室中，用中近景表现主角戴上耳机，肩膀开始轻轻摆动。
+4–10 秒：在摆动动作中切到有顶棚的站台，再切到安静的屋顶。保持人物在画面中的大小和位置一致，每次切换都延续同一个动作。背景人物不抢占视觉中心。
+10–13 秒：用衔接一致的动作回到工作室，然后缓缓静止。
+13–15 秒：耳机摆在纯色青绿色桌面上，为后期添加标志留出空间。
+
+使用柔和的原创器乐节拍和自然衣料声。不生成文字、界面或额外产品。
+```
+
+</details>
+<!-- END ZH CASES -->
+
+**请区分两种提示词：** 作者原提示词在 X 原帖；仓库里的可复制版本是改写练习，不能当成原视频的生成参数；实测状态见各案例。X 可能要求登录，模型名称来自发布者自述。
+
+[完整来源记录](docs/x-showcase-sources.md)
+
 ## 第一次使用
 
 1. **先选简单场景。** 例如产品缓慢转动、人物一个动作或一个简短情节。
@@ -94,41 +716,259 @@
 | 剧情、动画、奇幻短片 | [纸船小故事](#starter-story) | [类型片与视觉实验（英文）](prompts/genre-social-experiments.en.md) | 新手练习无需图片；进阶场景按说明准备 |
 | 教程、制作过程 | [天妇罗制作（中文）](docs/community-videos.zh.md#x15-tempura-process) | [创作技巧库（英文）](prompts/creative-techniques.en.md) | 分镜安排及所选场景要求的素材 |
 
-## 社区视频与提示词
+<!-- BEGIN HOME GUIDE -->
+> 高级参考、编辑和延长配方需要平台提供对应功能。先看[平台功能对照](docs/flyne-ai-guide.md#配方与平台功能怎么对应)。以下配图为输入参考，完整配方来自上游；它们不是已实测的视频结果。
 
-<!-- BEGIN ZH CASES -->
-已记录实测的改写练习：**0/19**。
+## Seedance 2.5 适合做什么
 
-共 **19 个 X 视频案例**，其中 **19 个案例**已提供中文说明和中文练习提示词。
+根据 Seedance 2.5 官方页面，模型重点面向最长 30 秒的完整叙事，并可继续延长两次；它强化了参考视频理解、音视频编辑、专业运镜、表演调度、白模控制和绿幕编辑。相较于只描述“画面长什么样”，Seedance 2.5 更适合接收一份简洁但完整的导演指令。
 
-[查看全部视频（英文说明）](docs/community-videos.md) · [阅读中文案例提示词](docs/community-videos.zh.md)
+| 能力 | 提示词中应该写什么 | 典型用途 |
+|---|---|---|
+| 30 秒叙事 | 按时间段写目标、转折和结尾 | 广告、剧情短片、MV、旅行故事 |
+| 图生视频 | 明确保留项、主体动作、环境动作、运镜 | 产品图、人物照、插画、建筑图 |
+| 参考控制 | 给每个素材指定唯一职责 | 角色一致性、镜头参考、动作参考、声音参考 |
+| 专业运镜 | 写机位、焦段感、路径、速度和停止点 | 一镜到底、环绕、推拉、跟拍、航拍 |
+| 表演调度 | 写站位、视线、动作触发和互动顺序 | 多人戏、运动、舞蹈、采访 |
+| 音画联合 | 分开写对白、环境声、拟音和音乐 | ASMR、广告、剧情、现场感视频 |
+| 精准编辑 | 写“只修改什么”和“必须保持什么” | 换背景、换材质、改动作、局部修复 |
+| 白模与绿幕 | 写空间路径、遮挡关系、抠像边缘要求 | 预演、VFX、虚拟制片、角色合成 |
 
-| 案例 | 中文说明与练习提示词 |
+### 写提示词时最重要的 5 件事
+
+1. **先锁定不变量。** 图生视频先写主体身份、产品几何、服装、构图和光线哪些不能改变。
+2. **每个时间段只放一个主要事件。** 30 秒不等于塞满 30 个动作；让动作之间存在因果关系。
+3. **把运镜写成路径。** “电影感”很模糊，“镜头从水面贴近跟拍，5 秒后升至人物肩部并停住”更可执行。
+4. **区分主体、环境和镜头的运动。** 三者混写容易产生漂移或无意义的抖动。
+5. **声音要有层级。** 明确对白优先级、环境声位置、拟音触发点，以及是否需要音乐。
+
+## Seedance 2.5 提示词公式
+
+推荐按下面顺序组织，中文、英文、日文或西班牙文都可以使用相同结构：
+
+```text
+[任务] 文生视频 / 图生视频 / 参考生视频 / 视频编辑
+[目标] 视频用途、受众、核心情绪、时长、画幅
+[输入职责] 图1锁定角色；图2锁定场景；视频1只参考运镜；音频1只参考节奏
+[视觉锚点] 主体身份、服装、产品结构、场景、时间、色彩、材质
+[时间轴]
+00:00-00:06 建立场景与人物目标
+00:06-00:14 主要动作与镜头推进
+00:14-00:23 转折、互动或产品卖点
+00:23-00:30 结果、情绪落点与结束画面
+[摄影] 景别、机位、运动路径、速度、焦点变化、快门感
+[表演与物理] 视线、手部动作、重量、惯性、碰撞、布料、水、烟雾
+[声音] 对白、环境声、拟音、音乐、声场和同步点
+[一致性] 必须保持不变的身份、几何、数量、方向、光源和空间关系
+[避免] 形变、重复主体、额外肢体、伪文字、品牌、水印、无动机剪辑
+```
+
+### 适合图生视频的精简公式
+
+```text
+以输入图为唯一视觉锚点。保持主体身份、脸部、服装、产品结构、构图和主光方向不变。
+主体运动：……
+环境运动：……
+镜头运动：……
+结束状态：……
+物理要求：运动有重量和惯性，遮挡关系正确，阴影与反射同步变化。
+禁止：新增主体、改变设计、镜头无故抖动、局部融化、文字或水印。
+```
+
+## 快速开始
+
+1. 准备一张干净、主体轮廓清晰、光源明确的起始图。
+2. 从下方场景或[120 个提示词总索引](prompts/README.md)复制最接近的模板。
+3. 先替换主体、动作、场景、画幅与结尾，不要一次重写所有摄影术语。
+4. 根据素材选择 Flyne AI 的 [Text-to-Video](https://flyne.ai/model/seedance-2-5/) 或 [Image-to-Video](https://flyne.ai/model/seedance-2-5/)，再粘贴提示词。
+5. 首轮先验证身份、动作和空间逻辑，再追加复杂运镜、对白或特效。
+
+## 精选原创提示词
+
+以下完整示例继承自 FLAQ 源库，配图是输入参考，不是视频生成结果。练习尚未在本仓库实测；时长与画幅需按实际平台选项调整。
+
+### 1. 暴雨海岸救援演练｜电影长镜头
+
+![暴雨海岸救援演练原创起始图](assets/cinematic-rescue-reference.png)
+
+**模式：** 图生视频 · **建议画幅：** 16:9 · **建议时长：** 24–30 秒
+
+```text
+以输入图为第一帧和视觉锚点，保持两名成年救援志愿者的服装、救生艇结构、人数、灯塔位置和冷蓝色暴雨光线不变。创作一段写实的海上救援训练长镜头，紧张但不呈现伤亡。
+
+00:00-00:06：镜头贴近水面，在艇尾左侧稳定跟拍。救生艇迎着浪头前进，船体随浪有重量地起伏，近处水花短暂溅到镜头保护罩；灯塔光束从右向左扫过。
+00:06-00:14：镜头沿艇侧平滑前移到两人肩后。前方志愿者用手势指向安全航道，后方志愿者调整油门，两人的动作克制、专业，湿衣料贴合身体并随风轻颤。
+00:14-00:23：一股更大的侧浪推动船身向左偏转。两人同步压低重心，船首校正方向，镜头轻微升高展示礁石之间的通道；水的惯性、船体倾斜和人物平衡符合真实物理。
+00:23-00:30：救生艇穿过狭窄水道进入相对平稳的港湾。镜头越过两人缓慢推向灯塔，暖光照亮雨幕，情绪从紧张转为安心，最后稳定停在船首与灯塔同框的广角画面。
+
+声音：双声道海浪、雨点击打防水布、发动机低频、短促清晰的手势口令；不使用史诗音乐，结尾加入很轻的低音弦乐持续音。全程无对白字幕、无标志、无水印、无额外人员、无灾难伤者、无镜头瞬移。
+```
+
+### 2. 气泡茶新品揭晓｜高级产品广告
+
+![气泡茶产品广告原创起始图](assets/product-sparkling-tea-reference.png)
+
+**模式：** 图生视频 · **建议画幅：** 9:16 / 16:9 · **建议时长：** 15–24 秒
+
+```text
+以输入图中的无品牌玻璃瓶为唯一产品锚点。瓶身形状、瓶盖、空白标签比例、琥珀色液体容量和主光方向始终不变，不生成文字。
+
+00:00-00:04：极近景拍摄瓶壁凝露，一颗水珠缓慢滑落；焦点从水珠转移到液体中上升的细密气泡。背景叶片只做轻微摆动。
+00:04-00:10：镜头以产品为中心顺时针环绕约 35 度，同时缓慢拉远。冰台内部出现柔和折射，几片茶叶沿相反方向划出克制的弧线，瓶子保持完全稳定。
+00:10-00:17：一道暖光从瓶后扫过，液体被照亮。瓶盖轻响后仅向上弹起少量距离，细雾和少量气泡自然释放，不发生爆炸，不改变瓶口结构。
+00:17-00:24：镜头降到略低机位并停止环绕，水滴在产品周围短暂悬停后自然落下。最终定格为干净的正面英雄镜头，为后期标题预留上方空间。
+
+声音：清脆但真实的瓶盖声、细小气泡声、冰块轻响、短促清新的音乐节拍；所有声音与动作精确同步。避免伪文字、额外瓶子、标签漂移、玻璃融化、液体穿模、过量飞溅、品牌或水印。
+```
+
+### 3. 纸狐狸走出速写本｜混合媒介动画
+
+![纸狐狸混合媒介动画原创起始图](assets/paper-fox-story-reference.png)
+
+这张图中的狐狸已经是立体纸艺。如果直接用作首帧，请跳过下方“从平面转成立体”的动作，从轻微转头或抬爪开始；也可以直接使用[与此图对应的八秒练习](docs/reference-practice.md#fox)。
+
+**模式：** 图生视频 · **建议画幅：** 16:9 · **建议时长：** 30 秒
+
+```text
+以输入图为美术和角色锚点。保持红色折纸狐狸的三角耳、尖鼻、纸张折痕、铅笔线纹理和体型比例一致；保持咖啡馆桌面、速写本、台灯、雨窗和陶杯的空间关系不变。
+
+00:00-00:06：铅笔线在纸面上轻微颤动，折纸狐狸先眨眼，再试探性抬起前爪。镜头从速写本左下角微距推近，纸张摩擦声清晰。
+00:06-00:13：狐狸跨过纸页边缘踏上真实木桌，身体从二维纸线自然过渡为有厚度的折纸结构。它每走一步都产生轻微折纸声，桌面倒影和接触阴影准确。
+00:13-00:21：镜头平行跟随。狐狸绕过铅笔屑，停在咖啡杯前观察蒸汽；蒸汽凝成一条短暂的小路指向雨窗，狐狸的耳朵因好奇转动。
+00:21-00:27：狐狸沿蒸汽小路小跑，桌面水滴被脚步带起极小的涟漪。镜头从侧面跟拍转为狐狸身后的低机位，窗外暖色灯光逐渐清晰。
+00:27-00:30：狐狸在窗前停下，尾巴轻摆，倒影中仍保持同一角色轮廓。镜头缓慢上升，雨滴沿窗滑下，画面以温暖而开放的旅程起点结束。
+
+声音：雨声、纸张折叠声、木桌轻触声、杯中细微气泡和极简钢片琴；无对白。禁止新增动物、改变角色颜色、塑料质感、卡通品牌风格、文字、标志或水印。
+```
+
+### 4. 清晨面包坊｜治愈系 ASMR 广告
+
+```text
+30 秒、16:9、写实手工面包坊短片。人物是一位原创成年烘焙师，米色围裙、深灰衬衫、头发整齐束起；身份、服装和工作台布局全程一致。
+
+00:00-00:07：清晨逆光穿过窗户，微距拍摄双手将发酵面团放到撒有面粉的木台，手掌轻压，面团缓慢回弹。
+00:07-00:14：俯拍镜头平滑滑过工作台，烘焙师用割包刀划出三道均匀纹路，面粉颗粒在侧光中短暂扬起。
+00:14-00:22：匹配剪辑到烤炉内，面包表皮在热气中逐渐膨胀并呈金褐色；只展示真实烘焙变化，不做夸张延时变形。
+00:22-00:30：面包放到冷却架，镜头缓慢推近，烘焙师掰开一小块展示松软组织，蒸汽自然升起，最后停在面包与晨光的静物画面。
+
+声音只保留面团落台、刀片划过表皮、炉门轻响、脆壳裂开和远处城市晨声；无旁白、无音乐、无文字、无品牌、无多余手指、无食品穿模。
+```
+
+### 5. 屋顶爵士现场｜音乐表演与连续调度
+
+```text
+创作一段 30 秒原创屋顶爵士三重奏现场，傍晚蓝调时刻，城市天际线虚化。三位成年乐手分别演奏立式贝斯、爵士鼓和小号，服装为无标志的深色现代正装，人物数量和乐器位置始终固定。
+
+00:00-00:08：从贝斯琴弦微距开始，手指拨弦与低音完全同步；镜头沿琴身上升，揭示三人站位。
+00:08-00:16：镜头向鼓手弧形移动，鼓刷在军鼓上画圈，小号手在背景吸气准备；焦点从鼓刷平滑转到小号手眼神。
+00:16-00:24：小号进入主旋律，镜头从三人之间穿过并做半圈环绕，衣摆受屋顶微风影响，乐器反光随相机位置真实变化。
+00:24-00:30：三人以短促齐奏收尾，镜头缓慢拉到广角，远处城市灯光依次亮起，最后一个小号尾音在空气中自然衰减。
+
+声音必须是同一速度的原创爵士乐段，贝斯、鼓刷、小号的演奏动作与音符同步；保留屋顶风声和远处交通底噪。无观众尖叫、无伪装演奏、无乐器变形、无文字或水印。
+```
+
+### 6. 城市通勤背包｜UGC 产品测评
+
+```text
+9:16 竖屏、24 秒、自然手机自拍视频质感。一位原创成年城市通勤者在公寓门口快速展示无品牌深绿色背包，语气真实、友好，不像棚拍广告。保持人物脸部、服装、背包口袋数量与颜色不变。
+
+00:00-00:05：手持中近景，人物看镜头说：“这是我最近每天都在背的通勤包。”自然停顿，轻微但可控的手机手持感。
+00:05-00:12：镜头切到第一视角，依次放入 13 英寸笔记本、水瓶和折叠伞；每件物品只出现一次，拉链和口袋空间合理。
+00:12-00:18：人物背上背包走出门，镜子里短暂出现侧面轮廓，背包肩带自然受力，不漂移不变形。
+00:18-00:24：电梯内回到自拍构图，人物轻拍肩带说：“装得下，但不会显得很笨重。”电梯门打开，以人物走向明亮走廊结束。
+
+声音：自然普通话、拉链声、物品放入声、电梯提示音；不加夸张 BGM。口型自然，台词只说一次；无字幕、无品牌、无额外物品、无镜中重复人物。
+```
+
+## 完整场景库
+
+[**打开 120 个可复制的 Seedance 2.5 原创提示词总索引 →**](prompts/README.md)
+
+| 内容包 | 数量 | 覆盖范围 |
+|---|---:|---|
+| [基础场景库](prompts/prompt-library.md) | 24 | 电影、产品、UGC、动画、运动、声音、图生视频控制、绿幕与白模 |
+| [扩展场景库](prompts/extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
+| [英文专业工作流](prompts/advanced-workflows.en.md) | 12 | SaaS、创作者、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
+| [英文创作技法库](prompts/creative-techniques.en.md) | 28 | Match Cut、一镜到底、多参考、教程、编辑、数字人、批量 SKU、长视频、延长、白模 |
+| [英文类型片、社媒与视觉实验](prompts/genre-social-experiments.en.md) | 20 | 类型片、受控车辆拍摄、社媒喜剧、声音同步、动态海报、原创动画、材质变形 |
+| [独立多语言 prompts](prompts/i18n/README.md) | 14 份 | 繁中、英、日、韩、西、法、德、葡、阿、俄、印尼、意大利、泰、越南语 |
+| [使用场景选择矩阵](docs/use-case-matrix.md) | 18 类目标 | 按业务、素材、渠道与画幅快速选择模板 |
+
+新增场景包括封闭赛道雨战、模拟太空维修、古代水利重建、火星取样、打击乐音画同步、镜像延迟喜剧、无障碍换装、动态海报、运动参考迁移、原创动画和材质变形等，可直接用于类型短片、社媒、商业、教育与专业制作工作流。
+
+## 图生视频技巧
+
+### 输入图怎么选
+
+- 主体与背景有清晰层次，能产生前景、中景、远景视差。
+- 避免已经处于极端动作中间态的姿势，除非你明确知道下一步运动方向。
+- 产品图尽量正面或三分之二角度，边缘完整，标签清晰，反射不过曝。
+- 人物图最好能看清双手，或让双手自然离开画面，减少凭空补全。
+- 需要镜头移动时，在画面运动方向留出空间。
+
+### 参考素材分工
+
+不要写“综合参考所有素材”。给每个输入一个职责：
+
+```text
+图1：只锁定人物脸部、发型、服装和身体比例。
+图2：只锁定场景结构、色彩与主光方向。
+视频1：只参考从低机位上升到肩部的运镜路径，不复制其中人物。
+音频1：只参考节奏速度和鼓点，不复制旋律或人声。
+```
+
+### 失败时如何改
+
+| 问题 | 优先修改 |
 |---|---|
-| 厨房料理喜剧 | [查看](docs/community-videos.zh.md#x01-galley-food-comedy) |
-| 同一件衣服的多种搭配 | [查看](docs/community-videos.zh.md#x02-one-garment-fashion) |
-| 雨天自拍与小猫 | [查看](docs/community-videos.zh.md#x03-rainy-pet-selfie) |
-| 涂鸦改变街景 | [查看](docs/community-videos.zh.md#x04-live-action-doodle) |
-| 复古摄像机日常 | [查看](docs/community-videos.zh.md#x05-minidv-everyday) |
-| 双人便利店日记 | [查看](docs/community-videos.zh.md#x06-two-person-vlog) |
-| 舞台表演反转 | [查看](docs/community-videos.zh.md#x07-talent-show-reversal) |
-| 压花手工教程 | [查看](docs/community-videos.zh.md#x08-pressed-flower-tutorial) |
-| 能量动作场景 | [查看](docs/community-videos.zh.md#x09-energy-action-geography) |
-| 一日旅行日记 | [查看](docs/community-videos.zh.md#x10-day-trip-story-arc) |
-| 道具交接微故事 | [查看](docs/community-videos.zh.md#x11-visible-object-handover) |
-| 热带街区环境声 | [查看](docs/community-videos.zh.md#x12-tropical-location-sound) |
-| 五人舞蹈与队形变化 | [查看](docs/community-videos.zh.md#x13-dance-formation) |
-| 狐狸与雪鸮的雪地冒险 | [查看](docs/community-videos.zh.md#x14-fox-sled) |
-| 从备料到装盘的天妇罗 | [查看](docs/community-videos.zh.md#x15-tempura-process) |
-| 双人夜间公路旅行 | [查看](docs/community-videos.zh.md#x16-night-road-trip) |
-| 开往太空的列车 | [查看](docs/community-videos.zh.md#x17-lunar-train) |
-| 小狗闯入镜子自拍 | [查看](docs/community-videos.zh.md#x18-dog-mirror) |
-| 用动作衔接场景的音乐品牌短片 | [查看](docs/community-videos.zh.md#x19-music-brand-film) |
-<!-- END ZH CASES -->
+| 人物或产品漂移 | 缩短动作链，重复不变量，减少同时运动的元素 |
+| 镜头不动 | 写清起点、路径、速度、终点和持续时间 |
+| 镜头乱晃 | 去掉互相冲突的运镜词，加入“稳定、单一路径” |
+| 多人站位混乱 | 给人物命名或编号，写左右关系和互动顺序 |
+| 声音抢对白 | 降低音乐存在感，明确对白优先级和音量层级 |
+| 结尾突兀 | 为最后 4–6 秒指定减速、停机位和最终构图 |
 
-**请区分两种提示词：** 作者原提示词在 X 原帖；仓库里的可复制版本是改写练习，不能当成原视频的生成参数；实测状态见各案例。X 可能要求登录，模型名称来自发布者自述。
+## 多语言提示词
 
-[完整来源记录](docs/x-showcase-sources.md)
+Seedance 2.5 可使用自然语言描述。仓库提供简体中文主库，以及 14 份包含完整 prompts 的独立语言文件：
+
+| 语言 | Prompts 文件 | 语言 | Prompts 文件 |
+|---|---|---|---|
+| 简体中文 | [120 场景总索引](prompts/README.md) | 繁體中文 | [繁中 prompts](prompts/i18n/prompt-library.zh-TW.md) |
+| English | [English prompts](prompts/i18n/prompt-library.en.md) | 日本語 | [日本語 prompts](prompts/i18n/prompt-library.ja.md) |
+| 한국어 | [한국어 prompts](prompts/i18n/prompt-library.ko.md) | Español | [Prompts en español](prompts/i18n/prompt-library.es.md) |
+| Français | [Prompts français](prompts/i18n/prompt-library.fr.md) | Deutsch | [Deutsche Prompts](prompts/i18n/prompt-library.de.md) |
+| Português | [Prompts em português](prompts/i18n/prompt-library.pt-BR.md) | العربية | [المطالبات العربية](prompts/i18n/prompt-library.ar.md) |
+| Русский | [Русские промпты](prompts/i18n/prompt-library.ru.md) | Bahasa Indonesia | [Prompt Bahasa Indonesia](prompts/i18n/prompt-library.id.md) |
+| Italiano | [Prompt italiani](prompts/i18n/prompt-library.it.md) | ไทย | [พรอมต์ภาษาไทย](prompts/i18n/prompt-library.th.md) |
+| Tiếng Việt | [Prompt tiếng Việt](prompts/i18n/prompt-library.vi.md) |  |  |
+
+完整语言矩阵、本地化规则与人工检查清单见 [多语言 Prompts 目录](prompts/i18n/README.md)。另保留[八语言单场景逐句对照](prompts/multilingual-pack.md)，用于比较不同语言的导演结构。
+
+跨语言使用时，建议保留时间码、素材编号和固定字段名，减少翻译造成的职责混淆。对白使用目标语言书写，并明确“逐字说出、不要字幕、不要额外台词”。
+
+## 常见问题
+
+### Seedance 2.5 提示词越长越好吗？
+
+不是。长提示词只有在信息存在清晰层级时才有价值。一个动作、一个运镜和一个声音同步点通常比堆叠大量风格形容词更可靠。
+
+### 30 秒应该切多少个镜头？
+
+产品广告常用 3–5 个镜头，剧情短片可用 4–6 个镜头；如果目标是展示连续物理动作或角色一致性，优先使用一个有明确路径的长镜头。
+
+### 可以直接写知名导演、电影或角色名称吗？
+
+不建议。更稳妥的写法是描述可观察的摄影属性，例如“低饱和自然光、静态对称构图、缓慢横移、克制表演”，并使用原创角色和有授权的素材。
+
+### 为什么页面参数与官方能力描述不同？
+
+模型能力、API 参数和第三方平台开放状态可能不同步。官方页面描述 Seedance 2.5 可生成最长 30 秒并可延长两次；具体在线入口可能分阶段开放或提供不同档位，请以页面实时参数为准。
+
+### 在线使用地址在哪里？
+
+Flyne AI 入口：[Seedance 2.5 Text-to-Video](https://flyne.ai/model/seedance-2-5/) 或 [Seedance 2.5 Image-to-Video](https://flyne.ai/model/seedance-2-5/)。
+<!-- END HOME GUIDE -->
 
 ## 收录范围
 

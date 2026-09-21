@@ -58,6 +58,10 @@ For the full method, see [Seedance 2.5 Prompting Guide: From Brief to Usable Vid
 
 ### Cinematic storm rescue training
 
+![Storm rescue starting-image reference](../assets/cinematic-rescue-reference.png)
+
+**Prepare:** one starting image showing the two volunteers and their boat. The supplied image is an upstream illustration, not a video result. **Target:** 30 seconds, landscape; split the sequence if your provider offers shorter clips.
+
 ```text
 Use the input image as the first frame and only visual anchor. Preserve the identities and orange rain gear of the two adult volunteers, the rescue boat geometry, the number of people, the lighthouse position, and the cold storm lighting.
 
@@ -71,6 +75,10 @@ Audio: stereo rain, waves, engine, two short safety calls, and a very soft low s
 
 ### Premium unbranded sparkling-tea ad
 
+![Sparkling-tea product reference](../assets/product-sparkling-tea-reference.png)
+
+**Prepare:** one product image. **Target:** 24 seconds. Preserve the bottle and blank label. For a simpler eight-second version using this exact image, see the [reference-image practice](reference-practice.md#bottle).
+
 ```text
 Use the bottle in the input image as the only product anchor. Preserve its silhouette, cap, blank-label proportions, amber liquid level, and lighting. Generate no text.
 
@@ -83,6 +91,10 @@ Audio: cap click, fine carbonation, light ice sound, minimal fresh rhythm. No fa
 ```
 
 ### Paper fox leaves a sketchbook
+
+![Paper fox visual reference](../assets/paper-fox-story-reference.png)
+
+**Prepare:** one character-and-scene image. **Target:** 30 seconds. The supplied illustration already shows a dimensional paper fox: if you use it as the starting frame, skip the flat-drawing-to-folded-paper transformation and begin with a small head or paw movement. A simpler compatible version is in the [reference-image practice](reference-practice.md#fox).
 
 ```text
 Use the input image as the art and character anchor. Preserve the red paper fox's triangular ears, pointed nose, folds, pencil texture, and proportions; preserve the café table, sketchbook, lamp, rainy window, and cup layout.

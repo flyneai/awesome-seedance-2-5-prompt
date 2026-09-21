@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-21 — restore the complete reading experience
+
+- Restore all 19 video examples directly on both homepages, with previews, source links, input notes and copyable practice prompts.
+- Bring the full writing method, illustrated examples, library overview, image-to-video guidance and FAQ back onto the homepages.
+- Add in-page navigation and retain existing case anchors, standalone pages, downloads and platform-capability guidance.
+- Generate homepage case and guide content from the same maintained sources as the standalone pages; clarify the paper-fox reference’s existing dimensional state.
+
 ## 2026-09-21 — complete download context and input preparation
 
 - Link recipe IDs in the input-based Chinese selection table without changing ratio columns.

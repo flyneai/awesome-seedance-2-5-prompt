@@ -15,6 +15,21 @@ from library_catalog import ROOT, recipes, validate_languages, download_outputs
 
 
 class ContentRegressionTests(unittest.TestCase):
+    def test_homepages_include_full_cases_and_guides(self):
+        pages = build_showcase.outputs()
+        entries = json.loads((ROOT/'docs/x-showcase-sources.json').read_text())['entries']
+        for name, field in [('README.md', 'adaptation'), ('README_ZH.md', 'adaptation_zh')]:
+            text = pages[name]
+            for entry in entries:
+                self.assertIn(entry[field], text)
+                self.assertEqual(text.count(f'<a id="{entry["id"]}"></a>'), 1)
+                self.assertIn(entry['video_url'], text)
+            for asset in ['cinematic-rescue-reference.png','product-sparkling-tea-reference.png','paper-fox-story-reference.png']:
+                self.assertIn('](assets/'+asset+')', text)
+        self.assertIn('## Seedance 2.5 prompt FAQ', pages['README.md'])
+        self.assertIn('## 常见问题', pages['README_ZH.md'])
+        self.assertIn('[英文说明](docs/community-videos.md#x01-galley-food-comedy)', pages['README_ZH.md'])
+
     def test_companion_notes_preserve_settings_and_rebase_links(self):
         files = download_outputs()
         self.assertIn('**Duration:** 20 seconds', files['prompts/downloads/061.en.md'])

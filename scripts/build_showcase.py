@@ -4,6 +4,8 @@ import argparse
 import json
 from pathlib import Path
 import re
+import posixpath
+from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = {
@@ -46,6 +48,30 @@ def practice_status(entry, chinese=False):
         report = '../' + entry['render_test_report']
         return (f'已记录实测 · [查看报告]({report})' if chinese else f'Render test recorded · [Read report]({report})')
     return '未实测' if chinese else 'Not render-tested'
+
+def home_links(text, own_gallery=None):
+    """Move Markdown from docs to root without changing remote media or local anchors."""
+    def convert(match):
+        url=match[1]
+        parts=urlsplit(url)
+        if parts.scheme or url.startswith('//') or not parts.path:
+            return match[0]
+        if parts.path == own_gallery and parts.fragment:
+            return '](#'+parts.fragment+')'
+        path=posixpath.normpath(posixpath.join('docs',parts.path))
+        return ']('+urlunsplit(('', '', path, parts.query, parts.fragment))+')'
+    return re.sub(r'\]\(([^\s)]+)\)', convert, text)
+
+def home_guide(chinese):
+    path=ROOT/('docs/library-guide.zh.md' if chinese else 'docs/library-guide.md')
+    text=path.read_text()
+    start='## Seedance 2.5 适合做什么' if chinese else '## Find the right prompt in under a minute'
+    text=text[text.index(start):]
+    if chinese:
+        # The homepage already carries its own contribution, developer and license sections.
+        text=text[:text.index('## 资料来源')]
+    notice = ('> 高级参考、编辑和延长配方需要平台提供对应功能。先看[平台功能对照](flyne-ai-guide.md#配方与平台功能怎么对应)。以下配图为输入参考，完整配方来自上游；它们不是已实测的视频结果。' if chinese else '> Advanced reference, editing and extension recipes need matching provider controls; check the [platform guide](flyne-ai-guide.md#match-the-recipe-to-the-available-mode). The full recipes below come from the upstream collection. Images are input references, not verified video results.')
+    return home_links(notice+'\n\n'+text).rstrip()
 
 def outputs():
     entries = json.loads((ROOT/'docs/x-showcase-sources.json').read_text())['entries']
@@ -122,23 +148,21 @@ This variant did not produce the linked video. Adapt the duration to your provid
 </details>
 '''
     tested=sum(e['render_test_status']=='tested' for e in entries)
-    featured=f'Render-tested practice adaptations: **{tested}/{len(entries)}**.\n\nBrowse [all {len(entries)} cases](docs/community-videos.md). These three are starting points for different creative tasks.\n\n| Example | Preview | Study |\n|---|---|---|\n'
-    for e in entries:
-        if e['featured']:
-            featured+=f"| [{e['title']}](docs/community-videos.md#{e['id']}) | [![{e['title']}]({e['thumbnail_url']})]({e['video_url']}) | {e['category']} |\n"
-    # Keep old inbound README anchors functional after moving full cases.
-    featured+='\n<details>\n<summary>Case index — including links from earlier versions</summary>\n\n'
-    for e in entries:featured+=f'<a id="{e["id"]}"></a>\n\n[{e["id"].split("-")[0].upper()} · {e["title"]}](docs/community-videos.md#{e["id"]})\n\n'
-    featured+='</details>'
+    # Reuse the full case pages on the homepages, preserving legacy case anchors.
+    featured = f'Render-tested practice adaptations: **{tested}/{len(entries)}**.\n\n'
+    featured += home_links(page.split('\n\n', 2)[2], 'community-videos.md')
+    featured = re.sub(r'^## (X\d+)', r'### \1', featured, flags=re.M)
     readme=(ROOT/'README.md').read_text()
     readme=replace_block(readme,'CASE BADGE',f'[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md) [![X video examples](https://img.shields.io/badge/X_video_examples-{len(entries)}-black.svg)](docs/community-videos.md) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)')
     readme=replace_block(readme,'FEATURED CASES',featured)
     readme=replace_block(readme,'STARTER PROMPTS',starter_prompts('en'))
-    zh_summary=f'已记录实测的改写练习：**{tested}/{len(entries)}**。\n\n共 **{len(entries)} 个 X 视频案例**，其中 **{len(translated)} 个案例**已提供中文说明和中文练习提示词。\n\n[查看全部视频（英文说明）](docs/community-videos.md) · [阅读中文案例提示词](docs/community-videos.zh.md)\n\n| 案例 | 中文说明与练习提示词 |\n|---|---|\n'
-    for e in translated:
-        zh_summary+=f"| {e['title_zh']} | [查看](docs/community-videos.zh.md#{e['id']}) |\n"
+    zh_summary = f'共 **{len(entries)} 个 X 视频案例**，全部提供中文说明与练习提示词。已记录实测的改写练习：**{tested}/{len(entries)}**。\n\n'
+    zh_summary += home_links(chinese.split('\n\n', 2)[2], 'community-videos.zh.md')
+    zh_summary = re.sub(r'^## (X\d+)', r'### \1', zh_summary, flags=re.M)
     zh_readme=replace_block((ROOT/'README_ZH.md').read_text(),'ZH CASES',zh_summary.rstrip())
     zh_readme=replace_block(zh_readme,'STARTER PROMPTS',starter_prompts('zh'))
+    readme=replace_block(readme,'HOME GUIDE',home_guide(False))
+    zh_readme=replace_block(zh_readme,'HOME GUIDE',home_guide(True))
     files = {'docs/community-videos.md':page,'docs/community-videos.zh.md':chinese,'README.md':readme,'README_ZH.md':zh_readme}
     downloads = '# Community practice prompts / 社区案例练习提示词\n\n[Video gallery / 视频案例](../../docs/community-videos.md) · [120 recipes / 主提示词库](../README.md)\n\nThese files contain only our editorial practice text, not the source video prompts. Check each gallery entry for its render-test status. Open a file, then use **Raw** or **Download raw file** to copy or save it. Attribution and source links stay in the gallery.\n\n这些文件只含本仓库改写的练习提示词，不是生成原视频的提示词，实测状态见各案例。打开文件后，可用 **Raw** 或 **Download raw file** 复制或保存。作者和原帖链接见视频案例页。\n\n| Case / 案例 | English | 中文 |\n|---|---|---|\n'
     for e in entries:
