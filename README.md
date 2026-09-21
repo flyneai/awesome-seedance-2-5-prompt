@@ -12,6 +12,8 @@
 
 120 complete recipes for product films, creator videos and short stories, adapted from the [FLAQ open-source collection](docs/PROVENANCE.md). The banner is promotional artwork, not a Seedance output.
 
+Try [Seedance 2.5 on Flyne AI](https://flyne.ai/model/seedance-2-5/), with support for creating videos featuring real people. Use the prompts in this collection to bring your characters and stories to life, then explore [Flyne AI Create](https://flyne.ai/create/) to unlock more creative tools and possibilities.
+
 [**Create on Flyne AI →**](https://flyne.ai/model/seedance-2-5/) · [Browse recipes](prompts/README.md) · [Watch community videos](docs/community-videos.md) · [Submit a prompt](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)
 
 [Start here](#make-your-first-clip) · [Copy a short prompt](#copy-a-starter-prompt) · [Videos](#seedance-25-videos-from-x--watch-inspect-remix) · [Prompt structure](#what-makes-a-strong-seedance-25-prompt) · [Full examples](#three-copy-ready-seedance-25-prompts) · [Library](#full-prompt-library) · [Troubleshooting](docs/prompting-guide.md#troubleshooting-by-symptom) · [FAQ](#seedance-25-prompt-faq)

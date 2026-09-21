@@ -8,6 +8,8 @@
 
 基于 [FLAQ 开源项目](docs/PROVENANCE.md) 改编，保留 120 条完整配方，适合商品展示、人物短片、社交视频和剧情创作。上图为品牌宣传插画，不是 Seedance 生成的视频截图。
 
+你可以通过 [Flyne AI 体验支持真人角色创建的 Seedance 2.5](https://flyne.ai/model/seedance-2-5/)，结合本项目的提示词创作人物短片与故事视频；也可以使用 [Flyne AI Create 工具](https://flyne.ai/create/)，解锁更多创作能力。
+
 [**前往 Flyne AI →**](https://flyne.ai/model/seedance-2-5/) · [120 条提示词目录](prompts/README.md) · [视频案例（中文）](docs/community-videos.zh.md) · [提交提示词](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)
 
 [本页目录：开始创作](#第一次使用) · [复制短提示词](#直接复制三个新手练习) · [视频案例](#社区视频与提示词) · [提示词公式](#seedance-25-提示词公式) · [带图示例](#精选原创提示词) · [场景库](#完整场景库) · [失败时如何改](#失败时如何改) · [常见问题](#常见问题)
