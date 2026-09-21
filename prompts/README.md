@@ -6,7 +6,7 @@
 
 ## 内容文件
 
-想先看实际视频？打开 [X 社区视频案例](../README.md#seedance-25-videos-from-x--watch-inspect-remix)：12 条带视频、X 原始链接和原 Prompt 入口的帖子，另附英文改写版。这些案例不计入以下 120 个原创场景。
+想先看实际视频？打开 [X 社区视频案例](../docs/community-videos.md)，查看视频、作者原帖和原提示词入口，或[下载练习提示词](community/README.md)。这些案例不计入以下 120 个原创场景。
 
 | 文件 | 场景 | 重点 |
 |---|---:|---|

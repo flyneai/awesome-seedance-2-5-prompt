@@ -12,7 +12,7 @@ python3 scripts/check_content.py
 python3 scripts/build_showcase.py --check
 ```
 
-The JSON records generate the complete gallery, Chinese adaptations, homepage selections, case counts and Chinese case table. Do not edit generated sections by hand. Keep original source IDs and dates. Every case uses the same fields; leave a translation empty until it is actually written. `featured` selects homepage cards. `render_test_status` stays `not_tested` until a documented reproduction exists.
+The JSON records generate the complete gallery, Chinese adaptations, category navigation, plain-text downloads, homepage selections, case counts and Chinese case table. Set `browse_group` to `products`, `people`, `tutorials` or `stories`; the generation script holds their English and Chinese display names. Files under `prompts/community/` are generated, not independently maintained. Do not edit generated sections by hand. Keep original source IDs and dates. Every case uses the same fields; leave a translation empty until it is actually written. `featured` selects homepage cards. `render_test_status` stays `not_tested` until a documented reproduction exists.
 
 The `readme_anchor` field retains the original ID for old links; `case_path` identifies the current full case. README compatibility links remain available in the collapsed case index.
 

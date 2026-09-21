@@ -1,7 +1,7 @@
 {
   "checked_on": "2026-09-21",
-  "retrieval": "X search required login. Candidate status links discovered through cheerselfai.com/en/demo/seedance-2-5; new post bodies and media metadata retrieved through api.fxtwitter.com. Upstream source-body checks for X01-X12 remain dated 2026-09-20.",
-  "verification": "All 18 MP4 and 18 thumbnail URLs returned HTTP 200 with matching media types using curl HEAD on 2026-09-21. Python urllib HEAD initially returned 403; per-entry records note this. New X13-X18 source bodies explicitly name Seedance 2.5 and contain full prompts. No model execution or end-to-end playback test.",
+  "retrieval": "X search required login. Candidate status links discovered through cheerselfai.com/en/demo/seedance-2-5; new post bodies and media metadata retrieved through api.fxtwitter.com. Upstream source-body checks for X01-X12 remain dated 2026-09-20. X19 was discovered through seedance2prompts.com and checked against the original post text through FxTwitter; native X search was also read through the authorized Flyne AI browser.",
+  "verification": "X01–X19 source records preserve their own source and media check dates. All new entries require an explicit author claim of Seedance 2.5, a recoverable full prompt and video. Media checks establish HTTP availability and content type, not model authentication or reproduction.",
   "entries": [
     {
       "id": "x01-galley-food-comedy",
@@ -55,7 +55,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x01-galley-food-comedy",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "stories"
     },
     {
       "id": "x02-one-garment-fashion",
@@ -107,9 +108,10 @@
       "lesson_zh": "",
       "inputs_zh": "",
       "format_note_zh": "",
-      "featured": true,
+      "featured": false,
       "case_path": "docs/community-videos.md#x02-one-garment-fashion",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "products"
     },
     {
       "id": "x03-rainy-pet-selfie",
@@ -163,7 +165,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x03-rainy-pet-selfie",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x04-live-action-doodle",
@@ -217,7 +220,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x04-live-action-doodle",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "stories"
     },
     {
       "id": "x05-minidv-everyday",
@@ -271,7 +275,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x05-minidv-everyday",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x06-two-person-vlog",
@@ -325,7 +330,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x06-two-person-vlog",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x07-talent-show-reversal",
@@ -379,7 +385,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x07-talent-show-reversal",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x08-pressed-flower-tutorial",
@@ -433,7 +440,8 @@
       "format_note_zh": "",
       "featured": true,
       "case_path": "docs/community-videos.md#x08-pressed-flower-tutorial",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "tutorials"
     },
     {
       "id": "x09-energy-action-geography",
@@ -487,7 +495,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x09-energy-action-geography",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "stories"
     },
     {
       "id": "x10-day-trip-story-arc",
@@ -541,7 +550,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x10-day-trip-story-arc",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x11-visible-object-handover",
@@ -595,7 +605,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x11-visible-object-handover",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "stories"
     },
     {
       "id": "x12-tropical-location-sound",
@@ -649,7 +660,8 @@
       "format_note_zh": "",
       "featured": false,
       "case_path": "docs/community-videos.md#x12-tropical-location-sound",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x13-dance-formation",
@@ -696,7 +708,8 @@
       "format_note_zh": "原视频约 30 秒，上传尺寸 1920×1080；以下练习版为 15 秒。",
       "featured": true,
       "case_path": "docs/community-videos.md#x13-dance-formation",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x14-fox-sled",
@@ -743,7 +756,8 @@
       "format_note_zh": "原帖要求 15 秒、9:16 和 8K；上传视频为 1280×720，不能据此认定是 8K 输出。",
       "featured": false,
       "case_path": "docs/community-videos.md#x14-fox-sled",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "stories"
     },
     {
       "id": "x15-tempura-process",
@@ -790,7 +804,8 @@
       "format_note_zh": "原视频约 30 秒，上传尺寸 1920×1080；以下练习版为 20 秒。",
       "featured": false,
       "case_path": "docs/community-videos.md#x15-tempura-process",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "tutorials"
     },
     {
       "id": "x16-night-road-trip",
@@ -837,7 +852,8 @@
       "format_note_zh": "原视频约 15 秒，上传尺寸 1280×720。",
       "featured": false,
       "case_path": "docs/community-videos.md#x16-night-road-trip",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
     },
     {
       "id": "x17-lunar-train",
@@ -884,7 +900,8 @@
       "format_note_zh": "原视频约 30 秒，上传尺寸 1920×1080；以下练习版为 20 秒。",
       "featured": false,
       "case_path": "docs/community-videos.md#x17-lunar-train",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "stories"
     },
     {
       "id": "x18-dog-mirror",
@@ -931,7 +948,55 @@
       "format_note_zh": "原帖要求 30 秒竖屏，上传视频为 1280×720 横屏；以下练习版为 15 秒。",
       "featured": false,
       "case_path": "docs/community-videos.md#x18-dog-mirror",
-      "render_test_report": null
+      "render_test_report": null,
+      "browse_group": "people"
+    },
+    {
+      "id": "x19-music-brand-film",
+      "post_id": "2089173407971811749",
+      "posted_by": "AliceAICreator",
+      "post_date": "2026-08-17",
+      "original_post": "https://x.com/AliceAICreator/status/2089173407971811749",
+      "full_prompt_url": "https://x.com/AliceAICreator/status/2089173407971811749",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2089173373549264896/vid/avc1/640x1138/i68aLXqjy-MOpx5q.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2089173373549264896/img/k_KcBYzXRKN_jThs.jpg",
+      "published_media": {
+        "width": 640,
+        "height": 1138,
+        "duration_seconds": 15.069
+      },
+      "format_note": "Source requests 9:16, 24 fps and 15 seconds; uploaded media is 640×1138. Upload metadata does not establish generation settings.",
+      "readme_anchor": "x19-music-brand-film",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/AliceAICreator/status/2089173407971811749",
+      "source_checked_on": "2026-09-21",
+      "title": "Music brand film with a match cut",
+      "title_zh": "用动作衔接场景的音乐品牌短片",
+      "category": "Product / Music / Match cut",
+      "inputs": "Two references: one authorized performer image and one headphone/product image.",
+      "lesson": "Keep the performer centered across location changes and match the body movement at each cut. The source requests a brand logo while also banning text; this practice version leaves the end card for editing.",
+      "adaptation": "Create a 15-second vertical headphone film using the supplied performer and product references. Keep the face, clothing, ear-cup shape and headband unchanged. Use one performer and one pair of headphones.\n\n0–4s: in a sunlit home studio, a medium close-up shows the performer putting on the headphones and beginning a gentle shoulder sway.\n4–10s: cut on that sway to a covered station platform, then a quiet rooftop. Keep the performer the same size and position in frame; continue the movement across each cut. Background people remain secondary.\n10–13s: return to the studio on the matching movement, then settle into stillness.\n13–15s: show the headphones on a plain teal tabletop, leaving room for a logo to be added in editing.\n\nUse a soft original instrumental beat and natural clothing sounds. No generated lettering, interface screens or additional products.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "source_excerpt": "",
+      "render_test_status": "not_tested",
+      "adaptation_zh": "使用提供的人物和产品参考图，制作一段 15 秒的竖屏耳机短片。保持面容、服装、耳罩形状和头梁一致。全片只有一位主角和一副耳机。\n\n0–4 秒：在阳光照入的家庭工作室中，用中近景表现主角戴上耳机，肩膀开始轻轻摆动。\n4–10 秒：在摆动动作中切到有顶棚的站台，再切到安静的屋顶。保持人物在画面中的大小和位置一致，每次切换都延续同一个动作。背景人物不抢占视觉中心。\n10–13 秒：用衔接一致的动作回到工作室，然后缓缓静止。\n13–15 秒：耳机摆在纯色青绿色桌面上，为后期添加标志留出空间。\n\n使用柔和的原创器乐节拍和自然衣料声。不生成文字、界面或额外产品。",
+      "lesson_zh": "切换地点时保持人物位置和动作衔接。原提示词同时要求品牌标志和禁止文字，存在冲突；练习版将片尾标志留到剪辑时添加。",
+      "inputs_zh": "两张参考图：一张有使用授权的人物图，一张耳机或产品图。",
+      "format_note_zh": "原提示词要求竖屏 9:16、每秒 24 帧、15 秒；上传视频为 640×1138、15.069 秒。上传文件信息不等于生成设置。",
+      "featured": true,
+      "case_path": "docs/community-videos.md#x19-music-brand-film",
+      "render_test_report": null,
+      "browse_group": "products"
     }
   ],
   "schema_version": 2

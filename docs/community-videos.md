@@ -2,7 +2,16 @@
 
 [Home](../README.md) · [来源说明 / Source notes](x-showcase-sources.md) · [新增案例中文说明](community-videos.zh.md)
 
-18 source-linked examples. **Author prompts are on X; the copyable blocks below are untested editorial adaptations, not the prompts that produced these videos.** Model attribution is the posting account's claim. Uploaded dimensions are not generation settings.
+19 source-linked examples. **Author prompts are on X; the copyable blocks below are untested editorial adaptations, not the prompts that produced these videos.** Model attribution is the posting account's claim. Uploaded dimensions are not generation settings.
+
+| Browse by use | Cases |
+|---|---|
+| Products and brands | [X02 · One garment, multiple fashion hooks](#x02-one-garment-fashion) · [X19 · Music brand film with a match cut](#x19-music-brand-film) |
+| People and everyday life | [X03 · A rainy selfie interrupted by a kitten](#x03-rainy-pet-selfie) · [X05 · Everyday moments with a MiniDV look](#x05-minidv-everyday) · [X06 · Two-person convenience-store Vlog](#x06-two-person-vlog) · [X07 · A talent-show reveal built around the beat drop](#x07-talent-show-reversal) · [X10 · A day-trip Vlog with a coherent beginning and ending](#x10-day-trip-story-arc) · [X12 · A tropical neighborhood told through small sounds](#x12-tropical-location-sound) · [X13 · Five-person dance formation](#x13-dance-formation) · [X16 · Two friends on a night road trip](#x16-night-road-trip) · [X18 · A dog interrupts a mirror selfie](#x18-dog-mirror) |
+| Tutorials and processes | [X08 · A flower-pressing tutorial with tactile ASMR](#x08-pressed-flower-tutorial) · [X15 · Tempura from preparation to plate](#x15-tempura-process) |
+| Stories and visual effects | [X01 · Food ASMR with a comic payoff](#x01-galley-food-comedy) · [X04 · A marker turns the street into animation](#x04-live-action-doodle) · [X09 · An energy-powered action scene with readable geography](#x09-energy-action-geography) · [X11 · A kindness micro-story that tests object continuity](#x11-visible-object-handover) · [X14 · Fox and owl snow adventure](#x14-fox-sled) · [X17 · A train journey into space](#x17-lunar-train) |
+
+[Download individual practice prompts](../prompts/community/README.md). These are separate from the 120 numbered recipes.
 
 | Case | Category | Author prompt |
 |---|---|---|
@@ -24,6 +33,7 @@
 | [X16 · Two friends on a night road trip](#x16-night-road-trip) | Travel / Character continuity | [@noorwithwifi](https://x.com/noorwithwifi/status/2099114117017780321) |
 | [X17 · A train journey into space](#x17-lunar-train) | Fantasy / Reference continuity | [@Strength04_X](https://x.com/Strength04_X/status/2098290630179057858) |
 | [X18 · A dog interrupts a mirror selfie](#x18-dog-mirror) | Pets / Reflections | [@Strength04_X](https://x.com/Strength04_X/status/2097616213371478242) |
+| [X19 · Music brand film with a match cut](#x19-music-brand-film) | Product / Music / Match cut | [@AliceAICreator](https://x.com/AliceAICreator/status/2089173407971811749) |
 
 <a id="x01-galley-food-comedy"></a>
 
@@ -47,6 +57,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x01-galley-food-comedy.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Create a 30-second animated cooking sketch inside a gently rocking wooden galley. Keep one apron-wearing cook and one curious green bird recognizable in every shot. Warm lanterns illuminate tactile food surfaces.
@@ -84,6 +96,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x02-one-garment-fashion.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Produce a 30-second landscape fashion edit featuring one adult model and the same oversized pale-yellow shirt. Use a bright apartment with consistent window light. Preserve the shirt's buttons, seams and color.
 
@@ -118,6 +132,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x03-rainy-pet-selfie.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Make a 30-second phone selfie beside a rain-covered window. One adult holds one tabby kitten securely. Use the supplied portrait only to preserve the person's appearance. Keep window light soft and neutral.
@@ -155,6 +171,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x04-live-action-doodle.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a 15-second handheld walk along a quiet city pavement. A visible hand holds a marker. Each pointing gesture triggers a brief blue outline, followed by a flat illustrated version of the targeted object. Keep its location, apparent size and perspective unchanged.
 
@@ -189,6 +207,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x05-minidv-everyday.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Create a fictional 30-second home-movie scene on a quiet residential lane. Follow one adult wearing the same casual clothes throughout. Use a consumer-camcorder look: mild sensor noise, soft contrast, delayed reframing and occasional focus correction.
@@ -226,6 +246,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x06-two-person-vlog.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a 30-second evening convenience-store Vlog with two adult friends. Image 1 defines the shopper; Image 2 defines the friend filming. Keep clothing and one drink bottle consistent.
 
@@ -262,6 +284,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x07-talent-show-reversal.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a fictional 24-second community talent-show clip. The performer is an older man in a burgundy waistcoat and white trainers; keep his age, face and costume unchanged. Use an original stage design without broadcast branding.
 
@@ -297,6 +321,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x08-pressed-flower-tutorial.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Make a 20-second craft tutorial at a pale wooden desk beside a window. An adult maker wears a sage apron; maintain the same tools, hands and lighting across shots.
@@ -335,6 +361,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x09-energy-action-geography.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create an 18-second fictional stunt-training scene inside an empty industrial studio. One adult performer in a charcoal tracksuit faces a padded rolling target. Establish the target on screen right and a clear landing mat behind it.
 
@@ -369,6 +397,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x10-day-trip-story-arc.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Using an authorized adult character reference, create a 24-second casual day-trip diary. Keep the same face, olive jacket and canvas shoulder bag in every location. A friend operates the handheld camera; use ordinary edits between places, not an impossible continuous take.
@@ -406,6 +436,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x11-visible-object-handover.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a 15-second neighborhood micro-story with two fictional adults. A cyclist wearing a blue raincoat has dropped one yellow glove beside a bench. A passerby carrying a red tote notices it.
 
@@ -442,6 +474,8 @@ Source text checked: 2026-09-20. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x12-tropical-location-sound.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a 12-second fictional home-video moment on a shaded Indonesian residential terrace. An adult in a loose teal shirt sets a glass of iced tea on a low bamboo table. Keep appearance and clothing stable.
 
@@ -475,6 +509,8 @@ Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x13-dance-formation.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a 15-second rehearsal film with five adult dancers in distinct unbranded outfits. Keep each face and outfit stable. In a sunlit practice room, start with a wide view of the formation, follow one synchronized side-step phrase, then let the middle dancer take two steps forward while the others hold position. Return to the original formation on the final beat. Use a gentle lateral camera move and original percussion. Keep feet grounded, preserve spacing, and avoid extra performers. Judge body continuity before adding faster moves.
 ```
@@ -501,6 +537,8 @@ Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x14-fox-sled.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Create a 15-second fictional wildlife adventure in a quiet snowy clearing. A red fox noses snow away from a small wooden sled. An owl watches from a nearby branch. Show the sled clearly before it moves. As the fox places its front paws on it, the sled glides gently down a shallow slope; the owl flies alongside. End with the sled stopping in soft snow and both animals visible in one wide shot. Use crisp winter light, believable fur and feathers, snow scraping and wing sounds. Preserve one fox, one owl and one sled; no injury, captions or sudden object changes.
@@ -529,6 +567,8 @@ Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x15-tempura-process.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Make a 20-second food-process film in one warm restaurant kitchen. Follow one mushroom batch: clean slices on a board, a light dip into batter, a careful transfer into hot oil, a lift onto a draining rack, and a final ceramic plate. Give each stage four seconds. Use close views with a consistent hand, bowl, pan and lighting direction. Show the coating becoming crisp before removal. Match slicing, dripping, sizzling and plate sounds to contact. Keep quantities and utensil shapes stable. This is a visual brief, not a cooking safety tutorial; add any instructional labels in editing.
 ```
@@ -555,6 +595,8 @@ Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 2
 <summary>Copy editorial practice prompt — not render-tested</summary>
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x16-night-road-trip.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
 
 ```text
 Create a 15-second night-travel vignette about two adult friends. Use one dark-blue car and keep their jackets and hairstyles constant. First show rain reflections through the windshield while the driver watches the road and the passenger hums. Cut to the parked car beside a coastal lookout. Both friends step out, lean on the railing and share a quiet laugh as distant waves become audible. Finish with a wide view of their silhouettes and the same car. Keep the journey calm, with stable dashboard framing and a gentle final pullback. No phone use while driving, duplicate characters or unexplained wardrobe changes.
@@ -583,6 +625,8 @@ Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x17-lunar-train.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Create a 20-second science-fantasy short using one authorized adult character reference. Preserve the face, coat and hairstyle. In an empty station, the traveler notices an amber-lit carriage. Show them cross its doorway before cutting inside. The view beyond the window changes from tunnel lights to a quiet field of stars. Hold a close reaction, then reveal the same carriage moving above a luminous fictional planet. End inside with the traveler touching the window frame. Use one train and clear spatial transitions, restrained mechanical sound and a rising original score. Avoid costume changes, floating body parts and lettering.
 ```
@@ -610,8 +654,46 @@ Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 2
 
 This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
 
+[Open plain-text practice prompt](../prompts/community/x18-dog-mirror.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
 ```text
 Make a 15-second continuous phone video of one adult and one small dog beside a full-length mirror. Use the supplied authorized portrait for the person. Keep the phone visibly in one hand and the mirror fixed. Start with the dog sitting at the person's feet; it stands and noses a loose sleeve, prompting a small laugh. The person lowers the phone slightly to include the dog and ends with both visible in the reflection. Use soft window light, paw sounds and room ambience. No cuts, extra animals, second camera viewpoint or independent reflection movements. Keep the interaction gentle and the phone out of the dog's reach.
+```
+
+</details>
+
+<a id="x19-music-brand-film"></a>
+
+## X19 · Music brand film with a match cut
+
+[![Music brand film with a match cut — @AliceAICreator](https://pbs.twimg.com/amplify_video_thumb/2089173373549264896/img/k_KcBYzXRKN_jThs.jpg)](https://video.twimg.com/amplify_video/2089173373549264896/vid/avc1/640x1138/i68aLXqjy-MOpx5q.mp4?tag=29)
+
+[▶ Watch video](https://video.twimg.com/amplify_video/2089173373549264896/vid/avc1/640x1138/i68aLXqjy-MOpx5q.mp4?tag=29) · [Author's full source prompt on X](https://x.com/AliceAICreator/status/2089173407971811749) · **@AliceAICreator**, 2026-08-17
+
+**What to study:** Keep the performer centered across location changes and match the body movement at each cut. The source requests a brand logo while also banning text; this practice version leaves the end card for editing.
+
+**Inputs:** Two references: one authorized performer image and one headphone/product image.
+
+**Source format:** Source requests 9:16, 24 fps and 15 seconds; uploaded media is 640×1138. Upload metadata does not establish generation settings. Uploaded duration: 15.069 seconds.
+
+Source text checked: 2026-09-21. Media headers checked: 2026-09-21; video HTTP 200, thumbnail HTTP 200. Header checks are not playback tests. [Verification method](x-showcase-sources.md).
+
+<details>
+<summary>Copy editorial practice prompt — not render-tested</summary>
+
+This variant did not produce the linked video. Adapt the duration to your provider or split it into shots.
+
+[Open plain-text practice prompt](../prompts/community/x19-music-brand-film.en.txt) — use GitHub's **Raw** or **Download raw file** control to save it.
+
+```text
+Create a 15-second vertical headphone film using the supplied performer and product references. Keep the face, clothing, ear-cup shape and headband unchanged. Use one performer and one pair of headphones.
+
+0–4s: in a sunlit home studio, a medium close-up shows the performer putting on the headphones and beginning a gentle shoulder sway.
+4–10s: cut on that sway to a covered station platform, then a quiet rooftop. Keep the performer the same size and position in frame; continue the movement across each cut. Background people remain secondary.
+10–13s: return to the studio on the matching movement, then settle into stillness.
+13–15s: show the headphones on a plain teal tabletop, leaving room for a logo to be added in editing.
+
+Use a soft original instrumental beat and natural clothing sounds. No generated lettering, interface screens or additional products.
 ```
 
 </details>

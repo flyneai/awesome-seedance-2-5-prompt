@@ -1,0 +1,7 @@
+Produce a 30-second landscape fashion edit featuring one adult model and the same oversized pale-yellow shirt. Use a bright apartment with consistent window light. Preserve the shirt's buttons, seams and color.
+
+0–4s: introduce the garment on a hanger with one short spoken hook.
+4–24s: reveal five combinations, four seconds each: open over a tank, tied at the waist, tucked into trousers, layered over a dress, and worn with a narrow belt. Motivate each cut with a sleeve movement or matching shoulder position.
+24–30s: hold the final outfit and leave room for an editor-added comparison strip.
+
+Keep fabric weight believable. Add outfit names and captions after generation.

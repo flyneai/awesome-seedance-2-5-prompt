@@ -59,6 +59,7 @@ def main():
                 errors.append(f'{path.relative_to(ROOT)}: missing anchor {target}')
     data = json.loads((ROOT/'docs/x-showcase-sources.json').read_text())
     entries = data['entries']
+    from build_showcase import GROUPS, outputs
     readme = (ROOT/'README.md').read_text()
     gallery = (ROOT/'docs/community-videos.md').read_text()
     if data.get('schema_version') != 2:
@@ -68,6 +69,8 @@ def main():
     if len({e['post_id'] for e in entries}) != len(entries):
         errors.append('Duplicate X status IDs')
     for e in entries:
+        if e.get('browse_group') not in GROUPS:
+            errors.append(f"{e.get('id')}: invalid browse_group")
         for key in ('id','title','title_zh','category','inputs','lesson','adaptation','source_checked_on','retrieval_url','case_path','render_test_status','posted_by','original_post','full_prompt_url','prompt_location','model_label','model_evidence','video_url','thumbnail_url','published_media','media_check'):
             if not e.get(key):
                 errors.append(f"{e.get('id')}: missing {key}")
@@ -91,9 +94,8 @@ def main():
                 errors.append(f"{e['id']}: {key} absent from gallery")
     if f'X_video_examples-{len(entries)}-' not in readme:
         errors.append('README badge count differs from source records')
-    from build_showcase import outputs
     for name, expected in outputs().items():
-        if (ROOT/name).read_text() != expected:
+        if not (ROOT/name).is_file() or (ROOT/name).read_text() != expected:
             errors.append(f'{name}: generated content is stale; run scripts/build_showcase.py')
     if args.check_media:
         jobs = [(e['id'],kind,e[kind+'_url']) for e in entries for kind in ('video','thumbnail')]

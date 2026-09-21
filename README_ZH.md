@@ -32,7 +32,7 @@
 ## 社区视频与提示词
 
 <!-- BEGIN ZH CASES -->
-共 **18 个 X 视频案例**，其中 **6 个新增案例**已提供中文说明和中文练习提示词。
+共 **19 个 X 视频案例**，其中 **7 个新增案例**已提供中文说明和中文练习提示词。
 
 [查看全部视频](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)
 
@@ -44,6 +44,7 @@
 | 双人夜间公路旅行 | [查看](docs/community-videos.zh.md#x16-night-road-trip) |
 | 开往太空的列车 | [查看](docs/community-videos.zh.md#x17-lunar-train) |
 | 小狗闯入镜子自拍 | [查看](docs/community-videos.zh.md#x18-dog-mirror) |
+| 用动作衔接场景的音乐品牌短片 | [查看](docs/community-videos.zh.md#x19-music-brand-film) |
 <!-- END ZH CASES -->
 
 **请区分两种提示词：** 作者原提示词在 X 原帖；仓库里的可复制版本是改写练习，未实测生成，不能当成原视频的生成参数。X 可能要求登录，模型名称来自发布者自述。

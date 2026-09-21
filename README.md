@@ -1,10 +1,8 @@
 # Awesome Seedance 2.5 Prompts by Flyne AI
 
-[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md)
 <!-- BEGIN CASE BADGE -->
-[![X video examples](https://img.shields.io/badge/X_video_examples-18-black.svg)](docs/community-videos.md)
+[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md) [![X video examples](https://img.shields.io/badge/X_video_examples-19-black.svg)](docs/community-videos.md) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 <!-- END CASE BADGE -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [한국어](README_KO.md) · [Português](README_PT.md) · [Italiano](README_IT.md)
 
@@ -39,13 +37,13 @@ Flyne AI is the browser creation route featured in this edition. The public prod
 ## Seedance 2.5 videos from X — watch, inspect, remix
 
 <!-- BEGIN FEATURED CASES -->
-Browse [all 18 cases](docs/community-videos.md). These three are starting points for different creative tasks.
+Browse [all 19 cases](docs/community-videos.md). These three are starting points for different creative tasks.
 
 | Example | Preview | Study |
 |---|---|---|
-| [One garment, multiple fashion hooks](docs/community-videos.md#x02-one-garment-fashion) | [![One garment, multiple fashion hooks](https://pbs.twimg.com/amplify_video_thumb/2095216899445649408/img/690ykZJzst5uQLwH.jpg)](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29) | Fashion / Ecommerce |
 | [A flower-pressing tutorial with tactile ASMR](docs/community-videos.md#x08-pressed-flower-tutorial) | [![A flower-pressing tutorial with tactile ASMR](https://pbs.twimg.com/amplify_video_thumb/2084268630556983296/img/OXmdFhcGjZVL1k5f.jpg)](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29) | Craft / Tutorial / ASMR |
 | [Five-person dance formation](docs/community-videos.md#x13-dance-formation) | [![Five-person dance formation](https://pbs.twimg.com/amplify_video_thumb/2100281698877640705/img/dSDZ4bXtFKhgTkZr.jpg)](https://video.twimg.com/amplify_video/2100281698877640705/vid/avc1/1920x1080/XAZOtVZt2BacpB31.mp4?tag=29) | Dance / Performance |
+| [Music brand film with a match cut](docs/community-videos.md#x19-music-brand-film) | [![Music brand film with a match cut](https://pbs.twimg.com/amplify_video_thumb/2089173373549264896/img/k_KcBYzXRKN_jThs.jpg)](https://video.twimg.com/amplify_video/2089173373549264896/vid/avc1/640x1138/i68aLXqjy-MOpx5q.mp4?tag=29) | Product / Music / Match cut |
 
 <details>
 <summary>Case index — including links from earlier versions</summary>
@@ -122,12 +120,16 @@ Browse [all 18 cases](docs/community-videos.md). These three are starting points
 
 [X18 · A dog interrupts a mirror selfie](docs/community-videos.md#x18-dog-mirror)
 
+<a id="x19-music-brand-film"></a>
+
+[X19 · Music brand film with a match cut](docs/community-videos.md#x19-music-brand-film)
+
 </details>
 <!-- END FEATURED CASES -->
 
 **Two different things to copy:** the **author's source prompt** is linked on X; the **editorial practice prompt** in each case is our adaptation. It has not been render-tested and did not produce the linked video. X may require login. Model attribution is the posting account's claim.
 
-[All cases and full source records](docs/x-showcase-sources.md) · [Six new cases explained in Chinese](docs/community-videos.zh.md)
+[All cases and full source records](docs/x-showcase-sources.md) · [Chinese case notes and practice prompts](docs/community-videos.zh.md)
 
 ## What the library includes
 

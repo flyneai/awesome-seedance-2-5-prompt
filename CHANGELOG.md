@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-21 — browsing and downloadable prompts
+
+- Add X19, a music brand film by @AliceAICreator, with source records and English/Chinese editorial practice prompts; total: 19 cases.
+- Add four use-based categories and downloadable plain-text practice prompts: 19 English and 7 Chinese files.
+- Keep practice downloads generated from the same records as the gallery and verify them in content checks.
+- Feature the new commercial case, consolidate homepage badges, and remove a stale 12-case count from the main prompt index.
+- Exclude research candidates whose original model version or complete prompt cannot support inclusion.
+
 ## 2026-09-21 — usability and maintenance update
 
 - Shorten the English and Chinese entry pages; preserve full guides and old case IDs.

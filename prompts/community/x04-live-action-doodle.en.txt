@@ -1,0 +1,7 @@
+Create a 15-second handheld walk along a quiet city pavement. A visible hand holds a marker. Each pointing gesture triggers a brief blue outline, followed by a flat illustrated version of the targeted object. Keep its location, apparent size and perspective unchanged.
+
+0–5s: point at a parked bicycle; ink follows its frame and replaces the surface with cel shading.
+5–10s: pan toward a stationary scooter; repeat the same transformation after the gesture.
+10–15s: a ribbon of drawn color crosses the pavement and stops at the curb; surrounding buildings stay photographic.
+
+Match contact shadows to the afternoon sun. Use street ambience and short pen sounds. Finish without generated lettering.
