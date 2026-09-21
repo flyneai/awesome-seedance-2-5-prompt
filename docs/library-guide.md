@@ -37,7 +37,7 @@ The image above was generated specifically for [Prompt 115: Night Garden Dynamic
 
 ## What makes a strong Seedance 2.5 prompt?
 
-The official Seedance 2.5 page highlights video generation up to 30 seconds in one pass, two extensions, more precise interpretation of reference videos, broader audio-visual editing, professional camera movement, performance blocking, white-model control, and green-screen editing. A useful prompt should therefore read like a compact directing brief, not a pile of style adjectives.
+The [official Seedance 2.5 page](https://seed.bytedance.com/en/seedance2_5) highlights video generation up to 30 seconds in one pass, two extensions, more precise interpretation of reference videos, broader audio-visual editing, professional camera movement, performance blocking, white-model control, and green-screen editing. A useful prompt should therefore read like a compact directing brief, not a pile of style adjectives.
 
 ```text
 [Mode] Text-to-video / Image-to-video / Reference-to-video / Edit
@@ -52,7 +52,7 @@ The official Seedance 2.5 page highlights video generation up to 30 seconds in o
 [Avoid] Morphing, duplicates, extra limbs, fake text, logos, watermarks
 ```
 
-For the full method, see [Seedance 2.5 Prompting Guide: From Brief to Usable Video](prompting-guide.md).
+For practical fixes, [troubleshoot by symptom](prompting-guide.md#troubleshooting-by-symptom): identity drift, warped products, camera motion, text and audio. The same guide explains the full prompt-writing method.
 
 ## Three copy-ready Seedance 2.5 prompts
 
@@ -94,13 +94,13 @@ Audio: cap click, fine carbonation, light ice sound, minimal fresh rhythm. No fa
 
 ![Paper fox visual reference](../assets/paper-fox-story-reference.png)
 
-**Prepare:** one character-and-scene image. **Target:** 30 seconds. The supplied illustration already shows a dimensional paper fox: if you use it as the starting frame, skip the flat-drawing-to-folded-paper transformation and begin with a small head or paw movement. A simpler compatible version is in the [reference-image practice](reference-practice.md#fox).
+**Prepare:** one character-and-scene image. **Target:** 30 seconds. This homepage variant adapts the upstream story to the supplied illustration: the fox starts and remains dimensional paper. A simpler compatible version is in the [reference-image practice](reference-practice.md#fox).
 
 ```text
 Use the input image as the art and character anchor. Preserve the red paper fox's triangular ears, pointed nose, folds, pencil texture, and proportions; preserve the café table, sketchbook, lamp, rainy window, and cup layout.
 
-00:00-00:07: Pencil lines tremble slightly. The fox blinks and raises one front paw as the camera makes a macro push-in.
-00:07-00:14: The fox steps over the page edge, transitioning naturally from flat graphite lines to dimensional folded paper with correct contact shadows.
+00:00-00:07: The dimensional paper fox turns its head slightly and raises one front paw as the camera makes a macro push-in. Its folds, volume and material stay unchanged.
+00:07-00:14: The fox steps over the page edge onto the wooden table. Keep the same dimensional folded-paper structure and show continuous foot contact and correct shadows.
 00:14-00:21: Track parallel as it walks around pencil shavings and studies the steam above the cup.
 00:21-00:27: Steam forms a brief path toward the rainy window. The fox trots after it while tiny tabletop droplets react to its steps.
 00:27-00:30: It stops at the window with a consistent reflection. Raise the camera and finish on an open-ended sense of departure.

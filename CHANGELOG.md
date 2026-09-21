@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-21 — homepage reader review
+
+- Move beginner steps, short exercises and use-based navigation ahead of the full 19-case showcase on both homepages.
+- Add direct official capability citations and English troubleshooting navigation.
+- Adapt the homepage paper-fox prompt to its supplied dimensional reference, retaining the original library recipe.
+- Preserve all full cases, illustrated tutorials and library content.
+
 ## 2026-09-21 — restore the complete reading experience
 
 - Restore all 19 video examples directly on both homepages, with previews, source links, input notes and copyable practice prompts.

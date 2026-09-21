@@ -14,7 +14,92 @@
 
 [**Create on Flyne AI →**](https://flyne.ai/model/seedance-2-5/) · [Browse recipes](prompts/README.md) · [Watch community videos](docs/community-videos.md) · [Submit a prompt](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)
 
-[Read on this page: Videos](#seedance-25-videos-from-x--watch-inspect-remix) · [Create your first clip](#make-your-first-clip) · [Prompt structure](#what-makes-a-strong-seedance-25-prompt) · [Full examples](#three-copy-ready-seedance-25-prompts) · [Library](#full-prompt-library) · [FAQ](#seedance-25-prompt-faq)
+[Start here](#make-your-first-clip) · [Copy a short prompt](#copy-a-starter-prompt) · [Videos](#seedance-25-videos-from-x--watch-inspect-remix) · [Prompt structure](#what-makes-a-strong-seedance-25-prompt) · [Full examples](#three-copy-ready-seedance-25-prompts) · [Library](#full-prompt-library) · [Troubleshooting](docs/prompting-guide.md#troubleshooting-by-symptom) · [FAQ](#seedance-25-prompt-faq)
+
+## Make your first clip
+
+1. **Choose one scene.** Start with a product reveal, a short portrait or one simple story beat.
+2. **Make the prompt yours.** Replace the subject and setting. Attach your product image or an authorized portrait if appearance needs to stay consistent.
+3. **Open Flyne AI.** Text-to-video and image-to-video use the [same Seedance 2.5 page](https://flyne.ai/model/seedance-2-5/); select the available mode and inputs there. Check duration, ratio, resolution, sound and cost before generating.
+4. **Review and refine.** Check identity, object count, motion and the ending. Change one instruction per test. Split longer recipes into shots if needed.
+
+[Detailed Flyne AI workflow](docs/flyne-ai-guide.md)
+
+[Practice with included reference images](docs/reference-practice.md) · [Download the 120 library prompts](prompts/downloads/README.md)
+
+<!-- BEGIN STARTER PROMPTS -->
+## Copy a starter prompt
+
+Three bilingual practice briefs, not render-tested and not counted among the 120 library recipes. Duration and ratio are creative targets; adapt them to the options available in your account.
+
+<a id="starter-product"></a>
+
+<details>
+<summary>Product reveal · One clear product photo</summary>
+
+**8 seconds · 9:16** · [中文版](README_ZH.md#starter-product)
+
+```text
+Use the supplied product photo as the only reference. Keep the product shape, color, cap, label layout and material unchanged. Show one product standing on a matte cream tabletop against a plain background.
+
+0–3s: start with a close view of the product surface and slowly pull back.
+3–6s: move the camera slightly to the right, revealing the side while the product stays still. Keep the light soft and its direction fixed.
+6–8s: stop on a clear front three-quarter view with empty space above for copy added in editing.
+
+Use quiet room ambience. Do not open, rotate or multiply the product. No hands, new lettering, liquid effects or changes to the packaging.
+```
+
+</details>
+
+<a id="starter-person"></a>
+
+<details>
+<summary>A quiet portrait · One authorized adult portrait</summary>
+
+**8 seconds · 9:16** · [中文版](README_ZH.md#starter-person)
+
+```text
+Use the supplied adult portrait to preserve the same face, hairstyle, clothing and proportions. Frame a seated person from the chest up beside a window. Keep both hands out of frame and the background still.
+
+0–3s: the person looks toward the window and breathes naturally.
+3–6s: they slowly turn their eyes and head toward the camera, then give a small relaxed smile.
+6–8s: hold the expression and composition. Keep the camera fixed throughout, with soft daylight from the same side.
+
+Use quiet indoor ambience, without speech or music. No new people, facial reshaping, clothing changes, added accessories, text or sudden camera motion.
+```
+
+</details>
+
+<a id="starter-story"></a>
+
+<details>
+<summary>A paper boat reaches shelter · Text only; no image required</summary>
+
+**8 seconds · 16:9** · [中文版](README_ZH.md#starter-story)
+
+```text
+Create an eight-second miniature story in one continuous shot. One small yellow paper boat floats in a shallow rain puddle beside a smooth stone. Use an original handcrafted stop-motion look, with soft overcast light and visible paper folds.
+
+0–3s: small ripples carry the boat slowly toward the stone. Track at water level from the side.
+3–6s: the boat gently touches the stone and turns a little with the water, keeping its shape and yellow color.
+6–8s: the boat settles in the calm water behind the stone. The camera stops; the last few raindrops form small rings around it.
+
+Use gentle rain and water sounds. One boat only. No characters, sinking, unfolding paper, lettering or scene cuts.
+```
+
+</details>
+<!-- END STARTER PROMPTS -->
+
+## Choose by what you want to make
+
+| Your project | Copy a short English prompt | More recipes | Bring with you |
+|---|---|---|---|
+| Product launches and shop videos | [Product reveal](#starter-product) | [Sparkling tea (English)](prompts/i18n/prompt-library.en.md#i18n-01-unbranded-sparkling-tea-reveal) | One clear product photo |
+| Portraits and social clips | [A quiet portrait](#starter-person) | [Raincoat study (English)](prompts/i18n/prompt-library.en.md#i18n-02-raincoat-wind-study) | An authorized portrait; add a garment reference for the raincoat study |
+| Short stories and animation | [Paper boat story](#starter-story) | [Genre and story recipes (English)](prompts/genre-social-experiments.en.md) | No image for the starter; references depend on the advanced recipe |
+| Tutorials and transitions | [Flower-pressing practice (English)](docs/community-videos.md#x08-pressed-flower-tutorial) | [Creative techniques (English)](prompts/creative-techniques.en.md) | A shot list and any references required by the selected recipe |
+
+Flyne AI is the browser creation route featured in this edition. The public interface offers Text / Image to Video. Advanced reference, editing and extension recipes require a matching supported mode; see the [recipe-to-platform guide](docs/flyne-ai-guide.md#match-the-recipe-to-the-available-mode). [Source: Flyne AI model page](https://flyne.ai/model/seedance-2-5/).
 
 ## Seedance 2.5 videos from X — watch, inspect, remix
 
@@ -763,91 +848,6 @@ Videos and thumbnails stay on the original host and are excluded from MIT. If a 
 
 [All cases and full source records](docs/x-showcase-sources.md) · [Chinese case notes and practice prompts](docs/community-videos.zh.md)
 
-## Make your first clip
-
-1. **Choose one scene.** Start with a product reveal, a short portrait or one simple story beat.
-2. **Make the prompt yours.** Replace the subject and setting. Attach your product image or an authorized portrait if appearance needs to stay consistent.
-3. **Open Flyne AI.** Text-to-video and image-to-video use the [same Seedance 2.5 page](https://flyne.ai/model/seedance-2-5/); select the available mode and inputs there. Check duration, ratio, resolution, sound and cost before generating.
-4. **Review and refine.** Check identity, object count, motion and the ending. Change one instruction per test. Split longer recipes into shots if needed.
-
-[Detailed Flyne AI workflow](docs/flyne-ai-guide.md)
-
-[Practice with included reference images](docs/reference-practice.md) · [Download the 120 library prompts](prompts/downloads/README.md)
-
-<!-- BEGIN STARTER PROMPTS -->
-## Copy a starter prompt
-
-Three bilingual practice briefs, not render-tested and not counted among the 120 library recipes. Duration and ratio are creative targets; adapt them to the options available in your account.
-
-<a id="starter-product"></a>
-
-<details>
-<summary>Product reveal · One clear product photo</summary>
-
-**8 seconds · 9:16** · [中文版](README_ZH.md#starter-product)
-
-```text
-Use the supplied product photo as the only reference. Keep the product shape, color, cap, label layout and material unchanged. Show one product standing on a matte cream tabletop against a plain background.
-
-0–3s: start with a close view of the product surface and slowly pull back.
-3–6s: move the camera slightly to the right, revealing the side while the product stays still. Keep the light soft and its direction fixed.
-6–8s: stop on a clear front three-quarter view with empty space above for copy added in editing.
-
-Use quiet room ambience. Do not open, rotate or multiply the product. No hands, new lettering, liquid effects or changes to the packaging.
-```
-
-</details>
-
-<a id="starter-person"></a>
-
-<details>
-<summary>A quiet portrait · One authorized adult portrait</summary>
-
-**8 seconds · 9:16** · [中文版](README_ZH.md#starter-person)
-
-```text
-Use the supplied adult portrait to preserve the same face, hairstyle, clothing and proportions. Frame a seated person from the chest up beside a window. Keep both hands out of frame and the background still.
-
-0–3s: the person looks toward the window and breathes naturally.
-3–6s: they slowly turn their eyes and head toward the camera, then give a small relaxed smile.
-6–8s: hold the expression and composition. Keep the camera fixed throughout, with soft daylight from the same side.
-
-Use quiet indoor ambience, without speech or music. No new people, facial reshaping, clothing changes, added accessories, text or sudden camera motion.
-```
-
-</details>
-
-<a id="starter-story"></a>
-
-<details>
-<summary>A paper boat reaches shelter · Text only; no image required</summary>
-
-**8 seconds · 16:9** · [中文版](README_ZH.md#starter-story)
-
-```text
-Create an eight-second miniature story in one continuous shot. One small yellow paper boat floats in a shallow rain puddle beside a smooth stone. Use an original handcrafted stop-motion look, with soft overcast light and visible paper folds.
-
-0–3s: small ripples carry the boat slowly toward the stone. Track at water level from the side.
-3–6s: the boat gently touches the stone and turns a little with the water, keeping its shape and yellow color.
-6–8s: the boat settles in the calm water behind the stone. The camera stops; the last few raindrops form small rings around it.
-
-Use gentle rain and water sounds. One boat only. No characters, sinking, unfolding paper, lettering or scene cuts.
-```
-
-</details>
-<!-- END STARTER PROMPTS -->
-
-## Choose by what you want to make
-
-| Your project | Copy a short English prompt | More recipes | Bring with you |
-|---|---|---|---|
-| Product launches and shop videos | [Product reveal](#starter-product) | [Sparkling tea (English)](prompts/i18n/prompt-library.en.md#i18n-01-unbranded-sparkling-tea-reveal) | One clear product photo |
-| Portraits and social clips | [A quiet portrait](#starter-person) | [Raincoat study (English)](prompts/i18n/prompt-library.en.md#i18n-02-raincoat-wind-study) | An authorized portrait; add a garment reference for the raincoat study |
-| Short stories and animation | [Paper boat story](#starter-story) | [Genre and story recipes (English)](prompts/genre-social-experiments.en.md) | No image for the starter; references depend on the advanced recipe |
-| Tutorials and transitions | [Flower-pressing practice (English)](docs/community-videos.md#x08-pressed-flower-tutorial) | [Creative techniques (English)](prompts/creative-techniques.en.md) | A shot list and any references required by the selected recipe |
-
-Flyne AI is the browser creation route featured in this edition. The public interface offers Text / Image to Video. Advanced reference, editing and extension recipes require a matching supported mode; see the [recipe-to-platform guide](docs/flyne-ai-guide.md#match-the-recipe-to-the-available-mode). [Source: Flyne AI model page](https://flyne.ai/model/seedance-2-5/).
-
 <!-- BEGIN HOME GUIDE -->
 > Advanced reference, editing and extension recipes need matching provider controls; check the [platform guide](docs/flyne-ai-guide.md#match-the-recipe-to-the-available-mode). The full recipes below come from the upstream collection. Images are input references, not verified video results.
 
@@ -884,7 +884,7 @@ The image above was generated specifically for [Prompt 115: Night Garden Dynamic
 
 ## What makes a strong Seedance 2.5 prompt?
 
-The official Seedance 2.5 page highlights video generation up to 30 seconds in one pass, two extensions, more precise interpretation of reference videos, broader audio-visual editing, professional camera movement, performance blocking, white-model control, and green-screen editing. A useful prompt should therefore read like a compact directing brief, not a pile of style adjectives.
+The [official Seedance 2.5 page](https://seed.bytedance.com/en/seedance2_5) highlights video generation up to 30 seconds in one pass, two extensions, more precise interpretation of reference videos, broader audio-visual editing, professional camera movement, performance blocking, white-model control, and green-screen editing. A useful prompt should therefore read like a compact directing brief, not a pile of style adjectives.
 
 ```text
 [Mode] Text-to-video / Image-to-video / Reference-to-video / Edit
@@ -899,7 +899,7 @@ The official Seedance 2.5 page highlights video generation up to 30 seconds in o
 [Avoid] Morphing, duplicates, extra limbs, fake text, logos, watermarks
 ```
 
-For the full method, see [Seedance 2.5 Prompting Guide: From Brief to Usable Video](docs/prompting-guide.md).
+For practical fixes, [troubleshoot by symptom](docs/prompting-guide.md#troubleshooting-by-symptom): identity drift, warped products, camera motion, text and audio. The same guide explains the full prompt-writing method.
 
 ## Three copy-ready Seedance 2.5 prompts
 
@@ -941,13 +941,13 @@ Audio: cap click, fine carbonation, light ice sound, minimal fresh rhythm. No fa
 
 ![Paper fox visual reference](assets/paper-fox-story-reference.png)
 
-**Prepare:** one character-and-scene image. **Target:** 30 seconds. The supplied illustration already shows a dimensional paper fox: if you use it as the starting frame, skip the flat-drawing-to-folded-paper transformation and begin with a small head or paw movement. A simpler compatible version is in the [reference-image practice](docs/reference-practice.md#fox).
+**Prepare:** one character-and-scene image. **Target:** 30 seconds. This homepage variant adapts the upstream story to the supplied illustration: the fox starts and remains dimensional paper. A simpler compatible version is in the [reference-image practice](docs/reference-practice.md#fox).
 
 ```text
 Use the input image as the art and character anchor. Preserve the red paper fox's triangular ears, pointed nose, folds, pencil texture, and proportions; preserve the café table, sketchbook, lamp, rainy window, and cup layout.
 
-00:00-00:07: Pencil lines tremble slightly. The fox blinks and raises one front paw as the camera makes a macro push-in.
-00:07-00:14: The fox steps over the page edge, transitioning naturally from flat graphite lines to dimensional folded paper with correct contact shadows.
+00:00-00:07: The dimensional paper fox turns its head slightly and raises one front paw as the camera makes a macro push-in. Its folds, volume and material stay unchanged.
+00:07-00:14: The fox steps over the page edge onto the wooden table. Keep the same dimensional folded-paper structure and show continuous foot contact and correct shadows.
 00:14-00:21: Track parallel as it walks around pencil shavings and studies the steam above the cup.
 00:21-00:27: Steam forms a brief path toward the rainy window. The fox trots after it while tiny tabletop droplets react to its steps.
 00:27-00:30: It stops at the window with a consistent reflection. Raise the camera and finish on an open-ended sense of departure.
