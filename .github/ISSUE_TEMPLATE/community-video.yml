@@ -1,0 +1,31 @@
+name: X community video
+description: Suggest one video with a recoverable Seedance 2.5 prompt.
+title: "[X example] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original X status URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Model evidence and full prompt location
+      description: State where the author identifies Seedance 2.5 and where the complete prompt can be read.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Video, thumbnail and attribution
+      description: Include the posting account, original-hosted media links and any credited creator.
+    validations:
+      required: true
+  - type: textarea
+    id: lesson
+    attributes:
+      label: What can another creator learn?
+      description: Note missing inputs, requested versus uploaded format, and any reproduction limits.
+    validations:
+      required: true

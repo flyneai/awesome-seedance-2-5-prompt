@@ -1,0 +1,679 @@
+{
+  "checked_on": "2026-09-21",
+  "retrieval": "X search required login. Candidate status links discovered through cheerselfai.com/en/demo/seedance-2-5; new post bodies and media metadata retrieved through api.fxtwitter.com. Upstream source-body checks for X01-X12 remain dated 2026-09-20.",
+  "verification": "All 18 MP4 and 18 thumbnail URLs returned HTTP 200 with matching media types using curl HEAD on 2026-09-21. Python urllib HEAD initially returned 403; per-entry records note this. New X13-X18 source bodies explicitly name Seedance 2.5 and contain full prompts. No model execution or end-to-end playback test.",
+  "entries": [
+    {
+      "id": "x01-galley-food-comedy",
+      "post_id": "2099186117769822462",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-09-13",
+      "original_post": "https://x.com/Goodmanprotocol/status/2099186117769822462",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2099186117769822462",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2099186062715404288/img/D-iYamhA_iFRBooM.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; published media 1920×1080.",
+      "readme_anchor": "x01-galley-food-comedy",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x02-one-garment-fashion",
+      "post_id": "2095216981624721691",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-09-02",
+      "original_post": "https://x.com/Goodmanprotocol/status/2095216981624721691",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2095216981624721691",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095216899445649408/img/690ykZJzst5uQLwH.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; source requests 16:9; published media 1920×1080.",
+      "readme_anchor": "x02-one-garment-fashion",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x03-rainy-pet-selfie",
+      "post_id": "2098256490238755226",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-11",
+      "original_post": "https://x.com/Strength04_X/status/2098256490238755226",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2098256490238755226",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2098256097547309056/img/QKhG3cYjfcBbxiuc.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; source requests 9:16, but published media is 1920×1080.",
+      "readme_anchor": "x03-rainy-pet-selfie",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x04-live-action-doodle",
+      "post_id": "2095748874942263601",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-04",
+      "original_post": "https://x.com/Strength04_X/status/2095748874942263601",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2095748874942263601",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095748601087688705/img/0d5gq8yGWQZdSVch.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 15.104
+      },
+      "format_note": "15 seconds; source requests 9:16, but published media is 1280×720.",
+      "readme_anchor": "x04-live-action-doodle",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x05-minidv-everyday",
+      "post_id": "2090287853532266748",
+      "posted_by": "john_my07",
+      "post_date": "2026-08-20",
+      "original_post": "https://x.com/john_my07/status/2090287853532266748",
+      "full_prompt_url": "https://x.com/john_my07/status/2090287853532266748",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2090287723961847808/img/z8kZQAvTTG7cWPHN.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.145
+      },
+      "format_note": "30 seconds; source requests 1080p; published media 1920×1080.",
+      "readme_anchor": "x05-minidv-everyday",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x06-two-person-vlog",
+      "post_id": "2097968347430482177",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-10",
+      "original_post": "https://x.com/Strength04_X/status/2097968347430482177",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2097968347430482177",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2097967562604875776/img/uK9lzSMYEeRFhAvI.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.066
+      },
+      "format_note": "30 seconds; source requests 4:3 and 720p, but published media is 1920×1080.",
+      "readme_anchor": "x06-two-person-vlog",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x07-talent-show-reversal",
+      "post_id": "2090399966988550435",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-08-20",
+      "original_post": "https://x.com/Strength04_X/status/2090399966988550435",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2090399966988550435",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2090399674129940480/img/zvDQqERbmMVkeaIT.jpg",
+      "published_media": {
+        "width": 854,
+        "height": 480,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30-second source brief; uploaded video 854×480, about 30.08 seconds. The post credits @techhalla for the prompt idea.",
+      "readme_anchor": "x07-talent-show-reversal",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x08-pressed-flower-tutorial",
+      "post_id": "2084269139556761919",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-08-03",
+      "original_post": "https://x.com/Strength04_X/status/2084269139556761919",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2084269139556761919",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2084268630556983296/img/OXmdFhcGjZVL1k5f.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 31.333
+      },
+      "format_note": "Source storyboard totals 32 seconds; uploaded video is about 31.33 seconds at 1920×1080.",
+      "readme_anchor": "x08-pressed-flower-tutorial",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x09-energy-action-geography",
+      "post_id": "2096147092188311749",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-05",
+      "original_post": "https://x.com/Strength04_X/status/2096147092188311749",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2096147092188311749",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2096146403064254464/img/IsPJq2tLkew3sJuO.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.166
+      },
+      "format_note": "30-second source brief; uploaded video 1280×720, about 30.17 seconds. Source wording asks for a 4K aesthetic; this is not evidence of native 4K output.",
+      "readme_anchor": "x09-energy-action-geography",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x10-day-trip-story-arc",
+      "post_id": "2087165084397420849",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-08-11",
+      "original_post": "https://x.com/Goodmanprotocol/status/2087165084397420849",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2087165084397420849",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2087164966864556033/img/MY7hA0RJIHNj81nD.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30-second source brief; uploaded video 1280×720, about 30.08 seconds.",
+      "readme_anchor": "x10-day-trip-story-arc",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x11-visible-object-handover",
+      "post_id": "2096424933366931946",
+      "posted_by": "AIwithkhan",
+      "post_date": "2026-09-06",
+      "original_post": "https://x.com/AIwithkhan/status/2096424933366931946",
+      "full_prompt_url": "https://x.com/AIwithkhan/status/2096424933366931946",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2096424851888300032/img/GsfbwnQVERijOEJp.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.041
+      },
+      "format_note": "30-second source brief; uploaded video 1280×720, about 30.04 seconds.",
+      "readme_anchor": "x11-visible-object-handover",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x12-tropical-location-sound",
+      "post_id": "2089204108175741157",
+      "posted_by": "RishuaVR",
+      "post_date": "2026-08-17",
+      "original_post": "https://x.com/RishuaVR/status/2089204108175741157",
+      "full_prompt_url": "https://x.com/RishuaVR/status/2089204108175741157",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2089204070997532672/img/UAx5Q6w1RA3C8pNG.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 10.08
+      },
+      "format_note": "10-second source brief; uploaded video 1280×720, about 10.08 seconds.",
+      "readme_anchor": "x12-tropical-location-sound",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      },
+      "upstream_media_check": {
+        "checked_on": "2026-09-20",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x13-dance-formation",
+      "post_id": "2100281777197834731",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-09-16",
+      "original_post": "https://x.com/Goodmanprotocol/status/2100281777197834731",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2100281777197834731",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2100281698877640705/vid/avc1/1920x1080/XAZOtVZt2BacpB31.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100281698877640705/img/dSDZ4bXtFKhgTkZr.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; uploaded 1920×1080.",
+      "readme_anchor": "x13-dance-formation",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/Goodmanprotocol/status/2100281777197834731",
+      "source_checked_on": "2026-09-21",
+      "title": "Five-person dance formation",
+      "title_zh": "五人舞蹈与队形变化",
+      "category": "Dance / Performance",
+      "inputs": "Text brief; five consistent adult performers.",
+      "lesson": "Use a fixed performer count and visible weight transfer to make choreography easier to review.",
+      "adaptation": "Create a 15-second rehearsal film with five adult dancers in distinct unbranded outfits. Keep each face and outfit stable. In a sunlit practice room, start with a wide view of the formation, follow one synchronized side-step phrase, then let the middle dancer take two steps forward while the others hold position. Return to the original formation on the final beat. Use a gentle lateral camera move and original percussion. Keep feet grounded, preserve spacing, and avoid extra performers. Judge body continuity before adding faster moves.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x14-fox-sled",
+      "post_id": "2100254817818169630",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-16",
+      "original_post": "https://x.com/Strength04_X/status/2100254817818169630",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2100254817818169630",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2100252893324730368/vid/avc1/1280x720/3g8q9br36vbX52YD.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100252893324730368/img/_mA77mUjwB4YBaFK.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 15.072
+      },
+      "format_note": "Source requests 15s, 9:16 and 8K; uploaded 1280×720. Requested 8K is not verified output.",
+      "readme_anchor": "x14-fox-sled",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/Strength04_X/status/2100254817818169630",
+      "source_checked_on": "2026-09-21",
+      "title": "Fox and owl snow adventure",
+      "title_zh": "狐狸与雪鸮的雪地冒险",
+      "category": "Animals / Storytelling",
+      "inputs": "Text brief; one fox, one owl and one sled.",
+      "lesson": "Make each movement trigger the next event; keep the sled and animal count constant.",
+      "adaptation": "Create a 15-second fictional wildlife adventure in a quiet snowy clearing. A red fox noses snow away from a small wooden sled. An owl watches from a nearby branch. Show the sled clearly before it moves. As the fox places its front paws on it, the sled glides gently down a shallow slope; the owl flies alongside. End with the sled stopping in soft snow and both animals visible in one wide shot. Use crisp winter light, believable fur and feathers, snow scraping and wing sounds. Preserve one fox, one owl and one sled; no injury, captions or sudden object changes.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x15-tempura-process",
+      "post_id": "2099814823219392548",
+      "posted_by": "Goodmanprotocol",
+      "post_date": "2026-09-15",
+      "original_post": "https://x.com/Goodmanprotocol/status/2099814823219392548",
+      "full_prompt_url": "https://x.com/Goodmanprotocol/status/2099814823219392548",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2099814675731124224/vid/avc1/1920x1080/vLq0N4ffylmG6SmO.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2099814675731124224/img/wBAecI4iHEEAoR3P.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.08
+      },
+      "format_note": "30 seconds; uploaded 1920×1080.",
+      "readme_anchor": "x15-tempura-process",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/Goodmanprotocol/status/2099814823219392548",
+      "source_checked_on": "2026-09-21",
+      "title": "Tempura from preparation to plate",
+      "title_zh": "从备料到装盘的天妇罗",
+      "category": "Food / Process video",
+      "inputs": "Text brief; one kitchen and consistent utensils.",
+      "lesson": "Show ingredient state changes in order and match sound to the visible contact.",
+      "adaptation": "Make a 20-second food-process film in one warm restaurant kitchen. Follow one mushroom batch: clean slices on a board, a light dip into batter, a careful transfer into hot oil, a lift onto a draining rack, and a final ceramic plate. Give each stage four seconds. Use close views with a consistent hand, bowl, pan and lighting direction. Show the coating becoming crisp before removal. Match slicing, dripping, sizzling and plate sounds to contact. Keep quantities and utensil shapes stable. This is a visual brief, not a cooking safety tutorial; add any instructional labels in editing.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x16-night-road-trip",
+      "post_id": "2099114117017780321",
+      "posted_by": "noorwithwifi",
+      "post_date": "2026-09-13",
+      "original_post": "https://x.com/noorwithwifi/status/2099114117017780321",
+      "full_prompt_url": "https://x.com/noorwithwifi/status/2099114117017780321",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2099113814604300288/vid/avc1/1280x720/FlEVndJpArViyBQ1.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2099113814604300288/img/k5dRgv4ktDF4hqqd.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 15.041
+      },
+      "format_note": "15 seconds; uploaded 1280×720.",
+      "readme_anchor": "x16-night-road-trip",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/noorwithwifi/status/2099114117017780321",
+      "source_checked_on": "2026-09-21",
+      "title": "Two friends on a night road trip",
+      "title_zh": "双人夜间公路旅行",
+      "category": "Travel / Character continuity",
+      "inputs": "Two adult characters; optional authorized character references.",
+      "lesson": "Limit the trip to a small number of locations and preserve character and vehicle details.",
+      "adaptation": "Create a 15-second night-travel vignette about two adult friends. Use one dark-blue car and keep their jackets and hairstyles constant. First show rain reflections through the windshield while the driver watches the road and the passenger hums. Cut to the parked car beside a coastal lookout. Both friends step out, lean on the railing and share a quiet laugh as distant waves become audible. Finish with a wide view of their silhouettes and the same car. Keep the journey calm, with stable dashboard framing and a gentle final pullback. No phone use while driving, duplicate characters or unexplained wardrobe changes.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x17-lunar-train",
+      "post_id": "2098290630179057858",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-11",
+      "original_post": "https://x.com/Strength04_X/status/2098290630179057858",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2098290630179057858",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2098289904409362432/vid/avc1/1920x1080/xssyJInhEDrcUCQM.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2098289904409362432/img/-LuU_JZblovIR9HB.jpg",
+      "published_media": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 30.066
+      },
+      "format_note": "30 seconds; uploaded 1920×1080.",
+      "readme_anchor": "x17-lunar-train",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/Strength04_X/status/2098290630179057858",
+      "source_checked_on": "2026-09-21",
+      "title": "A train journey into space",
+      "title_zh": "开往太空的列车",
+      "category": "Fantasy / Reference continuity",
+      "inputs": "One authorized character image for identity.",
+      "lesson": "Anchor a large scene transition to one character, one carriage and a visible doorway.",
+      "adaptation": "Create a 20-second science-fantasy short using one authorized adult character reference. Preserve the face, coat and hairstyle. In an empty station, the traveler notices an amber-lit carriage. Show them cross its doorway before cutting inside. The view beyond the window changes from tunnel lights to a quiet field of stars. Hold a close reaction, then reveal the same carriage moving above a luminous fictional planet. End inside with the traveler touching the window frame. Use one train and clear spatial transitions, restrained mechanical sound and a rising original score. Avoid costume changes, floating body parts and lettering.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    },
+    {
+      "id": "x18-dog-mirror",
+      "post_id": "2097616213371478242",
+      "posted_by": "Strength04_X",
+      "post_date": "2026-09-09",
+      "original_post": "https://x.com/Strength04_X/status/2097616213371478242",
+      "full_prompt_url": "https://x.com/Strength04_X/status/2097616213371478242",
+      "prompt_location": "post body",
+      "model_label": "Seedance 2.5",
+      "model_evidence": "poster claim; not independently authenticated",
+      "video_url": "https://video.twimg.com/amplify_video/2097614865154404352/vid/avc1/1280x720/l4WTN5f_qQu25nNZ.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2097614865154404352/img/P3gtFvUuGcb4CejG.jpg",
+      "published_media": {
+        "width": 1280,
+        "height": 720,
+        "duration_seconds": 30.022
+      },
+      "format_note": "Source requests 30s vertical; uploaded 1280×720 landscape.",
+      "readme_anchor": "x18-dog-mirror",
+      "local_prompt_status": "editorial adaptation, not the source render prompt; untested",
+      "retrieval_url": "https://api.fxtwitter.com/Strength04_X/status/2097616213371478242",
+      "source_checked_on": "2026-09-21",
+      "title": "A dog interrupts a mirror selfie",
+      "title_zh": "小狗闯入镜子自拍",
+      "category": "Pets / Reflections",
+      "inputs": "One authorized adult portrait; one dog.",
+      "lesson": "Treat mirror position and viewpoint as constraints; review every reflected subject.",
+      "adaptation": "Make a 15-second continuous phone video of one adult and one small dog beside a full-length mirror. Use the supplied authorized portrait for the person. Keep the phone visibly in one hand and the mirror fixed. Start with the dog sitting at the person's feet; it stands and noses a loose sleeve, prompting a small laugh. The person lowers the phone slightly to include the dog and ends with both visible in the reflection. Use soft window light, paw sounds and room ambience. No cuts, extra animals, second camera viewpoint or independent reflection movements. Keep the interaction gentle and the phone out of the dog's reach.",
+      "media_check": {
+        "checked_on": "2026-09-21",
+        "method": "curl HTTP HEAD",
+        "earlier_attempt": "Python urllib HEAD returned 403 in this environment; curl HEAD results below.",
+        "video_http_status": 200,
+        "video_content_type": "video/mp4",
+        "thumbnail_http_status": 200,
+        "thumbnail_content_type": "image/jpeg"
+      }
+    }
+  ]
+}
