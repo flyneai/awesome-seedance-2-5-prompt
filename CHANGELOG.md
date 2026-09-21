@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-21 — reader-review corrections
+
+- Restore plain-text aspect ratios in the Chinese use-case matrix; add a regression check against accidental recipe links in ratio columns.
+- Distinguish general Seedance recipe requirements from Flyne’s publicly visible text/image mode, with bilingual routing for advanced reference, editing and extension workflows.
+- Make the capability guide reachable from homepages, the master recipe index, detailed guides and use-case matrices.
+- Remove an outdated fixed case count from the deferred sidebar-copy suggestion; repository settings remain unchanged.
+
 ## 2026-09-21 — complete Chinese cases and library access
 
 - Translate X01–X12 editorial adaptations and notes; all 19 community cases now have English and Chinese practice downloads.

@@ -2,6 +2,8 @@
 
 [English Guide](../README.md) · [中文指南](../README_ZH.md) · [在线使用 Seedance 2.5](https://flyne.ai/model/seedance-2-5/) · [多语言目录](i18n/README.md)
 
+> **先确认平台功能 / Check the available mode:** 多参考、视频编辑、延长和白模等高级配方需要平台提供对应功能，并不代表 Flyne 当前入口全部支持。Advanced recipes need matching provider controls; inclusion here does not confirm availability on Flyne. See [中文功能对照](../docs/flyne-ai-guide.md#配方与平台功能怎么对应) / [English mode guide](../docs/flyne-ai-guide.md#match-the-recipe-to-the-available-mode).
+
 本目录提供 **120 个原创 Seedance 2.5 完整提示词**、独立语言文件和本地化规范。其中 60 个中文基础与扩展场景覆盖通用创作，60 个英文工作流进一步覆盖多参考绑定、节拍剪辑、教程、视频编辑、数字人、批量 SKU、长视频衔接、类型片、社媒叙事、视觉实验、延长与白模预演。
 
 [下载全部 120 条主库提示词](downloads/README.md) · [两组带参考图的练习](../docs/reference-practice.md)

@@ -2,6 +2,8 @@
 
 [Home](../README.md) · [120 prompt recipes](../prompts/README.md) · [Prompting guide](prompting-guide.md) · [Flyne AI workflow](flyne-ai-guide.md)
 
+> **Check the available mode first:** these are general Seedance creative workflows, not a promise that Flyne supports every reference, editing or extension feature. Use the [recipe-to-platform guide](flyne-ai-guide.md#match-the-recipe-to-the-available-mode) before choosing an advanced recipe.
+
 Choose a business goal first, then narrow the prompt by available assets, delivery format, and first-pass quality checks.
 
 ## Find a prompt by goal

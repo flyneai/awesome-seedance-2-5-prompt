@@ -12,6 +12,22 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 
+def linked_ratios(text):
+    """Return table rows where an aspect-ratio value became a recipe link."""
+    columns = []
+    bad = []
+    for line in text.splitlines():
+        if not line.startswith('|'):
+            columns = []
+            continue
+        cells = [c.strip() for c in line.split('|')[1:-1]]
+        header = [i for i,c in enumerate(cells) if c in ('推荐画幅', '常用画幅', 'Aspect ratio', 'Ratio')]
+        if header:
+            columns = header
+        elif any(i < len(cells) and re.search(r'\[\d+(?:\.\d+)?\]\([^)]*prompts/', cells[i]) for i in columns):
+            bad.append(line)
+    return bad
+
 def anchors(path):
     text = path.read_text()
     result = set(re.findall(r'<a\s+id="([^"]+)"', text))
@@ -55,6 +71,8 @@ def main():
         if '.git' in path.parts:
             continue
         text = re.sub(r'```[\s\S]*?```', '', path.read_text())
+        if linked_ratios(text):
+            errors.append(f'{path.relative_to(ROOT)}: aspect-ratio numbers must not link to recipes')
         for target in re.findall(r'\]\(([^\s)]+)', text):
             parts = urlsplit(target)
             if parts.scheme or target.startswith('//'):

@@ -56,6 +56,6 @@ The content check runs separately, so an external host outage does not masquerad
 
 The current repository description still advertises “600+”. An administrator should replace it with:
 
-> Seedance 2.5 prompts by Flyne AI: 120 recipes, 18 X video examples, multilingual starter prompts, and practical creation guides.
+> Seedance 2.5 prompts by Flyne AI: 120 recipes, source-linked X video examples, multilingual starter prompts, and practical creation guides.
 
 The maintainers' content workflow cannot change repository settings without the necessary GitHub permission. Update the sidebar count when the collection grows.

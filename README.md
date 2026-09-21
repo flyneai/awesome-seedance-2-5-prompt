@@ -97,7 +97,7 @@ Use gentle rain and water sounds. One boat only. No characters, sinking, unfoldi
 | Short stories and animation | [Paper boat story](#starter-story) | [Genre and story recipes (English)](prompts/genre-social-experiments.en.md) | No image for the starter; references depend on the advanced recipe |
 | Tutorials and transitions | [Flower-pressing practice (English)](docs/community-videos.md#x08-pressed-flower-tutorial) | [Creative techniques (English)](prompts/creative-techniques.en.md) | A shot list and any references required by the selected recipe |
 
-Flyne AI is the browser creation route featured in this edition. The public product page describes text, image and reference workflows; availability and settings depend on the current service. [Source: Flyne AI model page](https://flyne.ai/model/seedance-2-5/).
+Flyne AI is the browser creation route featured in this edition. The public interface offers Text / Image to Video. Advanced reference, editing and extension recipes require a matching supported mode; see the [recipe-to-platform guide](docs/flyne-ai-guide.md#match-the-recipe-to-the-available-mode). [Source: Flyne AI model page](https://flyne.ai/model/seedance-2-5/).
 
 ## Seedance 2.5 videos from X — watch, inspect, remix
 

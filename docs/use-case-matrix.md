@@ -2,6 +2,8 @@
 
 [English Guide](../README.md) · [中文指南](../README_ZH.md) · [120 个提示词索引](../prompts/README.md) · [多语言 prompts](../prompts/i18n/README.md) · [在线使用](https://flyne.ai/model/seedance-2-5/)
 
+> **先确认平台功能：** 本文包含通用 Seedance 创作流程，不代表 Flyne 当前支持全部多参考、编辑或延长功能。按[配方与平台功能对照](flyne-ai-guide.md#配方与平台功能怎么对应)选择可执行的路线。
+
 不知道应该从哪个提示词开始时，先按目标选择场景，再根据输入素材、画幅、时长和验收重点筛选。具体参数以平台实时页面为准。
 
 最新的 [101–120 类型片、社媒与视觉实验 Prompt](../prompts/genre-social-experiments.en.md) 补充了封闭赛道、太空与考古科普、声音同步、竖屏喜剧、无障碍换装、动态海报、原创动画及材质变形。
@@ -50,12 +52,12 @@
 
 | 渠道或用途 | 推荐画幅 | 构图重点 |
 |---|---|---|
-| 短视频信息流 | [9](../prompts/prompt-library.md#09-小餐馆开放式厨房探店):[16](../prompts/prompt-library.md#16-屋顶爵士三重奏) | 主体处于中央安全区，顶部和底部避开 UI |
-| 社交动态与商城 | [4](../prompts/prompt-library.md#04-无品牌气泡茶揭晓):[5](../prompts/prompt-library.md#05-透明精华液的光学实验) | 产品和脸部同时可见，减少极端横向运动 |
-| 商品详情页 | [1](../prompts/prompt-library.md#01-暴雨海岸救援演练):[1](../prompts/prompt-library.md#01-暴雨海岸救援演练) / [4](../prompts/prompt-library.md#04-无品牌气泡茶揭晓):[5](../prompts/prompt-library.md#05-透明精华液的光学实验) | 几何稳定、背景干净、首尾可截帧 |
-| 官网横幅 | [16](../prompts/prompt-library.md#16-屋顶爵士三重奏):[9](../prompts/prompt-library.md#09-小餐馆开放式厨房探店) | 留出文案区，运动不要穿过主要按钮区域 |
-| 电影感叙事 | [16](../prompts/prompt-library.md#16-屋顶爵士三重奏):[9](../prompts/prompt-library.md#09-小餐馆开放式厨房探店) / [2](../prompts/prompt-library.md#02-末班列车后的重逢).[39](../prompts/extended-scenarios.md#39-温室策略游戏库存整理):[1](../prompts/prompt-library.md#01-暴雨海岸救援演练) | 强调空间层次、调度和声音环境 |
-| 教育与演示 | [16](../prompts/prompt-library.md#16-屋顶爵士三重奏):[9](../prompts/prompt-library.md#09-小餐馆开放式厨房探店) | 标签足够大，流程从左到右或从上到下明确 |
+| 短视频信息流 | 9:16 | 主体处于中央安全区，顶部和底部避开 UI |
+| 社交动态与商城 | 4:5 | 产品和脸部同时可见，减少极端横向运动 |
+| 商品详情页 | 1:1 / 4:5 | 几何稳定、背景干净、首尾可截帧 |
+| 官网横幅 | 16:9 | 留出文案区，运动不要穿过主要按钮区域 |
+| 电影感叙事 | 16:9 / 2.39:1 | 强调空间层次、调度和声音环境 |
+| 教育与演示 | 16:9 | 标签足够大，流程从左到右或从上到下明确 |
 
 ## 首轮生成验收
 

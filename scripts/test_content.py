@@ -15,6 +15,12 @@ from library_catalog import ROOT, recipes, validate_languages
 
 
 class ContentRegressionTests(unittest.TestCase):
+    def test_ratio_values_are_not_recipe_links(self):
+        text = '| 用途 | 推荐画幅 |\n|---|---|\n| 短片 | [9](../prompts/a.md):[16](../prompts/b.md) |'
+        self.assertEqual(len(check_content.linked_ratios(text)), 1)
+        valid = '| 场景 | 常用画幅 |\n|---|---|\n| [09](../prompts/a.md) | 9:16 / 2.39:1 |'
+        self.assertEqual(check_content.linked_ratios(valid), [])
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)

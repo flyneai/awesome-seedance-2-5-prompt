@@ -2,6 +2,8 @@
 
 [中文首页](../README_ZH.md) · [完整提示词目录](../prompts/README.md)
 
+> **先确认平台功能：** 本文包含通用 Seedance 创作流程，不代表 Flyne 当前支持全部多参考、编辑或延长功能。按[配方与平台功能对照](flyne-ai-guide.md#配方与平台功能怎么对应)选择可执行的路线。
+
 ## 目录
 
 - [Seedance 2.5 适合做什么](#seedance-25-适合做什么)

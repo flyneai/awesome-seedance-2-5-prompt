@@ -2,6 +2,8 @@
 
 [Home](../README.md) · [Video cases](community-videos.md)
 
+> **Check the available mode first:** these are general Seedance creative workflows, not a promise that Flyne supports every reference, editing or extension feature. Use the [recipe-to-platform guide](flyne-ai-guide.md#match-the-recipe-to-the-available-mode) before choosing an advanced recipe.
+
 ## Find the right prompt in under a minute
 
 | If you need… | Start here |
