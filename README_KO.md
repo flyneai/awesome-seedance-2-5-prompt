@@ -12,6 +12,8 @@
 
 이 저장소는 **120개의 독창적인 Seedance 2.5 영상 프롬프트**와 **15개 언어 지원**을 제공합니다. 일반 장면 60개와 편집, 튜토리얼, 다중 참조, 장편, 장르 영상, 소셜 영상, 오리지널 애니메이션, 시각 실험용 영어 워크플로 60개로 구성됩니다.
 
+[Flyne AI의 Seedance 2.5](https://flyne.ai/model/seedance-2-5/)에서 실제 인물이 등장하는 영상을 만들어 보세요. 이 모음의 프롬프트로 인물과 이야기를 영상으로 구현하고, [Flyne AI Create](https://flyne.ai/create/)에서 더 다양한 창작 도구와 기능을 활용할 수 있습니다.
+
 직접 테스트한 독창적인 Prompt는 설정, 입력 자료, 실제 결과와 함께 [기여 양식](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)으로 공유할 수 있습니다. 승인된 내용은 검토 후 기여자 표시와 함께 수록될 수 있습니다.
 
 ## Flyne AI로 영상 만들기

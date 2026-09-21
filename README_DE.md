@@ -12,6 +12,8 @@ Dieses Bild ist eine Werbeillustration, kein Standbild eines generierten Videos.
 
 Dieses Repository enthält **120 neu erstellte Seedance-2.5-Videorezepte** und unterstützt **15 Sprachen**: 60 allgemeine Szenen und 60 englische Workflows, darunter Genre-Filme, Social Video, Originalanimation und visuelle Experimente.
 
+Probiere [Seedance 2.5 auf Flyne AI](https://flyne.ai/model/seedance-2-5/) aus und erstelle Videos mit realen Personen. Erwecke mit den Prompts dieser Sammlung deine Figuren und Geschichten zum Leben und entdecke mit [Flyne AI Create](https://flyne.ai/create/) weitere Werkzeuge und kreative Möglichkeiten.
+
 Ein eigener getesteter Prompt kann über das [Beitragsformular](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml) mit Einstellungen, Eingaben und echtem Ergebnis eingereicht werden. Angenommene Beiträge können nach Prüfung mit Namensnennung veröffentlicht werden.
 
 ## Mit Flyne AI erstellen

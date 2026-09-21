@@ -12,6 +12,8 @@ Esta imagen es una ilustración promocional, no una captura de un vídeo generad
 
 Biblioteca original con **120 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 60 flujos profesionales en inglés para producción, edición, ecommerce, cine de género, vídeo social, animación original, experimentos visuales, educación y accesibilidad.
 
+Prueba [Seedance 2.5 en Flyne AI](https://flyne.ai/model/seedance-2-5/), que permite crear vídeos con personas reales. Usa los prompts de esta colección para dar vida a tus personajes e historias y explora [Flyne AI Create](https://flyne.ai/create/) para acceder a más herramientas y posibilidades creativas.
+
 Comparte un prompt original y probado mediante el [formulario de contribución](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml), incluyendo ajustes, entradas y el resultado real. Las propuestas aceptadas pueden publicarse con atribución después de su revisión.
 
 > **Usar Seedance 2.5 en Flyne AI:** elige [Text-to-Video](https://flyne.ai/model/seedance-2-5/) si partes de una idea o un guion, o [Image-to-Video](https://flyne.ai/model/seedance-2-5/) si necesitas conservar un producto, una persona o una composición.

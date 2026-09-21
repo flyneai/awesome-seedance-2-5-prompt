@@ -12,6 +12,8 @@
 
 このリポジトリは、**120本のSeedance 2.5実践プロンプトと15言語のサポート**を収録しています。60本の基本・追加シーンと、編集、チュートリアル、複数参照、長尺、ジャンル映像、ソーシャル動画、オリジナルアニメーション、視覚実験向けの英語ワークフロー60本で構成されています。
 
+[Flyne AI の Seedance 2.5](https://flyne.ai/model/seedance-2-5/)では、実在の人物を登場させた動画を制作できます。このプロンプト集を使って人物や物語を映像にし、[Flyne AI Create](https://flyne.ai/create/)でさらに多くの制作ツールや表現方法を試してみてください。
+
 テスト済みのオリジナルPromptは、出力結果と設定を添えて[投稿フォーム](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)から共有できます。採用された内容は、確認・編集後に投稿者名付きで収録される場合があります。
 
 > **Flyne AI で試す：** アイデアや脚本から始める場合は [Text-to-Video](https://flyne.ai/model/seedance-2-5/)、製品・人物・構図を維持する場合は [Image-to-Video](https://flyne.ai/model/seedance-2-5/) を選びます。
