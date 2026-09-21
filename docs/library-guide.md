@@ -150,4 +150,3 @@ This repository supports 15 languages. The shared multilingual set keeps the sam
 ### Are these prompts free to use?
 
 The repository is released under the [MIT License](../LICENSE). Generated output may still involve separate rights for source images, people, voices, music, trademarks, locations, claims, and the platform or model used to create it.
-
