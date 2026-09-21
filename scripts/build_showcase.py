@@ -29,6 +29,18 @@ def replace_block(text, name, value):
         raise ValueError(f'Expected exactly one {name} block')
     return re.sub(pattern, lambda _: f'<!-- BEGIN {name} -->\n{value}\n<!-- END {name} -->', text)
 
+def starter_prompts(language):
+    chinese = language == 'zh'
+    text = ('## 直接复制：三个新手练习\n\n这些中英双语练习未实测，不计入主库的 120 条配方。时长和画幅是创作目标，请按页面实际选项调整。\n' if chinese else '## Copy a starter prompt\n\nThree bilingual practice briefs, not render-tested and not counted among the 120 library recipes. Duration and ratio are creative targets; adapt them to the options available in your account.\n')
+    for e in json.loads((ROOT/'docs/starter-prompts.json').read_text()):
+        title = e['title_zh'] if chinese else e['title']
+        inputs = e['inputs_zh'] if chinese else e['inputs']
+        format_note = e['format_zh'] if chinese else e['format']
+        other = 'README.md' if chinese else 'README_ZH.md'
+        label = 'English version' if chinese else '中文版'
+        text += f'\n<a id="{e["id"]}"></a>\n\n<details>\n<summary>{title} · {inputs}</summary>\n\n**{format_note}** · [{label}]({other}#{e["id"]})\n\n```text\n{e[language]}\n```\n\n</details>\n'
+    return text.rstrip()
+
 def outputs():
     entries = json.loads((ROOT/'docs/x-showcase-sources.json').read_text())['entries']
     page = '# Seedance 2.5 community video gallery\n\n[Home](../README.md) · [来源说明 / Source notes](x-showcase-sources.md) · [新增案例中文说明](community-videos.zh.md)\n\n'
@@ -110,10 +122,12 @@ This variant did not produce the linked video. Adapt the duration to your provid
     readme=(ROOT/'README.md').read_text()
     readme=replace_block(readme,'CASE BADGE',f'[![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.md) [![X video examples](https://img.shields.io/badge/X_video_examples-{len(entries)}-black.svg)](docs/community-videos.md) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)')
     readme=replace_block(readme,'FEATURED CASES',featured)
-    zh_summary=f'共 **{len(entries)} 个 X 视频案例**，其中 **{len(translated)} 个新增案例**已提供中文说明和中文练习提示词。\n\n[查看全部视频](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)\n\n| 新增案例 | 中文说明与练习提示词 |\n|---|---|\n'
+    readme=replace_block(readme,'STARTER PROMPTS',starter_prompts('en'))
+    zh_summary=f'共 **{len(entries)} 个 X 视频案例**，其中 **{len(translated)} 个新增案例**已提供中文说明和中文练习提示词。\n\n[查看全部视频（英文说明）](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)\n\n| 新增案例 | 中文说明与练习提示词 |\n|---|---|\n'
     for e in translated:
         zh_summary+=f"| {e['title_zh']} | [查看](docs/community-videos.zh.md#{e['id']}) |\n"
     zh_readme=replace_block((ROOT/'README_ZH.md').read_text(),'ZH CASES',zh_summary.rstrip())
+    zh_readme=replace_block(zh_readme,'STARTER PROMPTS',starter_prompts('zh'))
     files = {'docs/community-videos.md':page,'docs/community-videos.zh.md':chinese,'README.md':readme,'README_ZH.md':zh_readme}
     downloads = '# Community practice prompts / 社区案例练习提示词\n\n[Video gallery / 视频案例](../../docs/community-videos.md) · [120 recipes / 主提示词库](../README.md)\n\nThese files contain only our editorial practice text, not the source video prompts. None has been render-tested. Open a file, then use **Raw** or **Download raw file** to copy or save it. Attribution and source links stay in the gallery.\n\n这些文件只含本仓库改写的练习提示词，不是生成原视频的提示词，均未实测。打开文件后，可用 **Raw** 或 **Download raw file** 复制或保存。作者和原帖链接见视频案例页。\n\n| Case / 案例 | English | 中文 |\n|---|---|---|\n'
     for e in entries:

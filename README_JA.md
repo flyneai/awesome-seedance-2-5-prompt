@@ -2,9 +2,13 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [15言語プロンプト](prompts/i18n/README.md)
 
-> 120本の主要レシピは中国語と英語で収録しています。15言語版は共通の6場面を練習するためのもので、全120本の翻訳ではありません。
+[![Flyne AI — Seedance 2.5](assets/flyne-seedance-banner.jpg)](https://flyne.ai/model/seedance-2-5/)
 
-![Seedance 2.5 プロンプトガイドのオリジナル画像](assets/flyne-seedance-hero.png)
+この画像は宣伝用のイラストであり、生成動画のスクリーンショットではありません。
+
+[動画事例（英語）](docs/community-videos.md) · [練習プロンプトのダウンロード（英語・中国語）](prompts/community/README.md)
+
+> 120本の主要レシピは中国語と英語で収録しています。15言語版は共通の6場面を練習するためのもので、全120本の翻訳ではありません。
 
 このリポジトリは、**120本のSeedance 2.5実践プロンプトと15言語のサポート**を収録しています。60本の基本・追加シーンと、編集、チュートリアル、複数参照、長尺、ジャンル映像、ソーシャル動画、オリジナルアニメーション、視覚実験向けの英語ワークフロー60本で構成されています。
 
@@ -18,7 +22,7 @@
 
 商品動画、人物動画、短い物語を作れます。生成前に利用可能な設定と料金を確認してください。
 
-[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [Workflow guide](docs/flyne-ai-guide.md)
+[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [利用手順（英語・中国語）](docs/flyne-ai-guide.md)
 
 ## Seedance 2.5 向けの基本構造
 
@@ -70,4 +74,4 @@
 - 最後の4〜6秒は減速と最終構図に使う。
 - 商用利用では、画像・音声・人物・ブランドの権利を確認する。
 
-本リポジトリのプロンプト、シナリオ、説明文、画像は、このコレクションのために新規作成されています。有名人、第三者のブランド文言、既存のキャラクターは使用していません。
+[この版は FLAQ のオープンソース集を基に Flyne AI 向けに編集しています。出典と権利の説明（英語）](docs/PROVENANCE.md).

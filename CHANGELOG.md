@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-21 — beginner and language navigation
+
+- Add three short bilingual homepage exercises with explicit input requirements and untested status, generated from shared records.
+- Link English and Chinese starter routes directly to prompts in the expected language; identify cross-language advanced resources.
+- Standardize seven additional language entry pages with the compact banner, video/download navigation and upstream attribution.
+- Remove the stale addition count from the provenance summary; the 120-recipe library and 19-case gallery counts remain unchanged.
+
 ## 2026-09-21 — browsing and downloadable prompts
 
 - Add X19, a music brand film by @AliceAICreator, with source records and English/Chinese editorial practice prompts; total: 19 cases.

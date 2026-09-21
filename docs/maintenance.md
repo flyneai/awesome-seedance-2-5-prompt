@@ -16,6 +16,10 @@ The JSON records generate the complete gallery, Chinese adaptations, category na
 
 The `readme_anchor` field retains the original ID for old links; `case_path` identifies the current full case. README compatibility links remain available in the collapsed case index.
 
+## Homepage starter prompts
+
+Edit `docs/starter-prompts.json` to update the three bilingual beginner exercises. The same generation command updates their English and Chinese homepage blocks; content checks detect stale copies. These exercises are separate from the 120 inherited recipes and remain untested until actual render evidence is supplied. Keep input requirements and timing aligned across languages.
+
 ## Separate media checks
 
 ```sh

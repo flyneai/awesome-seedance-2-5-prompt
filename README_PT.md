@@ -2,6 +2,12 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Todos os 15 idiomas](prompts/i18n/README.md)
 
+[![Flyne AI — Seedance 2.5](assets/flyne-seedance-banner.jpg)](https://flyne.ai/model/seedance-2-5/)
+
+Esta imagem é uma ilustração promocional, não uma captura de um vídeo gerado.
+
+[Exemplos de vídeo (inglês)](docs/community-videos.md) · [Baixar prompts de prática (inglês e chinês)](prompts/community/README.md)
+
 > As 120 receitas principais estão em chinês e inglês. Os 15 idiomas oferecem seis cenas de prática comuns, não a tradução integral de todas as receitas.
 
 Este repositório reúne **120 receitas de vídeo originais para Seedance 2.5** e oferece suporte a **15 idiomas**: 60 cenas gerais e 60 fluxos em inglês, incluindo filmes de gênero, vídeo social, animação original e experimentos visuais.
@@ -12,7 +18,7 @@ Compartilhe um prompt original e testado pelo [formulário de contribuição](ht
 
 Crie vídeos de produtos, retratos e histórias curtas. Confira as configurações e o custo antes de gerar.
 
-[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [Workflow guide](docs/flyne-ai-guide.md)
+[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [Guia de uso (inglês e chinês)](docs/flyne-ai-guide.md)
 
 ## Comece por aqui
 
@@ -35,4 +41,4 @@ Crie vídeos de produtos, retratos e histórias curtas. Confira as configuraçõ
 [Evitar] deriva, duplicação, anatomia, texto falso, logotipos e marca-d'água
 ```
 
-Todos os cenários e textos foram criados para esta coleção. Antes do uso comercial, revise autorizações de imagem, licenças, música, marcas, locais, alegações e regras da plataforma.
+[Esta edição adapta a coleção de código aberto da FLAQ para a Flyne AI. Fontes e direitos (inglês)](docs/PROVENANCE.md).

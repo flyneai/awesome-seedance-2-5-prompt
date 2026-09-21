@@ -23,14 +23,77 @@
 
 [Detailed Flyne AI workflow](docs/flyne-ai-guide.md)
 
+<!-- BEGIN STARTER PROMPTS -->
+## Copy a starter prompt
+
+Three bilingual practice briefs, not render-tested and not counted among the 120 library recipes. Duration and ratio are creative targets; adapt them to the options available in your account.
+
+<a id="starter-product"></a>
+
+<details>
+<summary>Product reveal · One clear product photo</summary>
+
+**8 seconds · 9:16** · [中文版](README_ZH.md#starter-product)
+
+```text
+Use the supplied product photo as the only reference. Keep the product shape, color, cap, label layout and material unchanged. Show one product standing on a matte cream tabletop against a plain background.
+
+0–3s: start with a close view of the product surface and slowly pull back.
+3–6s: move the camera slightly to the right, revealing the side while the product stays still. Keep the light soft and its direction fixed.
+6–8s: stop on a clear front three-quarter view with empty space above for copy added in editing.
+
+Use quiet room ambience. Do not open, rotate or multiply the product. No hands, new lettering, liquid effects or changes to the packaging.
+```
+
+</details>
+
+<a id="starter-person"></a>
+
+<details>
+<summary>A quiet portrait · One authorized adult portrait</summary>
+
+**8 seconds · 9:16** · [中文版](README_ZH.md#starter-person)
+
+```text
+Use the supplied adult portrait to preserve the same face, hairstyle, clothing and proportions. Frame a seated person from the chest up beside a window. Keep both hands out of frame and the background still.
+
+0–3s: the person looks toward the window and breathes naturally.
+3–6s: they slowly turn their eyes and head toward the camera, then give a small relaxed smile.
+6–8s: hold the expression and composition. Keep the camera fixed throughout, with soft daylight from the same side.
+
+Use quiet indoor ambience, without speech or music. No new people, facial reshaping, clothing changes, added accessories, text or sudden camera motion.
+```
+
+</details>
+
+<a id="starter-story"></a>
+
+<details>
+<summary>A paper boat reaches shelter · Text only; no image required</summary>
+
+**8 seconds · 16:9** · [中文版](README_ZH.md#starter-story)
+
+```text
+Create an eight-second miniature story in one continuous shot. One small yellow paper boat floats in a shallow rain puddle beside a smooth stone. Use an original handcrafted stop-motion look, with soft overcast light and visible paper folds.
+
+0–3s: small ripples carry the boat slowly toward the stone. Track at water level from the side.
+3–6s: the boat gently touches the stone and turns a little with the water, keeping its shape and yellow color.
+6–8s: the boat settles in the calm water behind the stone. The camera stops; the last few raindrops form small rings around it.
+
+Use gentle rain and water sounds. One boat only. No characters, sinking, unfolding paper, lettering or scene cuts.
+```
+
+</details>
+<!-- END STARTER PROMPTS -->
+
 ## Choose by what you want to make
 
-| Your project | Start with | Bring with you |
-|---|---|---|
-| Product launches and shop videos | [Product and advertising recipes](prompts/prompt-library.md) | A clear product image; details that must stay unchanged |
-| Creator portraits and social clips | [Creator and social scenarios](prompts/extended-scenarios.md) | An authorized portrait or a fictional character description |
-| Short films and imaginative stories | [Genre and storytelling recipes](prompts/genre-social-experiments.en.md) | One story beat, a consistent character and a planned ending |
-| Tutorials, edits and repeatable series | [Creative techniques](prompts/creative-techniques.en.md) | A shot list and references with a clear role |
+| Your project | Copy a short English prompt | More recipes | Bring with you |
+|---|---|---|---|
+| Product launches and shop videos | [Product reveal](#starter-product) | [Sparkling tea (English)](prompts/i18n/prompt-library.en.md#i18n-01-unbranded-sparkling-tea-reveal) | One clear product photo |
+| Portraits and social clips | [A quiet portrait](#starter-person) | [Raincoat study (English)](prompts/i18n/prompt-library.en.md#i18n-02-raincoat-wind-study) | An authorized portrait; add a garment reference for the raincoat study |
+| Short stories and animation | [Paper boat story](#starter-story) | [Genre and story recipes (English)](prompts/genre-social-experiments.en.md) | No image for the starter; references depend on the advanced recipe |
+| Tutorials and transitions | [Flower-pressing practice (English)](docs/community-videos.md#x08-pressed-flower-tutorial) | [Creative techniques (English)](prompts/creative-techniques.en.md) | A shot list and any references required by the selected recipe |
 
 Flyne AI is the browser creation route featured in this edition. The public product page describes text, image and reference workflows; availability and settings depend on the current service. [Source: Flyne AI model page](https://flyne.ai/model/seedance-2-5/).
 

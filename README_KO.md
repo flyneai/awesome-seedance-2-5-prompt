@@ -2,6 +2,12 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [15개 언어 전체](prompts/i18n/README.md)
 
+[![Flyne AI — Seedance 2.5](assets/flyne-seedance-banner.jpg)](https://flyne.ai/model/seedance-2-5/)
+
+이 이미지는 홍보용 일러스트이며 생성된 영상의 캡처가 아닙니다.
+
+[영상 사례 (영어)](docs/community-videos.md) · [연습 프롬프트 다운로드 (영어·중국어)](prompts/community/README.md)
+
 > 120개 주요 레시피는 중국어와 영어로 제공됩니다. 15개 언어에서는 공통 연습 장면 6개를 제공하며, 전체 120개 레시피의 번역은 아닙니다.
 
 이 저장소는 **120개의 독창적인 Seedance 2.5 영상 프롬프트**와 **15개 언어 지원**을 제공합니다. 일반 장면 60개와 편집, 튜토리얼, 다중 참조, 장편, 장르 영상, 소셜 영상, 오리지널 애니메이션, 시각 실험용 영어 워크플로 60개로 구성됩니다.
@@ -12,7 +18,7 @@
 
 제품 영상, 인물 영상, 짧은 이야기를 만들어 보세요. 생성 전에 설정과 비용을 확인하세요.
 
-[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [Workflow guide](docs/flyne-ai-guide.md)
+[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [사용 안내 (영어·중국어)](docs/flyne-ai-guide.md)
 
 ## 빠른 시작
 
@@ -35,4 +41,4 @@
 [금지] 형태 변화, 중복, 신체 오류, 가짜 글자, 로고, 워터마크
 ```
 
-모든 장면과 문구는 이 컬렉션을 위해 새롭게 작성했습니다. 상업적 사용 전 초상권, 이미지·음악 라이선스, 상표, 장소, 안전 표현과 플랫폼 정책을 검토하세요.
+[이 버전은 FLAQ의 오픈 소스 자료를 Flyne AI에 맞게 편집한 것입니다. 출처 및 권리 안내 (영어)](docs/PROVENANCE.md).

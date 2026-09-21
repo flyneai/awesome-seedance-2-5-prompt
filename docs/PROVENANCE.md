@@ -4,7 +4,7 @@ This is the Flyne AI edition of [flaqai/awesome_seedance_2_5](https://github.com
 
 - The 120 numbered recipes, multilingual material, five scene-reference images, and first 12 X showcase entries originate in the upstream collection. They were not independently written by Flyne AI in this update.
 - The MIT license retains the original Flaq AI copyright and the Flyne AI copyright for this edition's changes.
-- Flyne AI changes include brand navigation, the generated promotional cover and compact banner, a browser workflow guide, six additional X cases with original editorial adaptations, and maintenance checks.
+- Flyne AI changes include brand navigation, the generated promotional cover and compact banner, a browser workflow guide, additional X cases with original editorial adaptations, and maintenance checks.
 - Linked X videos, thumbnails and source quotations remain third-party material, excluded from the repository's MIT license. No third-party video files are redistributed here. Posting accounts are credited without asserting verified sole authorship.
 - The Flyne AI cover and compact banner are AI-generated promotional illustrations, not a Seedance output or a product interface screenshot. The remaining reference images retain their upstream provenance.
 - Prompt adaptations are creative briefs, not tested reproductions of linked videos. Source model labels are publisher claims. Upload resolution is not evidence of generation resolution.

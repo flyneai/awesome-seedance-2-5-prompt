@@ -8,7 +8,7 @@
 
 基于 [FLAQ 开源项目](docs/PROVENANCE.md) 改编，保留 120 条完整配方，适合商品展示、人物短片、社交视频和剧情创作。上图为品牌宣传插画，不是 Seedance 生成的视频截图。
 
-[**前往 Flyne AI →**](https://flyne.ai/model/seedance-2-5/) · [120 条提示词目录](prompts/README.md) · [视频案例](docs/community-videos.md) · [提交提示词](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)
+[**前往 Flyne AI →**](https://flyne.ai/model/seedance-2-5/) · [120 条提示词目录](prompts/README.md) · [视频案例（中文）](docs/community-videos.zh.md) · [提交提示词](https://github.com/flyneai/awesome-seedance-2-5-prompt/issues/new?template=prompt.yml)
 
 ## 第一次使用
 
@@ -20,21 +20,84 @@
 
 [详细操作说明](docs/flyne-ai-guide.md)
 
+<!-- BEGIN STARTER PROMPTS -->
+## 直接复制：三个新手练习
+
+这些中英双语练习未实测，不计入主库的 120 条配方。时长和画幅是创作目标，请按页面实际选项调整。
+
+<a id="starter-product"></a>
+
+<details>
+<summary>商品展示 · 一张清晰的产品图</summary>
+
+**8 秒 · 竖屏 9:16** · [English version](README.md#starter-product)
+
+```text
+以提供的产品照片为唯一参考，保持产品形状、颜色、瓶盖、标签布局和材质不变。纯色背景前，一件产品静置在奶油色哑光桌面上。
+
+0–3 秒：从产品表面近景开始，镜头缓慢拉远。
+3–6 秒：镜头小幅向右移动，展示侧面，产品始终静止。光线柔和，方向不变。
+6–8 秒：停在清楚的正面偏侧构图，产品上方留白，供后期添加文案。
+
+保留安静的室内环境声。不打开、旋转或复制产品。不出现手、新文字、液体特效或包装变化。
+```
+
+</details>
+
+<a id="starter-person"></a>
+
+<details>
+<summary>人物短片 · 一张有使用授权的成年人照片</summary>
+
+**8 秒 · 竖屏 9:16** · [English version](README.md#starter-person)
+
+```text
+以提供的成年人照片固定面容、发型、服装和身体比例。人物坐在窗边，采用胸部以上构图，双手不入镜，背景保持静止。
+
+0–3 秒：人物看向窗外，自然呼吸。
+3–6 秒：视线和头部缓慢转向镜头，然后露出轻松的微笑。
+6–8 秒：保持表情和构图。全程固定机位，柔和日光始终从同一侧照入。
+
+只保留安静的室内环境声，没有对白或音乐。不增加人物、不改变脸型或服装、不添加配饰、文字或突然的镜头运动。
+```
+
+</details>
+
+<a id="starter-story"></a>
+
+<details>
+<summary>纸船靠岸的小故事 · 只需文字，无需图片</summary>
+
+**8 秒 · 横屏 16:9** · [English version](README.md#starter-story)
+
+```text
+用一个连续镜头制作八秒的微缩小故事。一只黄色小纸船漂在浅浅的雨水洼中，旁边有一块光滑的石头。采用原创手工定格动画质感，光线柔和阴沉，纸张折痕清晰可见。
+
+0–3 秒：细小波纹把纸船缓缓推向石头。镜头贴近水面，从侧面跟随。
+3–6 秒：纸船轻轻碰到石头，随水流略微转动，保持形状和黄色不变。
+6–8 秒：纸船停在石头后方的平静水面。镜头停止，最后几滴雨在周围泛起小圆圈。
+
+只用轻柔的雨声和水声。全片只有一只纸船。没有人物、沉没、纸张展开、文字或切镜。
+```
+
+</details>
+<!-- END STARTER PROMPTS -->
+
 ## 按用途选择
 
-| 想做什么 | 从哪里开始 | 准备什么 |
-|---|---|---|
-| 商品广告、上新短片 | [基础场景库](prompts/prompt-library.md) | 清楚的产品图、不能改变的产品细节 |
-| 人物介绍、社交短片 | [扩展场景库](prompts/extended-scenarios.md) | 已获授权的人像或虚构人物描述 |
-| 剧情、动画、奇幻短片 | [类型片与视觉实验](prompts/genre-social-experiments.en.md) | 一个核心情节、固定角色、明确结尾 |
-| 教程、转场、系列视频 | [创作技巧库](prompts/creative-techniques.en.md) | 分镜安排及用途清楚的参考素材 |
+| 想做什么 | 直接复制中文练习 | 更多场景 | 准备什么 |
+|---|---|---|---|
+| 商品广告、上新短片 | [商品展示](#starter-product) | [基础场景库（中文）](prompts/prompt-library.md) | 一张清晰产品图 |
+| 人物介绍、社交短片 | [人物短片](#starter-person) | [扩展场景库（中文）](prompts/extended-scenarios.md) | 一张有使用授权的人像 |
+| 剧情、动画、奇幻短片 | [纸船小故事](#starter-story) | [类型片与视觉实验（英文）](prompts/genre-social-experiments.en.md) | 新手练习无需图片；进阶场景按说明准备 |
+| 教程、制作过程 | [天妇罗制作（中文）](docs/community-videos.zh.md#x15-tempura-process) | [创作技巧库（英文）](prompts/creative-techniques.en.md) | 分镜安排及所选场景要求的素材 |
 
 ## 社区视频与提示词
 
 <!-- BEGIN ZH CASES -->
 共 **19 个 X 视频案例**，其中 **7 个新增案例**已提供中文说明和中文练习提示词。
 
-[查看全部视频](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)
+[查看全部视频（英文说明）](docs/community-videos.md) · [阅读新增案例中文提示词](docs/community-videos.zh.md)
 
 | 新增案例 | 中文说明与练习提示词 |
 |---|---|

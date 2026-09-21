@@ -2,9 +2,13 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Prompts en 15 idiomas](prompts/i18n/README.md)
 
-> Las 120 recetas principales están en chino e inglés. Los 15 idiomas ofrecen seis escenas de práctica compartidas; no son traducciones completas de las 120 recetas.
+[![Flyne AI — Seedance 2.5](assets/flyne-seedance-banner.jpg)](https://flyne.ai/model/seedance-2-5/)
 
-![Imagen original para la guía de prompts de Seedance 2.5](assets/flyne-seedance-hero.png)
+Esta imagen es una ilustración promocional, no una captura de un vídeo generado.
+
+[Vídeos de ejemplo (inglés)](docs/community-videos.md) · [Descargar prompts de práctica (inglés y chino)](prompts/community/README.md)
+
+> Las 120 recetas principales están en chino e inglés. Los 15 idiomas ofrecen seis escenas de práctica compartidas; no son traducciones completas de las 120 recetas.
 
 Biblioteca original con **120 prompts para Seedance 2.5 y soporte para 15 idiomas**: 60 escenas generales y 60 flujos profesionales en inglés para producción, edición, ecommerce, cine de género, vídeo social, animación original, experimentos visuales, educación y accesibilidad.
 
@@ -18,7 +22,7 @@ Comparte un prompt original y probado mediante el [formulario de contribución](
 
 Crea vídeos de productos, retratos e historias cortas. Comprueba los ajustes y el coste antes de generar.
 
-[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [Workflow guide](docs/flyne-ai-guide.md)
+[Flyne AI →](https://flyne.ai/model/seedance-2-5/) · [Guía de uso (inglés y chino)](docs/flyne-ai-guide.md)
 
 ## Cómo escribir un buen prompt para Seedance 2.5
 
@@ -71,4 +75,4 @@ El archivo [prompts completos en español](prompts/i18n/prompt-library.es.md) co
 - Reserva los últimos 4–6 segundos para frenar y cerrar la composición.
 - Usa únicamente personas, música, voces, marcas e imágenes propias o autorizadas.
 
-Todos los prompts, escenarios, textos explicativos e imágenes de este repositorio fueron creados de nuevo para esta colección. Los ejemplos evitan celebridades, lemas de terceros y personajes protegidos. Revisa derechos de autor, imagen, marca, audio, seguridad y políticas de la plataforma antes de cualquier uso comercial.
+[Esta edición adapta la colección de código abierto de FLAQ para Flyne AI. Fuentes y derechos (inglés)](docs/PROVENANCE.md).
