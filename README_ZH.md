@@ -987,3 +987,9 @@ Flyne AI 入口：[Seedance 2.5 Text-to-Video](https://flyne.ai/model/seedance-2
 [贡献说明](CONTRIBUTING.md) · [维护方法](docs/maintenance.md) · [实测清单](docs/render-testing.md) · [更新记录](CHANGELOG.md)
 
 实测案例须在案例页附上输入、设置与输出记录。仓库文字与原创素材按 [MIT 许可](LICENSE) 提供；外链视频、缩略图和引用仍归原权利人所有，不属于本仓库的 MIT 授权范围。
+
+## 联盟推广合作
+
+Flyne AI 支持联盟推广合作。欢迎通过教程、产品评测或创作流程分享我们的 AI 图像与视频工具，并通过符合条件的推荐获得佣金。
+
+[了解并加入 Flyne AI 联盟计划](https://flyne.ai/affiliate-program/)

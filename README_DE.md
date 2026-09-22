@@ -44,3 +44,9 @@ Erstelle Produktvideos, Porträts und kurze Geschichten. Prüfe vor der Generier
 ```
 
 [Diese Ausgabe basiert auf der Open-Source-Sammlung von FLAQ und wurde für Flyne AI angepasst. Quellen und Rechte (Englisch)](docs/PROVENANCE.md).
+
+## Partner von Flyne AI werden
+
+Flyne AI bietet ein Affiliate-Programm an. Stelle unsere KI-Werkzeuge für Bilder und Videos in Tutorials, Rezensionen oder kreativen Arbeitsabläufen vor und erhalte Provisionen für Empfehlungen, die die Teilnahmebedingungen erfüllen.
+
+[Das Flyne AI Affiliate-Programm entdecken](https://flyne.ai/affiliate-program/)

@@ -44,3 +44,9 @@ Créez des vidéos de produits, des portraits et des récits courts. Vérifiez l
 ```
 
 [Cette édition adapte la collection open source de FLAQ pour Flyne AI. Sources et droits (anglais)](docs/PROVENANCE.md).
+
+## Devenez partenaire de Flyne AI
+
+Flyne AI propose un programme d’affiliation. Présentez nos outils de création d’images et de vidéos par IA dans des tutoriels, des tests ou des guides de création, et percevez des commissions sur les recommandations admissibles.
+
+[Découvrir le programme d’affiliation Flyne AI](https://flyne.ai/affiliate-program/)

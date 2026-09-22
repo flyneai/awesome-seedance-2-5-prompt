@@ -44,3 +44,9 @@
 ```
 
 [이 버전은 FLAQ의 오픈 소스 자료를 Flyne AI에 맞게 편집한 것입니다. 출처 및 권리 안내 (영어)](docs/PROVENANCE.md).
+
+## Flyne AI 제휴 프로그램
+
+Flyne AI는 제휴 파트너를 환영합니다. 튜토리얼, 리뷰 또는 창작 과정 소개를 통해 AI 이미지·영상 제작 도구를 공유하고, 조건을 충족하는 추천에 대해 수수료를 받을 수 있습니다.
+
+[Flyne AI 제휴 프로그램 알아보기](https://flyne.ai/affiliate-program/)

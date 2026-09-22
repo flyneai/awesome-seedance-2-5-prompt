@@ -78,3 +78,9 @@ El archivo [prompts completos en español](prompts/i18n/prompt-library.es.md) co
 - Usa únicamente personas, música, voces, marcas e imágenes propias o autorizadas.
 
 [Esta edición adapta la colección de código abierto de FLAQ para Flyne AI. Fuentes y derechos (inglés)](docs/PROVENANCE.md).
+
+## Colabora con Flyne AI
+
+Flyne AI ofrece un programa de afiliados. Comparte nuestras herramientas de creación de imágenes y vídeos con IA mediante tutoriales, reseñas o flujos de trabajo creativos y gana comisiones por las recomendaciones que cumplan los requisitos.
+
+[Conoce el programa de afiliados de Flyne AI](https://flyne.ai/affiliate-program/)

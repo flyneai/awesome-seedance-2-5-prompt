@@ -1031,3 +1031,9 @@ We also recommend the [FLAQ Seedance 2.5 Text-to-Video API](https://flaq.ai/mode
 See [contribution rules](CONTRIBUTING.md), the [maintenance workflow](docs/maintenance.md) and the [Flyne AI test checklist](docs/render-testing.md). Tested adaptations must link to their input, settings and output records in the gallery.
 
 Repository text and original assets use the [MIT License](LICENSE), with [upstream attribution](docs/PROVENANCE.md). Linked community videos, thumbnails and source quotations retain their owners' rights and are excluded from MIT.
+
+## Partner with Flyne AI
+
+Flyne AI welcomes affiliate partners. Share our AI image and video creation tools through tutorials, reviews or creative workflows, and earn commissions on qualifying referrals.
+
+[Explore the Flyne AI Affiliate Program](https://flyne.ai/affiliate-program/)
